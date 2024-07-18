@@ -6,19 +6,23 @@ To help prepare content for AI Tour, please use this template repository for org
 5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description)
 
 
-# [TODO: Insert Session Title]
+# Learning how to interact with Large Language Models​
 
-This repo is intended as a template for Microsoft AI Tour repositories
+This repo is for the AI Tour workshop: Learning to interact with Large Language Models
 
 ## Session Desciption
 
 TODO: Add short description of the session. Please note this description should be at a technical level that anyone from decision makers to conference attendees can understand.
 
 ## Learning Outcomes
-TODO: Add a list of what you hope the attendee will take away from this session. This can be skills, technology, appreciation, etc.
+* Understand how Large Language Models work, including what tokens are​
+*  Explore Prompt Engineering techniques and best practices​
+* Understand how models apply existing knowledge​
+* Implementing function calling in LLM applications​
+* Get started with building an Azure AI assistant
 
 ## Technology Used
-TODO: Add a list of any technology or software used.
+* Azure AI Studio
 
 ## Additional Resources and Continued Learning
 TODO: If you would like to link the user to further learning, please enter that here.
@@ -44,6 +48,17 @@ TODO: Add yourself as a content owner
         <sub><b>INSERT NAME HERE
 </b></sub></a><br />
             <a href="https://github.com/cole-g-johnson" title="talk">📢</a> 
+    </td>
+</tr></table>
+
+<table>
+<tr>
+    <td align="center"><a href="http://learnanalytics.microsoft.com">
+        <img src="https://github.com/bethanyjep.png" width="100px;" alt="Chris Testa-O'Neill
+"/><br />
+        <sub><b>Bethany Jepchumba
+</b></sub></a><br />
+            <a href="https://github.com/bethanyjep" title="talk">📢</a> 
     </td>
 </tr></table>
 
