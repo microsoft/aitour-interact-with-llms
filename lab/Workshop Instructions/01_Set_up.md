@@ -115,6 +115,12 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 ### Assistants Playground
 
+![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-image-playground.png)
+
+1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
+1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. In the case of images, descriptions of what we want to generate.
+1. **Results Box**: Finally, here is where the generated images are displayed.
+
 ## Ready to start
 
 That covers the necessary setup and basics of Azure AI Studio. We will now move forward to begin interacting with the models. 

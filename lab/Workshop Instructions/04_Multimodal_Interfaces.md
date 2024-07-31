@@ -93,4 +93,4 @@ Instructions:
 
 Copy the new HTML, navigate back to **Visual Studio Code** and replace the old html with the new one. Notice any differences? Feel free to adjust the code template according to the final design you wish to achieve.
 
-Congratulations! You have now completed the 3rd of the lab and you learnt how to interact with multimodal models. Click next to learn more about Function Calling.
+Congratulations! You have now completed the 3rd part of the lab and you learnt how to interact with multimodal models. Click next to learn more about Function Calling.

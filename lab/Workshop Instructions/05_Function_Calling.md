@@ -128,7 +128,7 @@ Create a new function referencing the local tourist attractions in the location:
 
 ## Bringing it all together
 
-For the Contoso Outdoor Company, we can create a function that searches through the catalog based on specific parameter, that is: product category, outdoor activity and cost of the product.
+For the Contoso Outdoor Company, we can create a function that searches through the catalog based on specific parameter, that is: product category, activity and cost of the product.
 
 First we will need to update the system instructions with a description and sample catalog for the different products:
 
@@ -136,7 +136,7 @@ First we will need to update the system instructions with a description and samp
 You are an AI assistant that helps people find products in the Contoso Outdoor Company’s database. In the conversation with the user, your goal is to retrieve the required fields for the function find_products.
 ```
 
-Then we can create a function with the parameters category, outdoor and cost.
+Then we can create a function with the parameters category, activity and cost.
 
 ``` json title="function"
 {
@@ -151,7 +151,7 @@ Then we can create a function with the parameters category, outdoor and cost.
       },
       "activity": {
         "type": "string",
-        "description": "outdoor category for the item e.g. running, hiking, camping."
+        "description": "activity category for the item e.g. running, hiking, camping."
       },
       "cost": {
         "type": "integer",
@@ -159,7 +159,7 @@ Then we can create a function with the parameters category, outdoor and cost.
       }
     },
     "required": [
-      "category", "outdoor", "cost"
+      "category", "activity", "cost"
     ]
   }
 }
@@ -170,5 +170,6 @@ You can test your functions by asking a question to your model:
 ```
 I need warm jacket.
 ```
+The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
 
 Congratulations! You have now completed the 4th part of the lab and you learnt how to interact with llms using Function Calling. Click next to continue with AI Assistants.
