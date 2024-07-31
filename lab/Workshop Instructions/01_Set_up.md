@@ -115,11 +115,24 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 ### Assistants Playground
 
-![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-image-playground.png)
+![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-playground.png)
 
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
-1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. In the case of images, descriptions of what we want to generate.
+1. **Assistant Name**: Here you can give your assistant a name.
+1. **Prompt**: Here is where we enter instructions for the model, previous to the user interaction.
+1. **Tools**: Here is where you get additional tools to customize your assistant including functions, file search and code interpreter
+1. **Parameters**: This tab contains the models detailed settings, such as temperature.
+1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. 
 1. **Results Box**: Finally, here is where the generated images are displayed.
+
+#### Functions in the Assistant Playground
+
+![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-functions-playground.png)
+
+1. **Tools**: Under tools in the Assistants Playground you will find file search, code interpreter and functions.
+1. **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
+1. **Code interpeter**: Code Interpreter allows the Assistants API to write and run code in a sandboxed execution environment. 
+1. **Functions**: This allows you to describe the structure of functions to an Assistant and then return the functions that need to be called along with their arguments..
 
 ## Ready to start
 
