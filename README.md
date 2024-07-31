@@ -12,7 +12,7 @@ This repo is for the AI Tour workshop: Learning to interact with Large Language 
 
 ## Session Desciption
 
-TODO: Add short description of the session. Please note this description should be at a technical level that anyone from decision makers to conference attendees can understand.
+This lab provides a hands-on and engaging learning opportunity for working with Large Language Models. Learn how to use methods such as few-shot learning and chain of thought. See the creative possibilities of generative AI for image creation and multi-modal scenarios, master the skill of function calling and understand how the model can apply existing knowledge.
 
 ## Learning Outcomes
 * Understand how Large Language Models work, including what tokens are​
@@ -29,8 +29,10 @@ TODO: If you would like to link the user to further learning, please enter that 
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Future Learning 1  | [Link 1](https://www.google.com/) | Learn more about X |
-| Future Learning 2  | [Link 2](https://www.google.com/) | Learn more about Y |
+| Intro to Azure OpenAI Service  | [Microsoft Learn module](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service |
+| Azure OpenAI Service documentation  | [Azure OpenAI Service documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/?WT.mc_id=aiml-132569-cacaste) | Learn more about Azure OpenAI Service |
+| Azure OpenAI Service pricing  | [Pricing details](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service pricing |
+| Transparency Note for Azure OpenAI Service  | [Transparency Note](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/transparency-note/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service use cases, capabilities and limitations |
 
 ## Content Owners
 TODO: Add yourself as a content owner

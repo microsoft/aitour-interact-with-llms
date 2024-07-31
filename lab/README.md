@@ -1,6 +1,6 @@
 # Session folder
 
-This folder contains the public facing files for the lab `LAB NAME HERE`.
+This folder contains the public facing files for the lab `Learn how to interact with Large Language Models`.
 
 ## Deployment/Getting Started/Steps
 
