@@ -51,10 +51,7 @@ TODO: If you would like to link the user to further learning, please enter that 
 </b></sub></a><br />
             <a href="https://github.com/gcordido" title="talk">📢</a> 
     </td>
-</tr></table>
 
-<table>
-<tr>
     <td align="center"><a href="http://learnanalytics.microsoft.com">
         <img src="https://github.com/bethanyjep.png" width="100px;" alt="Chris Testa-O'Neill
 "/><br />
