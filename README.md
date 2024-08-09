@@ -40,7 +40,6 @@ TODO: If you would like to link the user to further learning, please enter that 
 2. Change INSERT NAME HERE to your name
 3. Change the github url in the final href to your url. -->
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
 <table>
 <tr>
@@ -51,7 +50,6 @@ TODO: If you would like to link the user to further learning, please enter that 
 </b></sub></a><br />
             <a href="https://github.com/gcordido" title="talk">📢</a> 
     </td>
-
     <td align="center"><a href="http://learnanalytics.microsoft.com">
         <img src="https://github.com/bethanyjep.png" width="100px;" alt="Chris Testa-O'Neill
 "/><br />
@@ -61,5 +59,5 @@ TODO: If you would like to link the user to further learning, please enter that 
     </td>
 </tr></table>
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 
