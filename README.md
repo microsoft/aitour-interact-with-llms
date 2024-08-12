@@ -1,14 +1,6 @@
-<!-- To help prepare content for AI Tour, please use this template repository for organizing your sessions and preparing the content for future presentors.
-1. Update this readme with the todo's listed below
-2. The src folder has been created for all development tasks when creating this session
-3. The Lab folder is in-person and async participation with content, please update this folder with instructions for participants to follow along.
-4. The Presenter Notes folder is the train the trainer section. Here add any slide decks, demo videos, and other content as needed. This page has a rough layout to provide ideas but can be edited as needed.
-5. If you are taking advantage of the static front end site, edit the content in the _config.yml file as needed (specifically the title and description) -->
+# Interacting with Large Language Models​
 
-
-# Learning how to interact with Large Language Models​
-
-This repo is for the AI Tour workshop: Learning how to interact with Large Language Models
+This repository is for the AI Tour workshop: Interacting with Large Language Models
 
 ## Session Desciption
 
