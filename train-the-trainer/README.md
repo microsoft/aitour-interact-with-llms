@@ -1,8 +1,3 @@
-## TODO:
-Update this page as you see fit to properly train a future presenter of your content. A past train the trainer repo is included below for your assitance, but feel free to make any changes.
-
-Note: Please make sure to update any links within the markdown so they point to the correct file.
-
 ## How To Use
 
 Welcome,
@@ -20,35 +15,35 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](presentations.md) | Slides |
-| PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) | Video Recording of the PowerPoint slides with no audio |
-| Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) | Example Presetations of this Session |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | Additional Demo Content | 
-| Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
-| Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
+| PowerPoint        | - [Presentation]() | Slides |
+| PPT Recording     | - [Presentation]() | Video Recording of the PowerPoint slides with no audio |
 
 ## Get Started
 
 This training repository is divided in to the following sections:
 
-| [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
+| [Slides](#slides) | [Workshop](/lab/README.md) | [Setup](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 28 slides - 30 minutes| 1 demos - 15 minutes | Demo setup
+| 35 slides - 75 minutes| 5 parts - 15 minutes | Workshop setup
 
 ## Slides
 
-The [slides](presentations.md) have presenter notes in each part of the session
+The [slides]() have presenter notes in each part of the session
 
 ### Timing
 
+> [NOTE!]
+>  For workshops, Q&A usually happens as the workshop is running. Might scrape these 5 minutes in favor of more hands-on time.​
+
 | Time        | Description 
 --------------|-------------
-0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | Why Modern Data Warehousing
-15:00 - 20:00 | Building the Modern data warehouse
-20:00 - 35:00 | Designing a modern data warehouse solution
-35:00 - 40:00 | The evolution of cloud scale analytics
-40:00 - 45:00 | Session review
+0:00 - 3:00   | Introduction to the session 
+3:00 - 10:00  | How do Large Language Models Work? 
+10:00 - 20:00 | Introducing AI Studio
+20:00 - 35:00 | Text Generation
+35:00 - 50:00 | Image Generation and Multimodality
+50:00 - 65:00 | Function Calling  & Azure AI Assistants
+65:00 - 75:00 | Key event takeaways
 
 ## Deployment / Preparation
 
@@ -61,9 +56,14 @@ The [slides](presentations.md) have presenter notes in each part of the session
 
 > **What's Here?** Pre-delivery preparation, stage ready videos, required files (such as JSON templates), and walk-through videos
 
-Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](demos/README.md).
+Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](/lab/Workshop%20Instructions/01_Set_up.md).
 
-| Demo 	                                                                                               | Minutes | Video |
--------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4) |
+| Demo | Minutes | 
+-------------------------------------------------------------------------------------------------------|---------|
+|  [1 - Introducing AI Studio](/lab/Workshop%20Instructions/01_Set_up.md) | 10       | 
+|  [2 - Text Generation](/lab/Workshop%20Instructions/02_Text_Generation.md) | 15   |
+|  [3 - Image Generation](/lab/Workshop%20Instructions/03_Image_Generation.md) | 7   | [Link]() | 15       | 
+|  [4 - Multimodality](/lab/Workshop%20Instructions/04_Multimodal_Interfaces.md) | 8  | 
+|  [1 - Function Calling](/lab/Workshop%20Instructions/05_Function_Calling.md) | 7  | [Link]() |
+|  [1 - AI Assistants](/lab/Workshop%20Instructions/06_AI_Assistants.md) | 8   | 
 
