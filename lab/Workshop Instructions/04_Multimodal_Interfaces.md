@@ -1,10 +1,10 @@
 # Part 3 - Multimodal interfaces
 
-By now we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular, as they allow users to interact with models using multiple modalities, such as text, images, and speech, thus facilitating human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with GPT-4 Turbo with Vision.
+By now we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular, as they allow users to interact with models using multiple modalities, such as text, images, and speech, thus facilitating human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with GPT-4o.
 
 
 > [!TIP]
-> **GPT-4 Turbo with Vision** is a multimodal model that incorporates both natural language processing and visual understanding. It is able to process as input a combination of text and images, and generate an output which is relevant to both modalities.
+> **GPT-4o** is a multimodal model that incorporates both natural language processing and visual understanding. It is able to process as input a combination of text and images, and generate an output which is relevant to both modalities.
 
 ## Best Practices
 
@@ -34,7 +34,7 @@ If you cannot find the image on the local Desktop of your VM, you can download i
 
 ![Contoso Ecommerce Website UI](./Images/contoso_outdoor_ecommerce_sketch_notes.jpg).
 
-This image represents a sketch of our Contoso Outdoor e-commerce website we want to build. We will use this image as input to GPT-4 Turbo with Vision to gather information from the image, and later generate a code snippet for the website, using the sketch as a reference.
+This image represents a sketch of our Contoso Outdoor e-commerce website we want to build. We will use this image as input to GPT-4o to gather information from the image, and later generate a code snippet for the website, using the sketch as a reference.
 
 Once you have uploaded the file, try these prompts to start interacting with the image:
 

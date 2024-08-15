@@ -126,6 +126,8 @@ Create a new function referencing the local tourist attractions in the location:
 }
 ```
 
+>[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
+
 ## Bringing it all together
 
 For the Contoso Outdoor Company, we can create a function that searches through the catalog based on specific parameter, that is: product category, activity and cost of the product.
