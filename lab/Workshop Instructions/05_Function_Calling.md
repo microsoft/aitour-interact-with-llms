@@ -26,7 +26,9 @@ First update the Prompt Instructions.
 > [!TIP]
 > Instructions are similar to system messages in the chat playground.
 
-```text title="Prompt Instructions"
+Add the following to the Instructions:
+
+```
 You are an AI assistant that helps people find hotels. 
 In the conversation with the user, your goal is to retrieve the required fields for the function search_hotels.
 ```
@@ -39,9 +41,9 @@ A function has three main parameters: name, description, and parameters.
 - Description: The model is to determine when and how to call the function so it's important to give a meaningful description of what the function does.
 - Parameters: is a JSON schema object that describes the parameters that the function accepts.
 
-Below is an example of a sample function with the parameters location, price and features:
+Below is an example of a sample function with the parameters location, price and features. Under **Tools**, click **Add function** to add the function then click **Save** to add the function:
 
-```json title="function"
+```
 {
     "name": "search_hotels",
     "description": "Retrieves hotels from the search index based",
@@ -70,13 +72,15 @@ Below is an example of a sample function with the parameters location, price and
 
 Now let's start a conversation with the agent.
 
-Ask:
+Try the following prompt:
 
-```text title="User Message"
+```
 I'm looking for a hotel in the Netherlands
 ```
 
 The agent should start asking you about location, price and hotel features and finally call the function and return the properties in JSON format.
+
+>[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
 
 ## Best Practices for Function Calling
 
@@ -94,16 +98,15 @@ The agent should start asking you about location, price and hotel features and f
 
 We can create a parallel function to find local attractions in the area.
 
-First update the prompt instructions with local attractions in the Netherlands:
+First update the prompt instructions to include the tourist attractions function:
 
 ```
 Once you have retrieved the information use tourist_activities to get a list of activities a person can engage in once in the select country.
-
 ```
 
 Create a new function referencing the local tourist attractions in the location:
 
-```json title="function"
+```
 {
   "name": "tourist_activities",
   "description": "Determine activities a tourist can take part in",
@@ -126,21 +129,29 @@ Create a new function referencing the local tourist attractions in the location:
 }
 ```
 
+Try the following prompt:
+
+```What activities can I engage in while in Amsterdam?```
+
+You will receive a structured output.
+
 >[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
 
 ## Bringing it all together
 
 For the Contoso Outdoor Company, we can create a function that searches through the catalog based on specific parameter, that is: product category, activity and cost of the product.
 
-First we will need to update the system instructions with a description and sample catalog for the different products:
+First we will need to update the instructions with a description and sample catalog for the different products. Replace the existing instructions with:
 
 ```
 You are an AI assistant that helps people find products in the Contoso Outdoor Company’s database. In the conversation with the user, your goal is to retrieve the required fields for the function find_products.
 ```
 
-Then we can create a function with the parameters category, activity and cost.
+>[!alert] Before moving on with the next part, delete the existing functions we had created.
 
-``` json title="function"
+Create a new function called **find_products** with the parameters category, activity and cost. 
+
+```
 {
   "name": "find_products",
   "description": "Finds products based on a user needs.",
@@ -167,11 +178,10 @@ Then we can create a function with the parameters category, activity and cost.
 }
 ```
 
-You can test your functions by asking a question to your model:
+To test the function we have added, try the prompt below:
 
-```
-I need warm jacket.
-```
+```I need warm jacket.```
+
 The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
 
 Congratulations! You have now completed the 4th part of the lab and you learnt how to interact with llms using Function Calling. Click next to continue with AI Assistants.
