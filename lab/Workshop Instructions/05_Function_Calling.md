@@ -180,7 +180,7 @@ Create a new function called **find_products** with the parameters category, act
 
 To test the function we have added, try the prompt below:
 
-```I need warm jacket.```
+```I need a warm jacket.```
 
 The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
 
