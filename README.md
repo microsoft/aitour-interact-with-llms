@@ -17,10 +17,10 @@ This lab provides a hands-on and engaging learning opportunity for working with 
 * Azure AI Studio
 
 ## Additional Resources and Continued Learning
-TODO: If you would like to link the user to further learning, please enter that here.
 
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
+| Session Slides | [View](https://aka.ms/AAryqzi) | Review the slides presented during the workshop at your own pace |
 | Intro to Azure OpenAI Service  | [Microsoft Learn module](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service |
 | Azure OpenAI Service documentation  | [Azure OpenAI Service documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/?WT.mc_id=aiml-132569-cacaste) | Learn more about Azure OpenAI Service |
 | Azure OpenAI Service pricing  | [Pricing details](https://learn.microsoft.com/en-us/training/modules/explore-azure-openai/?WT.mc_id=aiml-132569-bethanycheum) | Learn more about Azure OpenAI Service pricing |
