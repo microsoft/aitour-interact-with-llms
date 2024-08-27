@@ -15,20 +15,20 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation]() | Slides |
+| PowerPoint        | - [Presentation](https://aka.ms/AAryqzi) | Slides |
 | PPT Recording     | - [Presentation]() | Video Recording of the PowerPoint slides with no audio |
 
 ## Get Started
 
 This training repository is divided in to the following sections:
 
-| [Slides](#slides) | [Workshop](/lab/README.md) | [Setup](deployment/README.md) | 
+| [Slides](https://aka.ms/AAryqzi) | [Workshop](/lab/README.md) | [Setup](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------
 | 35 slides - 75 minutes| 5 parts - 15 minutes | Workshop setup
 
 ## Slides
 
-The [slides]() have presenter notes in each part of the session
+The [slides](https://aka.ms/AAryqzi) have presenter notes in each part of the session
 
 ### Timing
 
