@@ -1,6 +1,6 @@
-# Part 5 - Azure AI Assistants
+# Part 4 - Azure AI Assistants
 
-Welcome to Part 5, and the last part of this workshop! 
+Welcome to Part 4 of this workshop! 
 
 So far, we have interacted with Large Language Models in many different ways. However, these interactions have been isolated and tied to a very specific purpose. **Azure OpenAI Assistants** represent the next step in our interactions, as they help us integrate previous interactions into one solution.
 
@@ -15,7 +15,7 @@ Azure OpenAI Assistants, as the stateful evolution of the chat completion API, p
 - **Code Interpreter**
 - **File Search**
 
-For this workshop, we will be using Function Calling as seen in the previous section, and Code Interpreter.
+In this section, we will be covering Code Interpreter and in the next, Function Calling.
 
 ## Understanding the Components of Assistants
 
@@ -95,4 +95,4 @@ The assistant should provide you with a graph showcasing a trending product by c
 
 Congratulations! You have now completed the last part of the workshop and have learnt what Azure OpenAI Assistants are, how they work and how to create one using Azure AI Studio.
 
-Click **Next** to advance to the Summary.
+Click **Next** to advance to the Function Calling section.

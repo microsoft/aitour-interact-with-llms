@@ -10,8 +10,8 @@ This lab provides a hands-on and engaging learning opportunity for working with 
 * Understand how Large Language Models work, including what tokens are​
 * Explore Prompt Engineering techniques and best practices​
 * Understand how models apply existing knowledge​
-* Implementing function calling in LLM applications​
 * Get started with building an Azure AI assistant
+* Implementing function calling in LLM applications​
 
 ## Technology Used
 * Azure AI Studio
