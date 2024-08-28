@@ -1,6 +1,6 @@
 # Part 4 - Function Calling
 
-In the previous sections, we have engaged with LLMs through text, image and multimodal prompts. In this section, we will explore another modality - function calling. This allows you to include functions in your requests, and the model will respond with a JSON object containing the function’s arguments. The models are capable of formulating API calls and structuring data outputs based on the functions you provide.
+In this section, we will explore another modality we can interact with LLMs - function calling. This allows you to include functions in your requests, and the model will respond with a JSON object containing the function’s arguments. The models are capable of formulating API calls and structuring data outputs based on the functions you provide.
 
 > [!TIP]
 > **What is function calling?** GPT-3.5, GPT-4o and GPT-4-turbo models can take user-defined functions as input and generate structured output. The models are capable of formulating API calls and structuring data outputs based on the functions you provide.
@@ -17,11 +17,11 @@ Working with functions can be broken down into three high-level steps:
 
 ### Updating Prompt Instructions to provide context
 
-First update the Prompt Instructions.
+First update the Prompt Instructions. 
 
-- In this Prompt Instructions explain the goal of the assistant
+- In the Prompt Instructions explain the goal of the assistant
 - Explain the information that needs to be gathered
-- Which function to all if all information is gathered
+- Which function to call if all information is gathered
 
 > [!TIP]
 > Instructions are similar to system messages in the chat playground.
@@ -184,4 +184,4 @@ To test the function we have added, try the prompt below:
 
 The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
 
-Congratulations! You have now completed the 4th part of the lab and you learnt how to interact with llms using Function Calling. Click next to continue with AI Assistants.
+Congratulations! You have now completed the 4th part of the lab and you learnt how to interact with llms using Function Calling. Click next to continue with the last part of the workshop, summary.
