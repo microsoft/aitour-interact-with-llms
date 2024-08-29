@@ -52,6 +52,8 @@ Examples of regions include Africa, Asia, Europe and America. Categories include
 If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
 ```
 
+![Assistants Playground](Images/assistants_playground_with_name_and_prompt.png)
+
 >[!NOTE]
 >How many prompt engineering techniques from the previous sections are you able to identify in this prompt? For clues, check Part 2 of the workshop.
 
@@ -59,20 +61,22 @@ Next, click on the **Tools** tab, and click to enable **Code Interpreter**.
 
 Click on **Add Files**. 
 
-[!PLACEHOLDER FOR IMAGE]
+![assistants code interpreter](Images/assistants-code-interpreter-tool.png)
 
 On the pop up window, click on **Upload Local Files** and select the `Contoso_Sales_Revenue.csv` file on your Desktop and click on *Open*.
 
 >[!NOTE]
-> If you cannot find the file on your desktop, you can download it from [here](linktorepofile).
+> If you cannot find the file on your desktop, you can download it from [here](assets/Contoso_Sales_Revenue.csv).
 
 Click on the **Attach** button. You should now see the file under the *Code Interpreter* tool.
+
+![assistant attach new file](Images/assistants_attach_new_file.png)
 
 The assistant is now ready for us to interact with it.
 
 ## Interacting with our Assistant
 
-1. Let's begin by typing `help` in the user box. You will notice this starts a New Thread. 
+1. Let's begin by typing `help` in the chat box. You will notice this starts a New Thread. 
 You will notice that we get a series of sample questions that we can test. Test one of the questions and see what the assistant replies!
 
 2. Next, let's try a specific query. Type the following:
