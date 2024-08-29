@@ -42,7 +42,7 @@ The [slides](https://aka.ms/AAryqzi) have presenter notes in each part of the se
 10:00 - 20:00 | Introducing AI Studio
 20:00 - 35:00 | Text Generation
 35:00 - 50:00 | Image Generation and Multimodality
-50:00 - 65:00 | Function Calling  & Azure AI Assistants
+50:00 - 65:00 | Azure AI Assistants & Function Calling
 65:00 - 75:00 | Key event takeaways
 
 ## Deployment / Preparation
@@ -64,6 +64,6 @@ Detailed explanations of each demonstration associated with this presentation ca
 |  [2 - Text Generation](/lab/Workshop%20Instructions/02_Text_Generation.md) | 15   |
 |  [3 - Image Generation](/lab/Workshop%20Instructions/03_Image_Generation.md) | 7   | [Link]() | 15       | 
 |  [4 - Multimodality](/lab/Workshop%20Instructions/04_Multimodal_Interfaces.md) | 8  | 
-|  [1 - Function Calling](/lab/Workshop%20Instructions/05_Function_Calling.md) | 7  | [Link]() |
-|  [1 - AI Assistants](/lab/Workshop%20Instructions/06_AI_Assistants.md) | 8   | 
+|  [1 - AI Assistants](/lab/Workshop%20Instructions/05_AI_Assistants.md) | 8   | 
+|  [1 - Function Calling](/lab/Workshop%20Instructions/06_Function_Calling.md) | 7  | [Link]()  |
 

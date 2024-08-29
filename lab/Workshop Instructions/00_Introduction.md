@@ -22,5 +22,5 @@ The lab is organized into 5 sections, taking you through generating text content
 1. **Part 1 - Text Generation** Generate text content and descriptions with GPT4-Turbo
 2. **Part 2 - Image Generation** Generate image assets with DALLE-3
 3. **Part 3 - Multimodality** Leverage multimodal capabilities of GPT-4o to generate code snippets from hand-drawn sketches.
-4. **Part 4 - Function Calling** Generate structured outputs with GPT-4o.
-5. **Part 5 - AI Assistants**
+4. **Part 4 - AI Assistants** Use code interpreter to understand your data.
+5. **Part 5 - Function Calling** Generate structured outputs with GPT-4o.

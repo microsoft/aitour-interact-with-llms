@@ -125,7 +125,7 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. 
 1. **Results Box**: Finally, here is where the generated images are displayed.
 
-#### Functions in the Assistant Playground
+#### Tools in the Assistant Playground
 
 ![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-functions-playground.png)
 
