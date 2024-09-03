@@ -1,26 +1,6 @@
-# Summary
+# Summary 
+
 Well done! You made it to the end of the workshop and successfully built an e-commerce website design for Contoso Outdoor Company, leveraging the power of generative AI.
-
-## Clean up Resources
-
-Once you're finished with the tutorial, you might want to delete all resources you created. You can delete the resource individually, or you can delete the entire resource Group.
-
-1. Browse to the [Azure Portal](https://portal.azure.com).
-2. From the homepage, navigate to **Resource groups** and select the resource group we create: **interact-with-llms**.
-
-![](./Images/azure-portal-resource-group.PNG)
-
-3. At the resource group top navigation panel, select **Delete resource group**
-
-![](./Images/delete-resource-group-navigation.PNG)
-
-4. You will be prompted to enter the resource group name to confirm its deletion. Add the name **interact-with-llms** the click **Delete** to delete your resource group.
-
-![Deleting resource Group](./Images/delete-resource-group-name.PNG)
-
-5. You will get a notification on your resource group being deleted.
-
-![](./Images/delete-resource-group-notification-popup.PNG)
 
 ## Some key points to remember
 - Generative AI models can generate human-like text, images, and code
