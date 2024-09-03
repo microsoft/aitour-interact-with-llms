@@ -18,7 +18,8 @@ Now that we are logged in, we can start navigating around the platform.
 ![Azure AI Studio logged in homepage](./Images/ai-studio-login-homepage.png)
 
 1. First, click on **All Hubs** under Management on the navigation panel on the left.
-2. Then, click on the **+ New Lab** button to create a new Hub. Update the Hub details as follows:
+2. Then, click on the **+ New Hub** button to create a new Hub. Update the Hub details as follows:
+![Image showing fields to be updated when creating a new hub](./Images/ai-studio-new-hub.PNG)
     - Hub Name: **WRK-540**
     - Subscription: **your Azure Subscription**
     - Resource group: click on *create a new resource group*, and name it **interact-with-llms**. 
@@ -30,13 +31,9 @@ Now that we are logged in, we can start navigating around the platform.
 3. On **Review and finish** page, click **Create**.
 4. It will take a few minutes to create the resources. Once they are created, you will be redirected to the Hub Homepage.
 
-
-![Hub management tab](placeholder)
+![Hub Homepage](./Images/ai-studio-hub-homepage.PNG)
 
 You will notice a set of elements once we have logged in and land on the Hub Homepage.
-
-![Hub Homepage](placeholder)
-
 
 ### 1. Navigation Panel
 
@@ -66,12 +63,14 @@ On this page, we can see an overview of our Azure AI Studio Hub. This includes t
 - **Permissions**: Allows us to grant access to collaborators or applications that may need to use the services within the Hub.
 
 ## Creating a new Project
+
+ ![image showing where to click to create a project](./Images/ai-studio-new-project.PNG)
  
 1. On the Hub homepage, click on **+ New project** to create a new project.
 2. In the pop up, update your Project name as **interact-with-llms**, then click **Create a project** to create a new project.
 3. Once the project is created, click on the Project name to move forward.
  
- ![image showing where to click to access a project](placeholder)
+ ![image showing where to click to access a project](./Images/ai-studio-project.PNG)
 
 The Project overview page is very similar to the Hub Overview, except the details are tied to the project instead of the Hub that hosts it. 
 
@@ -142,14 +141,18 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 In this workshop, we will deploy two models: DALL.E 3 and GPT-4o. To deploy the models, follow the following steps:
 
+![image showing how to navigate to the deployments tabs](./Images/ai-studio-deployment.PNG)
 1. On the Navigation Bar on your left, click on **Deployments.**
-1. On the deployments page, click **+ Deploy model** and select **Deploy base model**
-1. Search and select **gpt-4o** and click **Confirm** to create a new model.
-1. On the new popup, retain the model name as is, then click **Deploy**. Once deployed, go back to the Deployments page.
-1. Click **+ Deploy model** and select **Deploy base model**. Search and select **dall-e-3** and click **Confirm** to create a new model. On the new popup, retain the model name as is, then click **Deploy**.
-1. Once the models have successfully been deployed, you are now ready to start.
+2. On the deployments page, click **+ Deploy model** and select **Deploy base model**
+3. Search and select **gpt-4o** and click **Confirm** to create a new model.
+![image showing the model deployment gpt4o](./Images/ai-studio-gpt4o-model.PNG)
+4. On the new popup, retain the model name as is, then click **Deploy**. Once deployed, go back to the Deployments page.
+<!-- ![](./Images/ai-studio-gpt4o-deploy.PNG) -->
+5. Click **+ Deploy model** and select **Deploy base model**. Search and select **dall-e-3** and click **Confirm** to create a new model. On the new popup, retain the model name as is, then click **Deploy**.
+ ![image showing the model deployment dalle](./Images/ai-studio-dalle.PNG)
+6. Once the models have successfully been deployed, you are now ready to start.
 
-![Model deployments page]()
+<!-- ![Model deployments page]() -->
 
 ## Ready to start
 
