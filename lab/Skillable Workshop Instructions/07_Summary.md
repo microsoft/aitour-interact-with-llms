@@ -1,3 +1,5 @@
+# Summary 
+
 Well done! You made it to the end of the workshop and successfully built an e-commerce website design for Contoso Outdoor Company, leveraging the power of generative AI.
 
 ## Some key points to remember

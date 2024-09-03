@@ -1,4 +1,4 @@
-# Part 4 - Function Calling
+# Part 5 - Function Calling
 
 In this section, we will explore another modality we can interact with LLMs - function calling. This allows you to include functions in your requests, and the model will respond with a JSON object containing the function’s arguments. The models are capable of formulating API calls and structuring data outputs based on the functions you provide.
 
