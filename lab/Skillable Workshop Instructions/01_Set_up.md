@@ -33,7 +33,7 @@ Now that we are logged in, we can start navigating around the platform.
 
 You will notice a set of elements once we have logged in and land on the Hub Homepage.
 
-![Hub Homepage](./Images/ai-studio-hub-homepage.png)
+![Hub Homepage](./Images/ai-studio-hub-homepage.PNG)
 
 
 ### 1. Navigation Panel
@@ -57,7 +57,7 @@ On the left side of the screen you will see a navigation panel with a group of d
 
 On this page, we can see an overview of our Azure AI Studio Hub. This includes the following:
 
-- **Projects**: A project is a resource within Azure AI Studio that grants us access to most of the platform's features, such as the **Playgrounds**. You will notice we have a project created already. This is intentional and we will be working with it in the upcoming sections.
+- **Projects**: A project is a resource within Azure AI Studio that grants us access to most of the platform's features, such as the **Project Playgrounds**. You will notice we have a project created already. This is intentional and we will be working with it in the upcoming sections.
 - **Description**: A short description of the Azure AI Studio Hub we are in.
 - **Hub Properties**: A collection of various properties such as the Hub's name, its location, resource group, etc. Here we can find useful information such as *API endpoints and keys* and the *subscription's quota*.
 - **Connected Resources**: Azure AI Studio allows for multiple resources to be connected to it, expanding its features and functionality. Resources such as Azure AI Search, or in our case, Azure AI Service further increase the capabilities of our Hub, and grant us access to deployments such as LLMs or functionalities such as vector search.
@@ -73,7 +73,7 @@ The Project overview page is very similar to the Hub Overview, except the detail
 
 ### Navigation Bar
 
-You will notice the navigation bar has updated with new tabs, which represent functionalities tied to our project. The **Get Started** section remains the same, and **Playgrounds** are expanded to include other versions.
+You will notice the navigation bar has updated with new tabs, which represent functionalities tied to our project. The **Get Started** section remains the same, and **Project Playgrounds** are expanded to include other versions.
 
 We have two new sections:
 - **Tools**: This includes useful opportunities to expand your project's reach, such as ***working in VS Code*** by running a cloud compute, access to [***Prompt Flow***](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow), development of ***Evaluations*** for your models and the ability to carry ***Fine Tuning*** on your deployments.
@@ -138,4 +138,7 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 That covers the necessary setup and basics of Azure AI Studio. We will now move forward to begin interacting with the models. 
 
->[!alert] Go back to the **Chat Playground** and move to Part 1: Text Generation
+Next step: go back to the **Chat** under **project plaground** and move to Part 1: Text Generation
+
+
+>[!alert] Go back to the **Chat** under **project plaground** and move to Part 1: Text Generation

@@ -52,7 +52,7 @@ Examples of regions include Africa, Asia, Europe and America. Categories include
 If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
 ```
 
-![Assistants Playground](Images/assistants_playground_with_name_and_instructions.png)
+![Assistants Playground](./Images/assistants_playground_with_name_and_prompt.png)
 
 >[!NOTE]
 >How many prompt engineering techniques from the previous sections are you able to identify in this prompt? For clues, check Part 2 of the workshop.

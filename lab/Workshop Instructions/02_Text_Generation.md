@@ -8,9 +8,9 @@ Welcome to Part 1 of this workshop, where we'll be interacting with GPT-4 Turbo 
 
 ## Basic prompting
 
-Let's start with a few prompts and observe the response using the chat interface.
+Let's start with a few prompts and observe the response using the chat interface. Here are some examples to try, but get creative with your own prompts and see what happens!
 
-Here are some examples to try, but get creative with your own prompts and see what happens!
+1. In the 
 
 ### Website copy and conversation history
 

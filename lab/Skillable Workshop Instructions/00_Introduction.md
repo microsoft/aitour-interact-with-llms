@@ -15,6 +15,9 @@ By the end of this workshop, you should be able to:
 
 You are a developer at *Contoso Outdoor Company*, a leading e-commerce company that sells outdoor gear and equipment. Your team is working on a new website design and you have been tasked with generating text content, images, and code snippets for the website. You have heard about the power of generative AI models and want to explore how you can leverage them to generate content for the website.
 
+> [!TIP]
+> You can find login and subscription information over on the Resources tab
+
 ## Lab Outline
 
 The lab is organized into 5 sections, taking you through generating text content, image assets, and code snippets through a multimodal conversational interface on Azure with OpenAI models. In addition, we will cover Function Calling and AI Assistants. The goal of the lab is to leverage generative AI to build the user interface components for the *Contoso Outdoor Company* e-commerce website.
