@@ -1,11 +1,21 @@
 # Part 2 - Image Generation
 
-Welcome to part 2 of this workshop, where we will interact with a text-to-image model, DALL-E 3. Start by clicking on the **Images** playground, and selecting **dall-e-3** from the deployments drop-down menu.
-
-## Creating our first images
+Welcome to part 2 of this workshop, where we will interact with a text-to-image model, DALL-E 3. 
 
 > [!TIP]
 > What is DALL-E 3? DALL-E 3 is a neural network based model that can generate graphical data from **natural language input**. Put more simply, you can provide DALL-E 3 with a **description** and it can generate an appropriate image.
+
+## Creating our first images
+
+To create our first image, follow the following steps:
+
+![image showing image generation](./Images/ai-studio-create-image.jpg)
+
+1. In Project playground section, on the left-hand navigation bar, navigate to the available tools and select **Images.** 
+2. In the Images playground, find and click on the drop-down menu labeled **Deployments**. From the drop-down list, select **dall-e-3**.
+3. In the Images plaground, find the text box labeled _"Describe the image you want to create."_ From the prompt examples below, click the "T" (e.g., ``here is a sample prompt``) which will automatically input for you at the current cursor location, with one click.
+5. After typing your message, a **Generate** button will appear, click the button submit your image description to the model deployment.
+6. After sending your query, wait a moment for the model to process and respond. The response will appear in the window below your input.
 
 Let's begin with generating an image by entering a basic prompt in the description box, then clicking on generate:
 
@@ -31,15 +41,16 @@ For example, enter the following prompt:
 
 Then select **Generate** and view the image that is generated.
 
+![Image of an elephant riding a skateboard](./Images/An%20elephant%20on%20a%20skateboard.png)
+
 Now, let's modify the prompt by adding more details to the description:
 
 
 ```A purple elephant on a skateboard performing an ollie, in the style of Picasso```
 
-
 Select **Generate** once again and compare the results.
 
-![Image of an elephant riding a skateboard](./Images/An%20elephant%20on%20a%20skateboard.png) ![Image of a purple elephant riding a skateboard in the style of Pablo Picasso](./Images/A%20purple%20elephant%20on%20a%20skateboard%20performing%20an%20olley,%20in%20the%20style%20of%20of%20Picasso.png)
+ ![Image of a purple elephant riding a skateboard in the style of Pablo Picasso](./Images/A%20purple%20elephant%20on%20a%20skateboard%20performing%20an%20olley,%20in%20the%20style%20of%20of%20Picasso.png)
 
 ### Best practices
 
@@ -78,16 +89,15 @@ To generate these, try variations of these prompts (get creative and adjust them
 
 ```A simple brown tent made out of polyester```
 
-
+![Image of a brown tent](./Images/A%20simple%20brown%20tent%20made%20out%20of%20polyester.png)
 
 ```A robust, 8-person tent set up in the middle of an autumn forest```
 
-
+![Image of a tent in an autumn forest](./Images/A%20robust,%208-person%20tent%20set%20up%20in%20the%20middle%20of%20an%20autumn%20forest.png)
 
 ```A small tent in the middle of a storm```
 
-
-![Image of a brown tent](./Images/A%20simple%20brown%20tent%20made%20out%20of%20polyester.png) ![Image of a tent in an autumn forest](./Images/A%20robust,%208-person%20tent%20set%20up%20in%20the%20middle%20of%20an%20autumn%20forest.png) ![Image of a tent caught in the middle of a storm](./Images/A%20small%20tent%20in%20the%20middle%20of%20a%20storm.png)
+![Image of a tent caught in the middle of a storm](./Images/A%20small%20tent%20in%20the%20middle%20of%20a%20storm.png)
 
 Next, let's try generating backpacks. As before, feel free to adjust and get creative with your prompts!
 
@@ -97,16 +107,15 @@ Next, let's try generating backpacks. As before, feel free to adjust and get cre
 
 ```A compact hiking backpack in vibrant red color```
 
-
+![Image of a compact red hiking backpack](./Images/A%20compact%20hiking%20backpack%20in%20vibrant%20red%20color.png)
 
 ```A large, 70-liter backpacking pack fully loaded with camping gear```
 
-
+ ![Image of a large fully-loaded backpack for camping](./Images/A%20large,%2070-liter%20backpacking%20pack%20fully%20loaded%20with%20camping%20gear.png)
 
 ```A small, realistic lightweight daypack```
 
-
-![Image of a compact red hiking backpack](./Images/A%20compact%20hiking%20backpack%20in%20vibrant%20red%20color.png) ![Image of a large fully-loaded backpack for camping](./Images/A%20large,%2070-liter%20backpacking%20pack%20fully%20loaded%20with%20camping%20gear.png) ![Image of a small daypack](./Images/A%20small,%20realistic%20lightweight%20daypack.png)
+ ![Image of a small daypack](./Images/A%20small,%20realistic%20lightweight%20daypack.png)
 
 Lastly, let's generate images for Hiking clothing.
 
@@ -114,22 +123,29 @@ Lastly, let's generate images for Hiking clothing.
 > The hiking clothing listed as part of the inventory are the Summit Breeze Jacket, the TrailBlaze Hiking Pants and the RainGuard Hiking Jacket.
 
 ```A waterproof, breathable rain jacket in bright yellow```
+![Image of a yellow rainjacket](./Images/A%20waterproof,%20breathable%20rain%20jacket%20in%20bright%20yellow.png) 
 
 ```A pair of rugged, cargo hiking pants in olive green```
 
+![Image of a pair of olive green cargo pants](./Images/A%20pair%20of%20rugged,%20cargo%20hiking%20pants%20in%20olive%20green.png)
+
 ```A down-filled, insulated winter jacket in deep blue```
 
-![Image of a yellow rainjacket](./Images/A%20waterproof,%20breathable%20rain%20jacket%20in%20bright%20yellow.png) ![Image of a pair of olive green cargo pants](./Images/A%20pair%20of%20rugged,%20cargo%20hiking%20pants%20in%20olive%20green.png) ![Image of an insulated winter jacket](./Images/A%20down-filled,%20insulated%20winter%20jacket%20in%20deep%20blue.png)
+![Image of an insulated winter jacket](./Images/A%20down-filled,%20insulated%20winter%20jacket%20in%20deep%20blue.png)
 
 ## Advanced Prompting
 
-Now that we have seen some basic prompts, how about we try something new? First, let's navigate back to the **Chat Playground**.
+Now that we have seen some basic prompts, how about we try something new? First. 
 
 >[!alert] Make sure the System Message is Empty. You can simply click on **Reset to Default** if needed.
 
-We are now going to try to generate an Image based off a prompt generated by GPT-4 Turbo.
+We are now going to try to generate an Image based off a prompt generated by GPT-4o.
 
-1. For this, we will use a thorough description of the product we want to create an Image for:
+1. Navigate back to the **Chat Playground**.
+
+2. Under **System message** click on **Reset** next to the **Give the model instructions and context** to reset the system message back to default.
+
+1. In the **chat box** add a thorough description of the product we want to create an Image for:
 
 ```
 Generate a prompt for DALL-E 3 from this product description:
@@ -140,14 +156,20 @@ Beyond its practical features, the TrailMaster X4 Tent is designed with convenie
 The TrailMaster X4 Tent is backed by a 2-year limited warranty and supported by a comprehensive user guide that covers setup, takedown, care, and maintenance, ensuring your investment is well-protected. With its combination of durability, practicality, and comfort, this tent is praised in customer reviews for its spaciousness and weather resistance. Whether you're a weekend warrior or a seasoned camper, the TrailMaster X4 Tent is designed to enhance your outdoor living experience.
 ```
 
+Submit your request to the model.
+
 2. Once you get the response, click on the three dots at the top of the response and click on **Copy response to clipboard**.
 
 ![Image of copying option](./Images/ai-studio-copy-response.png)
 
-3. Navigate back to the Images playground.
+3. Navigate back to the Images playground to generate an image from the prompt response.
 
-4. **Ensure that 'dall-e-3' is selected under Deployments**, and paste the generated prompt into the **Prompt Box**.
+4. In the Images plaground, **ensure that 'dall-e-3' is selected under Deployments**, and paste the generated prompt into the **Prompt Box**.
 
 5. Click **Generate** and notice how detailed the image comes out to be.
 
-Congratulations! You have now completed the second part of the lab, and have generated the necessary image assets for the Contoso Outdoors Company e-commerce website.
+## Next steps
+
+Congratulations! You have now completed the second part of the lab, and have generated the necessary image assets for the Contoso Outdoors Company e-commerce website. In the next part of the lab, you will learn how to use the model for multimodal requests.
+
+Click **Next** to advance to the Multimodality section.

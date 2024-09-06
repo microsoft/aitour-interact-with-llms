@@ -1,14 +1,22 @@
 # Part 1 - Text Generation
 
+Welcome to Part 1 of this workshop, where we'll be interacting with GPT-4o model to generate text.
+
 > [!TIP]
 > What is prompt engineering?
 > Prompt engineering is a concept in Natural Language Processing (NLP) that involves **embedding descriptions of tasks** in input to **prompt the model** to output the **desired results**.
 
-Welcome to Part 1 of this workshop, where we'll be interacting with GPT-4 Turbo model to generate text.
-
 ## Basic prompting
 
-Let's start with a few prompts and observe the response using the chat interface.
+Let's start with a few prompts and observe the response using the chat playground. To use the chat playground, follow the following steps:
+
+![image showing the chat interface](./Images/ai-studio-basic-prompting-v2.jpg)
+
+1. In Project playground section, on the left-hand navigation bar, navigate to the available tools and select **Chat.** 
+2. In the Chat playground, find the text box labeled _"Type user query here."_
+3. From the prompt examples below, click the "T" (e.g., ``here is a sample prompt``) which will automatically input for you at the current cursor location, with one click.
+4. After typing your message, locate the Paper Plane icon, usually positioned next to the input box. Click on the Paper Plane icon to submit your text to the model deployment.
+5. After sending your query, wait a moment for the model to process and respond. The response will appear in the chat window below your input.
 
 Here are some examples to try, but get creative with your own prompts and see what happens!
 
@@ -28,6 +36,14 @@ Note that the model is providing a copy for the *Contoso Outdoor Company* websit
 
 > [!NOTE]
 > You can control the context window size, which is the number of previous interactions that the model will consider as context (default is 10) by going into the **Parameters** tab.
+
+You can control your model parameters as follows:
+
+![image showing parameters tab](./Images/ai-studio-parameters.jpg)
+
+1. In the Chat interface, navigate to the **Parameters** tab.
+2. Once in the Parameters tab, adjust the setting controls. You can change the number of past messages included which the model will consider as context. Once set, the changes will be applied automatically.
+
 
 ### Summarization and key entities extraction
 
@@ -105,7 +121,12 @@ Take a step-by-step approach in your response, include a welcome message, a brie
 > [!TIP]
 > What is the **system message**? The system message is used to communicate instructions or provide context to the model at the beginning of a conversation. It is displayed in a different format compared to user messages, helping the model understand its role in the conversation. The system message typically guides the model's behavior, sets the tone, or specifies desired output from the model. By utilizing the system message effectively, users can steer the model towards generating more accurate and relevant responses.
 
-In the System message field insert the text below, then click "Apply changes".
+![image showing system message tab](./Images/ai-studio-system-message.jpg)
+
+Update the System Message to give the model instructions and context as follows:
+
+1. In the Chat interface, navigate to the **System message** tab.
+2. Once in the System message tab, erase the existing message. Click inside the System message field to place your cursor there and  insert the text below:
 
 ```
 ## Task
@@ -117,11 +138,15 @@ Always show the word CONTOSO in capital letters.
 In the copy you write always stick to the subject of the company and the products it offers. Avoid any irrelevant information and controversial opinions.
 ```
 
+3. Find the button labeled Apply changes, it is located directly above the System message tab and will be highlighted with a blue background. Click this button to save and apply the changes you’ve made to the System message field.
+4. After applying the changes, click update in the pop-up to update the system message.
+
+
 Observe that we have provided the model with a **clear task**, a **tone of voice**, and **safety measures** to follow. Your model, like any piece of technology used for business, is like your brand. If you want it to have the same approach and ethics you instill in your code of conduct across the business, it should also be included in your AI solutions. Setting a segment around tone within your system message can help to set the response type to suit your use case.
 
 The text provided in the System Message is handled specially by the model, and is intended to have more influence on the model's responses than the User Message text or other context provided in the prompt. Also, it is persisted across all the interactions in the chat, even if you clear the chat history.
 
-To see how the model's behavior changes with the added context, try the prompt below:
+5. To see how the model's behavior changes with the added context, try the prompt below in the text box:
 
 ```
 Write a brief description of the business, including the categories of products offered.
@@ -133,7 +158,7 @@ You will see that not only does the model respond with the requested information
 What are your thoughts on the upcoming election?
 ```
 
-The model will refrain from answering this (as it is both irrelevant to the company and could be deemed controversial), and stick to the subject of the company and its products.
+6. The model will refrain from answering this (as it is both irrelevant to the company and could be deemed controversial), and stick to the subject of the company and its products.
 
 ### Grounded prompting
 
@@ -173,4 +198,8 @@ To see how the model's behavior changes with the added context, try the prompt b
 Write a short description for each of the following product categories: tents, backpacks, hiking clothing.
 ```
 
+## Next Steps
+
 Congratulations, you have completed the first part of the lab! You have learned how to use prompt engineering to generate text using a language model. In the next part of the lab, you will learn how to use the model to generate image assets.
+
+Click **Next** to advance to the Image section.

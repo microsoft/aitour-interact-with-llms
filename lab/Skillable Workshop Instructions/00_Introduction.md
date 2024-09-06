@@ -15,8 +15,19 @@ By the end of this workshop, you should be able to:
 
 You are a developer at *Contoso Outdoor Company*, a leading e-commerce company that sells outdoor gear and equipment. Your team is working on a new website design and you have been tasked with generating text content, images, and code snippets for the website. You have heard about the power of generative AI models and want to explore how you can leverage them to generate content for the website.
 
+## Resources
+
 > [!TIP]
 > You can find login and subscription information over on the Resources tab
+
+Before you start, in the virtual machine, sign in with the following credentials
+- Username: will already be set to Admin.
+- Password: enter +++@lab.VirtualMachine(Win11Base23B-W11-22H2).Password+++ and click the arrow on the right.
+
+All additional information on the lab can be found on GitHub:
+
+- [Skillable Workshop Instructions](https://github.com/microsoft/aitour-interact-with-llms/blob/main/lab/Skillable%20Workshop%20Instructions/00_Introduction.md)
+- [Workshop Instructions if you are deploying directly on Azure](https://github.com/microsoft/aitour-interact-with-llms/blob/main/lab/Workshop%20Instructions/00_Introduction.md)
 
 ## Lab Outline
 
@@ -25,5 +36,7 @@ The lab is organized into 5 sections, taking you through generating text content
 1. **Part 1 - Text Generation** Generate text content and descriptions with GPT4-Turbo
 2. **Part 2 - Image Generation** Generate image assets with DALLE-3
 3. **Part 3 - Multimodality** Leverage multimodal capabilities of GPT-4o to generate code snippets from hand-drawn sketches.
-4. **Part 4 - AI Assistants** Use code interpreter to understand your data.
+4. **Part 4 - Azure AI Assistants** Use code interpreter to understand your data.
 5. **Part 5 - Function Calling** Generate structured outputs with GPT-4o.
+
+Click **Next** to set up your Workshop environment and get started.

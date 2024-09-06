@@ -17,21 +17,23 @@ Working with functions can be broken down into three high-level steps:
 
 ### Updating Prompt Instructions to provide context
 
-First update the Prompt Instructions. 
+1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select **gpt-4o** model. Clear all the previous resources you had uploaded as well as the Instructions.
 
-- In the Prompt Instructions explain the goal of the assistant
-- Explain the information that needs to be gathered
-- Which function to call if all information is gathered
+2. Next, update the Assistant **instruction**.
 
-> [!TIP]
-> Instructions are similar to system messages in the chat playground.
+  - In the Prompt Instructions explain the goal of the assistant
+  - Explain the information that needs to be gathered
+  - Which function to call if all information is gathered
 
-Add the following to the Instructions:
+  > [!TIP]
+  > Instructions are similar to system messages in the chat playground.
 
-```
-You are an AI assistant that helps people find hotels. 
-In the conversation with the user, your goal is to retrieve the required fields for the function search_hotels.
-```
+3. Navigate to the **Prompt** tab and copy the following instructions into the Instructions textbox.
+
+  ```
+  You are an AI assistant that helps people find hotels. 
+  In the conversation with the user, your goal is to retrieve the required fields for the function search_hotels.
+  ```
 
 ### Add your Function to your Tools
 
@@ -41,44 +43,47 @@ A function has three main parameters: name, description, and parameters.
 - Description: The model is to determine when and how to call the function so it's important to give a meaningful description of what the function does.
 - Parameters: is a JSON schema object that describes the parameters that the function accepts.
 
-Below is an example of a sample function with the parameters location, price and features. Under **Tools**, click **Add function** to add the function then click **Save** to add the function:
+You can add your function as follows:
 
-```
-{
-    "name": "search_hotels",
-    "description": "Retrieves hotels from the search index based",
-    "parameters": {
-           "type": "object",             
-           "properties": {
-                "location": {
-                    "type": "string",
-                    "description": "The location of the hotel (i.e. Seattle, WA)"
-                },
-                "price": {
-                    "type": "number",
-                    "description": "The maximum price for the hotel"
-                },
-                "features": {
-                    "type": "string",
-                    "description": "A comma separated list of features (i.e. beachfront, free wifi, etc.)"
-                }
-            },
-           "required": ["location","price","features"]
-      }
-}
-```
+1. In the Assistants Playground, navigate to the **Tools** tab, you should see an option labeled **Add Function**. Click on this option to create a new function.
+2. A pop up window will appear where you can input the necessary details for your new function. In the pop up window, copy the following function: 
 
-### Interacting with the model using function calling
+  ```
+  {
+      "name": "search_hotels",
+      "description": "Retrieves hotels from the search index based",
+      "parameters": {
+            "type": "object",             
+            "properties": {
+                  "location": {
+                      "type": "string",
+                      "description": "The location of the hotel (i.e. Seattle, WA)"
+                  },
+                  "price": {
+                      "type": "number",
+                      "description": "The maximum price for the hotel"
+                  },
+                  "features": {
+                      "type": "string",
+                      "description": "A comma separated list of features (i.e. beachfront, free wifi, etc.)"
+                  }
+              },
+            "required": ["location","price","features"]
+        }
+  }
+  ```
 
-Now let's start a conversation with the agent.
+3. Click the "Save" button to add the function to your Assistant.
 
-Try the following prompt:
+4. In the text box in the chat area, try the following prompt
 
-```
-I'm looking for a hotel in the Netherlands
-```
+  ```
+  I'm looking for a hotel in the Netherlands
+  ```
 
-The agent should start asking you about location, price and hotel features and finally call the function and return the properties in JSON format.
+5. The agent should start asking you about location, price and hotel features and finally call the function and return the properties in JSON format.
+
+![chat conversation with the model to output structured json](./Images/ai-studio-function-calling-chat.jpg)
 
 >[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
 
@@ -98,42 +103,42 @@ The agent should start asking you about location, price and hotel features and f
 
 We can create a parallel function to find local attractions in the area.
 
-First update the prompt instructions to include the tourist attractions function:
+1. First update the prompt instructions to include the tourist attractions function:
 
-```
-Once you have retrieved the information use tourist_activities to get a list of activities a person can engage in once in the select country.
-```
+  ```
+  Once you have retrieved the information use tourist_activities to get a list of activities a person can engage in once in the select country.
+  ```
 
-Create a new function referencing the local tourist attractions in the location:
+2. Create a new function referencing the local tourist attractions in the location:
 
-```
-{
-  "name": "tourist_activities",
-  "description": "Determine activities a tourist can take part in",
-  "parameters": {
-    "type": "object",
-    "properties":{
-      "location": {
-        "type": "string",
-        "description": "location the tourist will be in e.g. Amsterdam, Berlin."
+  ```
+  {
+    "name": "tourist_activities",
+    "description": "Determine activities a tourist can take part in",
+    "parameters": {
+      "type": "object",
+      "properties":{
+        "location": {
+          "type": "string",
+          "description": "location the tourist will be in e.g. Amsterdam, Berlin."
+        },
+        "activity": {
+          "type": "string",
+          "description": "activity the tourist would want to engage in e.g. going to the beach, visiting historical sites etc."
+        }
       },
-      "activity": {
-        "type": "string",
-        "description": "activity the tourist would want to engage in e.g. going to the beach, visiting historical sites etc."
-      }
-    },
-    "required": [
-      "location", "activity"
-    ]
+      "required": [
+        "location", "activity"
+      ]
+    }
   }
-}
-```
+  ```
 
-Try the following prompt:
+3. Try the following prompt:
 
-```What activities can I engage in while in Amsterdam?```
+  ```What activities can I engage in while in Amsterdam?```
 
-You will receive a structured output.
+  You will receive a structured output.
 
 >[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
 
@@ -149,39 +154,43 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
 
 >[!alert] Before moving on with the next part, delete the existing functions we had created.
 
-Create a new function called **find_products** with the parameters category, activity and cost. 
+1. Create a new function called **find_products** with the parameters category, activity and cost. 
 
-```
-{
-  "name": "find_products",
-  "description": "Finds products based on a user needs.",
-  "parameters": {
-    "type": "object",
-    "properties": {
-      "category": {
-        "type": "string",
-        "description": "an item category such as a jacket, tent or boots"
+  ```
+  {
+    "name": "find_products",
+    "description": "Finds products based on a user needs.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "description": "an item category such as a jacket, tent or boots"
+        },
+        "activity": {
+          "type": "string",
+          "description": "activity category for the item e.g. running, hiking, camping."
+        },
+        "cost": {
+          "type": "integer",
+          "description": "maximum cost to be paid by an individual e.g. 200, 20."
+        }
       },
-      "activity": {
-        "type": "string",
-        "description": "activity category for the item e.g. running, hiking, camping."
-      },
-      "cost": {
-        "type": "integer",
-        "description": "maximum cost to be paid by an individual e.g. 200, 20."
-      }
-    },
-    "required": [
-      "category", "activity", "cost"
-    ]
+      "required": [
+        "category", "activity", "cost"
+      ]
+    }
   }
-}
 ```
 
-To test the function we have added, try the prompt below:
+2. To test the function we have added, try the prompt below:
 
-```I need a warm jacket.```
+  ```I need a warm jacket.```
 
-The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
+3. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
 
-Congratulations! You have now completed the 4th part of the lab and you learnt how to interact with llms using Function Calling. Click next to continue with the last part of the workshop, summary.
+## Next Steps
+
+Congratulations! You have now completed the 5th part of the lab and you learnt how to interact with LLMs using Function Calling. 
+
+Click **Next** to advance to the Summary section of the workshop.
