@@ -17,7 +17,9 @@ Working with functions can be broken down into three high-level steps:
 
 ### Updating Prompt Instructions to provide context
 
-1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select **gpt-4o** model. Clear all the previous resources you had uploaded as well as the Instructions.
+1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select **gpt-4o** model. 
+
+1. First we will clear some of the changes we had previously made. Navigate to **Prompt** and clear the Instructions. Next, navigate to the **Tools** tab and remove the **Contoso_Sales_Revenue.csv** file we uploaded. Lastly, on the top left of the chat window, select **CLear Chat**.
 
 2. Next, update the Assistant **instruction**.
 
