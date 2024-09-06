@@ -2,42 +2,44 @@
 
 > [!TIP]
 > What is **Azure AI Studio**? Azure AI Studio is designed for developers to build generative AI applications on an enterprise-grade platform. Developers can interact with their projects code-first via the Azure AI SDK, explore, build, test, and deploy AI models using cutting-edge tooling, and collaborate in a secure environment. The platform supports transforming proof of concepts into production-ready solutions with continuous monitoring and refinement.
-   
-For this workshop we will be working on Azure AI Studio, especially focusing on the playground feature. We can access Azure AI Studio by opening the Edge Browser and visiting [https://ai.azure.com](https://ai.azure.com?WT.mc_id=aiml-132569-bethanycheum)
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)]=(https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Faitour-interact-with-llms%2Fmain%2Flab%2FWorkshop%20Instructions%2Fassets%2FAITour24_WKR540_Template.json)
+## Prerequisites
+
+To complete the lab, you will need:
+
+- An Azure subscription - [Create one for free.](https://azure.microsoft.com/free/cognitive-services?WT.mc_id=aiml-132569-bethanycheum)
+- An Azure OpenAI resource with [GPT-4o and DALL.E 3 model supported in a supported region.](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview?WT.mc_id=aiml-132569-bethanycheum)
+
+## Deploying your resources
+
+In this workshop we will be working with Azure AI Studio. First, you will need to deploy the necessary resources using the steps below:
+
+1. Click the deploy to Azure button to deploy your resources: [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Faitour-interact-with-llms%2Fmain%2Flab%2FWorkshop%20Instructions%2Fassets%2FAITour24_WKR540_Template.json)
+
+2. In the tab that you just opened sign in to your Azure account.
+
+3. Once signed in, you will be redirected to create resources based on the custom template. Create a new Resource Group and name it: **interact-with-llms**. Next in the **Unique Suffix** field, add any unqiue four letters. Once done, click **Review and Create** button to create your resources
+
+4. For this workshop we will be working on Azure AI Studio, especially focusing on the playground feature. Once your deployment is complete, in your browser, navigate to Azure AI Studio by visiting the link [https://ai.azure.com](https://ai.azure.com?WT.mc_id=aiml-132569-bethanycheum)
 
 ![Homepage of Azure AI Studio](./Images/ai-studio-homepage.png)
 
 ## Navigating Azure AI Studio
 
-Let's start by clicking on **Sign In**, you can find the sign in link in the top right of the window, sign in with your account.
-
-Now that we are logged in, we can start navigating around the platform. 
-
-## Creating a new Hub
-
 ![Azure AI Studio logged in homepage](./Images/ai-studio-login-homepage.png)
 
-1. First, click on **All Hubs** under Management on the navigation panel on the left.
-2. Then, click on the **+ New Hub** button to create a new Hub. Update the Hub details as follows:
-![Image showing fields to be updated when creating a new hub](./Images/ai-studio-new-hub.PNG)
-    - Hub Name: **WRK-540**
-    - Subscription: **your Azure Subscription**
-    - Resource group: click on *create a new resource group*, and name it **interact-with-llms**. 
-    - Location: **East US**
-    - Leave **Connect Azure AI Services or Azure OpenAI** and **Connect Azure AI Search**
+1. To begin, navigate to the left-hand sidebar where you will find the **Management** section. Under this section, select **All Hubs.** This action will lead you to a centralized area where all available resources and tools are displayed, giving you an overview of your current hub connections. 
+2. Next, locate the **WRK540 AI Hub** in the list of available hubs. It is listed under the **"Name"** column. Click on this hub to access its settings and resources.
 
-    Once done, click **Next**.
+![Hub management tab](./Images/ai-studio-hubmanagement-hub.jpg)
 
-3. On **Review and finish** page, click **Create**.
-4. It will take a few minutes to create the resources. Once they are created, you will be redirected to the Hub Homepage.
+3. You will be redirected to the Hub Homepage.
 
-![Hub Homepage](./Images/ai-studio-hub-homepage.PNG)
+![Hub Homepage](./Images/ai-studio-hub-homepage.jpg)
 
 You will notice a set of elements once we have logged in and land on the Hub Homepage.
 
-### 1. Navigation Panel
+### Navigation Panel
 
 On the left side of the screen you will see a navigation panel with a group of different tabs.
 
@@ -62,17 +64,15 @@ On this page, we can see an overview of our Azure AI Studio Hub. This includes t
 - **Description**: A short description of the Azure AI Studio Hub we are in.
 - **Hub Properties**: A collection of various properties such as the Hub's name, its location, resource group, etc. Here we can find useful information such as *API endpoints and keys* and the *subscription's quota*.
 - **Connected Resources**: Azure AI Studio allows for multiple resources to be connected to it, expanding its features and functionality. Resources such as Azure AI Search, or in our case, Azure AI Service further increase the capabilities of our Hub, and grant us access to deployments such as LLMs or functionalities such as vector search.
-- **Permissions**: Allows us to grant access to collaborators or applications that may need to use the services within the Hub.
+- *Users**: Allows us to grant access to collaborators or applications that may need to use the services within the Hub.
 
-## Creating a new Project
+## Project Overview
 
- ![image showing where to click to create a project](./Images/ai-studio-new-project.PNG)
+1. Now, under the **Projects** section, locate the existing project. Click on this project to move forward and access the detailed project environment. 
  
-1. On the Hub homepage, click on **+ New project** to create a new project.
-2. In the pop up, update your Project name as **interact-with-llms**, then click **Create a project** to create a new project.
-3. Once the project is created, click on the Project name to move forward.
+ >[!alert] Click on the existing project to move forward.
  
- ![image showing where to click to access a project](./Images/ai-studio-project.PNG)
+ ![image showing where to click to access a project](./Images/ai-studio-click-project.png)
 
 The Project overview page is very similar to the Hub Overview, except the details are tied to the project instead of the Hub that hosts it. 
 
@@ -101,7 +101,9 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 ### Chat Playground
 
-![Image of Azure AI Studio Playground Chat Mode](./Images/ai-studio-playground.png)
+Within the Project playground section, navigate to the available tools and select **Chat.** This feature allows you to engage with and test various AI models in a conversational format.
+
+![Image of Azure AI Studio Playground Chat Mode](./Images/ai-studio-playground.jpg)
 
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
@@ -112,7 +114,9 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 ### Images Playground
 
-![Image of Azure AI Studio Playground Images Mode](./Images/ai-studio-image-playground.png)
+In the Project playground section, locate and select **Images.** This option allows you to work with image generation
+
+![Image of Azure AI Studio Playground Images Mode](./Images/ai-studio-image-playground.jpg)
 
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
 1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. In the case of images, descriptions of what we want to generate.
@@ -120,7 +124,9 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 ### Assistants Playground
 
-![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-playground.png)
+In the Project playground section, select **Assistants**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
+
+![Image of Azure AI Studio Playground Assistants Mode](./Images//ai-studio-assistants-functions-playground.jpg)
 
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
 1. **Assistant Name**: Here you can give your assistant a name.
@@ -132,32 +138,19 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 #### Tools in the Assistant Playground
 
-![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-functions-playground.png)
+Within the Assistants section, navigate to the **Tools** tab. This area provides access to various utilities that can enhance and extend the capabilities of your assistant.
+
+![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-functions-playground.jpg)
 
 1. **Tools**: Under tools in the Assistants Playground you will find file search, code interpreter and functions.
 1. **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
 1. **Code interpeter**: Code Interpreter allows the Assistants API to write and run code in a sandboxed execution environment. 
 1. **Functions**: This allows you to describe the structure of functions to an Assistant and then return the functions that need to be called along with their arguments..
 
-## Model deployment
-
-In this workshop, we will deploy two models: DALL.E 3 and GPT-4o. To deploy the models, follow the following steps:
-
-![image showing how to navigate to the deployments tabs](./Images/ai-studio-deployment.PNG)
-1. On the Navigation Bar on your left, click on **Deployments.**
-2. On the deployments page, click **+ Deploy model** and select **Deploy base model**
-3. Search and select **gpt-4o** and click **Confirm** to create a new model.
-![image showing the model deployment gpt4o](./Images/ai-studio-gpt4o-model.PNG)
-4. On the new popup, retain the model name as is, then click **Deploy**. Once deployed, go back to the Deployments page.
-<!-- ![](./Images/ai-studio-gpt4o-deploy.PNG) -->
-5. Click **+ Deploy model** and select **Deploy base model**. Search and select **dall-e-3** and click **Confirm** to create a new model. On the new popup, retain the model name as is, then click **Deploy**.
- ![image showing the model deployment dalle](./Images/ai-studio-dalle.PNG)
-6. Once the models have successfully been deployed, you are now ready to start.
-
-<!-- ![Model deployments page]() -->
-
 ## Ready to start
 
-That covers the necessary setup and basics of Azure AI Studio. We will now move forward to begin interacting with the models. 
+That covers the necessary setup and basics of Azure AI Studio. We will now move forward to begin interacting with the models.
 
->[!alert] Go back to the **Chat Playground** and move to Part 1: Text Generation
+Return to the  **Chat** under **project plaground** and click Next in the instructions to proceed to Part 1: Text Generation
+
+>[!alert] Go back to the **Chat Playground** and move to [Part 1: Text Generation](./02_Text_Generation.md)

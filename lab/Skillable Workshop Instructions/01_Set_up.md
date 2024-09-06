@@ -101,7 +101,7 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 ### Chat Playground
 
-1. Within the Project playground section, navigate to the available tools and select **Chat.** This feature allows you to engage with and test various AI models in a conversational format.
+Within the Project playground section, navigate to the available tools and select **Chat.** This feature allows you to engage with and test various AI models in a conversational format.
 
 ![Image of Azure AI Studio Playground Chat Mode](./Images/ai-studio-playground.jpg)
 
@@ -114,7 +114,7 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 ### Images Playground
 
-2. In the Project playground section, locate and select **Images.** This option allows you to work with image generation
+In the Project playground section, locate and select **Images.** This option allows you to work with image generation
 
 ![Image of Azure AI Studio Playground Images Mode](./Images/ai-studio-image-playground.jpg)
 
@@ -124,7 +124,7 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 ### Assistants Playground
 
-3. In the Project playground section, select **Assistants**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
+In the Project playground section, select **Assistants**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
 
 ![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-playground.jpg)
 
@@ -138,7 +138,7 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 
 #### Tools in the Assistant Playground
 
-4. Within the Assistants section, navigate to the **Tools** tab. This area provides access to various utilities that can enhance and extend the capabilities of your assistant.
+Within the Assistants section, navigate to the **Tools** tab. This area provides access to various utilities that can enhance and extend the capabilities of your assistant.
 
 ![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-functions-playground.jpg)
 
