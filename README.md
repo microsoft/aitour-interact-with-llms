@@ -2,9 +2,22 @@
 
 This repository is for the AI Tour workshop: Interacting with Large Language Models
 
+![session banner](./Images/banner.jpg)
+
 ## Session Desciption
 
+This workshop is designed to give you a hands-on introduction to the core concepts and best practices for interacting with OpenAI models in Azure AI Studio. If you have been provided with a Skillable Environment, you'll be using the VM and pre-provisioned Azure resources provided to you to complete the lab. If you are running this workshop on your own, you will need to have an Azure subscription and provision the resources yourself by deploying the resources to Azure.
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Faitour-interact-with-llms%2Fmain%2Flab%2FWorkshop%20Instructions%2Fassets%2FAITour24_WKR540_Template.json)
+
+### Abstract
+
 This lab provides a hands-on and engaging learning opportunity for working with Large Language Models. Learn how to use methods such as few-shot learning and chain of thought. See the creative possibilities of generative AI for image creation and multi-modal scenarios, master the skill of function calling and understand how the model can apply existing knowledge.
+
+### Duration
+75 Minutes
+
+### [Slide Deck](https://aka.ms/AAryqzi)
 
 ## Learning Outcomes
 * Understand how Large Language Models work, including what tokens are​

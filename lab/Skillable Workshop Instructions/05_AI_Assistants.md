@@ -31,46 +31,43 @@ Lastly, we can **Run** the assistant. This means activating an assistant to begi
 
 ## Creating the Assistant
 
-Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground.
+1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select **gpt-4o** model.
 
->[!TIP] 
-> **Ensure that you chose the correct deployment**. It should say **gpt-4o** along with its version. 
+    >[!TIP] 
+    > **Ensure that you chose the correct deployment**. It should say **gpt-4o** along with its version. 
 
-First, let's name our assistant. Type the following in the Assistant Name textbox:
+2. Next, let's name our assistant. Type the following in the Assistant Name textbox:
 
-```Contoso Outdoor Sales Assistant```
+    ```Contoso Outdoor Sales Assistant```
 
-Next, we can provide the Assistant with an **instruction**. Similar to the *System Message* we saw in previous sections, it provides the Assistant with goals to follow. Copy the following instructions into the instructions textbox.
+3. Next, we can provide the Assistant with an **instruction**. Similar to the *System Message* we saw in previous sections, it provides the Assistant with goals to follow. Navigate to the **Prompt** tab and copy the following instructions into the Instructions textbox.
 
-``` 
-You are a sales assistant for Contoso Outdoor. You are polite, professional, helpful and friendly.
+    ``` 
+    You are a sales assistant for Contoso Outdoor. You are polite, professional, helpful and friendly.
 
-You get all the sales data from the uploaded .csv files. There is sales revenue data that is broken down by region, product category, product type and separated by year and month.
+    You get all the sales data from the uploaded .csv files. There is sales revenue data that is broken down by region, product category, product type and separated by year and month.
 
-Examples of regions include Africa, Asia, Europe and America. Categories include climbing gear, camping equipment, apparel and others. Product categories include jackets, hammocks, wet suits, shoes and more. 
+    Examples of regions include Africa, Asia, Europe and America. Categories include climbing gear, camping equipment, apparel and others. Product categories include jackets, hammocks, wet suits, shoes and more. 
 
-If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
-```
+    If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
+    ```
 
-![Assistants Playground](Images/assistants_playground_with_name_and_instructions.png)
+    ![Assistants Playground](./Images/assistants_playground_with_name_and_prompt.png)
 
->[!NOTE]
->How many prompt engineering techniques from the previous sections are you able to identify in this prompt? For clues, check Part 2 of the workshop.
+    >[!NOTE]
+    >How many prompt engineering techniques from the previous sections are you able to identify in this prompt? For clues, check Part 2 of the workshop.
 
-Next, click on the **Tools** tab, and click to enable **Code Interpreter**.
+4. Click on the **Tools** tab, and click to enable **Code Interpreter** then click **Add files**.
 
-Click on **Add Files**. 
+    ![assistant attach new file](Images/assistants_playground_attach_new_file.png)
 
-![assistants code interpreter](Images/assistants-playground-code-interpreter-tool.png)
+6. On the pop up window, click on **Upload Local Files** and select the `Contoso_Sales_Revenue.csv` file on your Desktop and click on *Open*.
+    ![assistants code interpreter](Images/assistants-playground-code-interpreter-tool.png)
 
-On the pop up window, click on **Upload Local Files** and select the `Contoso_Sales_Revenue.csv` file on your Desktop and click on *Open*.
+    >[!NOTE]
+    > If you cannot find the file on your desktop, you can download it from [here](assets/Contoso_Sales_Revenue.csv).
 
-![assistant attach new file](Images/assistants_playground_attach_new_file.png)
-
->[!NOTE]
-> If you cannot find the file on your desktop, you can download it from [here](assets/Contoso_Sales_Revenue.csv).
-
-Click on the **Attach** button. You should now see the file under the *Code Interpreter* tool.
+7. Click on the **Attach** button. You should now see the file under the *Code Interpreter* tool.
 
 The assistant is now ready for us to interact with it.
 
@@ -81,21 +78,21 @@ You will notice that we get a series of sample questions that we can test. Test 
 
 2. Next, let's try a specific query. Type the following:
 
-```What are the total sales for Europe broken down by category? ```
+    ```What are the total sales for Europe broken down by category? ```
 
-You will notice the assistants makes use of the code interpreter to provide you with an answer.
+    You will notice the assistants makes use of the code interpreter to provide you with an answer.
 
 3. Now, let's try working with this data. Type the following prompt:
 
-```Put this data in a graph. ```
+    ```Put this data in a graph. ```
 
-Through code interpreter, the Assistant is able to convert the structured data into a graph!
+    Through code interpreter, the Assistant is able to convert the structured data into a graph!
 
 4. If you would like to see another type of graph, try the following prompt:
 
-```What is the trending product category? ```
+    ```What is the trending product category? ```
 
-The assistant should provide you with a graph showcasing a trending product by carrying out an analysis of the sales revenue data overtime.
+    The assistant should provide you with a graph showcasing a trending product by carrying out an analysis of the sales revenue data overtime.
 
 Congratulations! You have now completed the last part of the workshop and have learnt what Azure OpenAI Assistants are, how they work and how to create one using Azure AI Studio.
 
