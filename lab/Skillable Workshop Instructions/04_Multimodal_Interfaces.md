@@ -31,7 +31,7 @@ By now we have interacted with LLMs using a single modality: inputting text and 
 ![Uploading image as input](./Images/upload_image_icon.png)
 
 3. Select the *contoso_outdoor_ecommerce_sketch_notes.jpg* image from the local Desktop folder.
-Folder Path: Documents\Workshop-Interact-with-LLMs\Workshop instructions\Images\contoso_outdoor_ecommerce_sketch_notes.jpg. 
+Folder Path: Desktop\contoso_outdoor_ecommerce_sketch_notes.jpg. 
 
     If you cannot find the image on the local Desktop of your VM, you can download it from [here](./Images/contoso_outdoor_ecommerce_sketch_notes.jpg).
 

@@ -50,7 +50,7 @@ Now, let's modify the prompt by adding more details to the description:
 
 Select **Generate** once again and compare the results.
 
- ![Image of a purple elephant riding a skateboard in the style of Pablo Picasso](./Images/A%20purple%20elephant%20on%20a%20skateboard%20performing%20an%20olley,%20in%20the%20style%20of%20of%20Picasso.png)
+ ![Image of a purple elephant riding a skateboard in the style of Pablo Picasso](./Images/elephant-on-skateboard-picasso.png)
 
 ### Best practices
 
