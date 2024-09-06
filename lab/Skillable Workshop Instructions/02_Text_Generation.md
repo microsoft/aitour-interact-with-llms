@@ -15,8 +15,12 @@ Let's start with a few prompts and observe the response using the chat playgroun
 1. In Project playground section, on the left-hand navigation bar, navigate to the available tools and select **Chat.** 
 2. In the Chat playground, find the text box labeled _"Type user query here."_
 3. From the prompt examples below, click the "T" (e.g., ``here is a sample prompt``) which will automatically input for you at the current cursor location, with one click.
-4. After typing your message, locate the Paper Plane icon, usually positioned next to the input box. Click on the Paper Plane icon to submit your text to the model deployment.
+4. After adding your prompt, locate the Paper Plane icon, usually positioned next to the input box. Click on the Paper Plane icon to submit your text to the model deployment.
 5. After sending your query, wait a moment for the model to process and respond. The response will appear in the chat window below your input.
+
+> [!alert]
+> If you receive an error message indicating "you have exceeded token rate limi", wait one minute and then try again.
+
 
 Here are some examples to try, but get creative with your own prompts and see what happens!
 

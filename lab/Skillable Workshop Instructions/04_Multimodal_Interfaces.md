@@ -53,7 +53,7 @@ Folder Path: Documents\Workshop-Interact-with-LLMs\Workshop instructions\Images\
 
 Next, we will prompt the model to generate a code snippet for the website using the sketch as a reference.
 1. Go to the **Parameters** tab and set the *Max Response* to 4000.
-1. Add the text below to instruct the model on how to use the image input:
+1. Go back to the text field in the chat window and add the text below to instruct the model on how to use the image input:
 
     ```
     Generate the html and bootstrap code to implement the UI of the Contoso Outdoor Company e-commerce landing page, based on the hand-drawn sketches in the image.
@@ -63,8 +63,10 @@ Next, we will prompt the model to generate a code snippet for the website using 
 
 If you want to view the code syntax is correct and what the template looks like:
 1. Launch the Visual Studio Code (VS Code) application on your Virtual Machine.
-2. n the top menu bar, click on File. From the dropdown menu, choose New File. This will open a new, blank document in the editor.
-3. In the new document, go to File again and select **Save As**. Enter ``website.html`` as the file name. Navigate to the Desktop or your desired location to save the file.
+2. In the top menu bar, click on File. From the dropdown menu, choose New File. This will open a pop up in your VS Code.
+
+![alt text](./Images/image.png)
+3. In the pop up, enter ``website.html`` as the file name, then click **Create New File**. It will open up File Explorer, click on **Create File** to create and save your new file.
 4. Copy the HTML code you have generated. Paste this code into the newly created website.html file in VS Code.
 5. In the top-right corner of the VS Code interface, find and click the **Open Preview to the Side button.** This button often looks like a split-screen icon or might be labeled as **Open Preview**.
 6. The preview pane will open on the side, displaying the rendered output of your HTML code.
@@ -79,7 +81,7 @@ If you are not satisfied with the result you got in the previous step, you can a
 > [!NOTE]
 > If the model indicates an inability to perform the task, you can **handle the refusal** by requesting explanations for generated responses and what kind of information it misses to compete the task.
 
->[!alert] In the System message field insert the text below, then click "Apply changes".
+>[!alert] Select the System Message tab. In the window titled "Give the model instructions and context" clear the information and replace it with the following and then choose Apply Changes. 
 
 ```
 ## Task
