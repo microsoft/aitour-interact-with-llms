@@ -151,9 +151,9 @@ Within the Assistants section, navigate to the **Tools** tab. This area provides
 
 That covers the necessary setup and basics of Azure AI Studio. We will now move forward to begin interacting with the models. 
 
-5. Return to the  **Chat** under **project plaground** and click Next in the instructions to proceed to Part 1: Text Generation
+5. Return to the  **Chat** under **project playground** and click Next in the instructions to proceed to Part 1: Text Generation
 
 
->[!alert] Return to the  **Chat** under **project plaground** and click Next in the instructions to proceed to Part 1: Text Generation
+>[!alert] Return to the  **Chat** under **project playground** and click Next in the instructions to proceed to Part 1: Text Generation
 
 Click **Next** to advance to the Function Calling section.

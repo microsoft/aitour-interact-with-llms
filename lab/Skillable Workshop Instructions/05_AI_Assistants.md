@@ -42,6 +42,9 @@ Lastly, we can **Run** the assistant. This means activating an assistant to begi
 
 3. Next, we can provide the Assistant with an **instruction**. Similar to the *System Message* we saw in previous sections, it provides the Assistant with goals to follow. Navigate to the **Prompt** tab and copy the following instructions into the Instructions textbox.
 
+    >[!alert]
+    >If the instruction box is inactive change the browser url from [ai.azure.com](https://ai.azure.com) to [int.ai.azure.com](https://int.ai.azure.com)
+
     ``` 
     You are a sales assistant for Contoso Outdoor. You are polite, professional, helpful and friendly.
 
