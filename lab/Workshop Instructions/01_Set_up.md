@@ -18,11 +18,15 @@ In this workshop we will be working with Azure AI Studio. First, you will need t
 
 2. In the tab that you just opened sign in to your Azure account.
 
-3. Once signed in, you will be redirected to create resources based on the custom template. Create a new Resource Group and name it: **interact-with-llms**. Next in the **Unique Suffix** field, add any unqiue four letters. Once done, click **Review and Create** button to create your resources
+3. Once signed in, you will be redirected to create resources based on the custom template. Create a new Resource Group and name it: **interact-with-llms**. 
 
-4. For this workshop we will be working on Azure AI Studio, especially focusing on the playground feature. Once your deployment is complete, in your browser, navigate to Azure AI Studio by visiting the link [https://ai.azure.com](https://ai.azure.com?WT.mc_id=aiml-132569-bethanycheum)
+4. Next in the **Unique Suffix** field, add any unqiue four letters. Once done, click **Review and Create** button to create your resources
 
-![Homepage of Azure AI Studio](./Images/ai-studio-homepage.png)
+> [!NOTE]
+> Deployment of the resources will take ~2-3 minutes to complete.
+
+5. For this workshop we will be working on Azure AI Studio, especially focusing on the playground feature. Once your deployment is complete, in your browser, navigate to Azure AI Studio by visiting the link [https://ai.azure.com](https://ai.azure.com?WT.mc_id=aiml-132569-bethanycheum)
+
 
 ## Navigating Azure AI Studio
 
