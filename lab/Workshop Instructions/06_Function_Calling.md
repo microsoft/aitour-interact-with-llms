@@ -162,9 +162,9 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
 
 >[!alert] Before moving on with the next part, delete the existing functions we had created.
 
-1. Delete the existing **find_products** and **tourist_attractions** functions.
+1. Delete the existing **search_hotels** and **tourist_attractions** functions.
 
-1. Create a new function called **find_products** with the parameters category, activity and cost. 
+2. Create a new function called **find_products** with the parameters category, activity and cost. 
 
   ```
   {
@@ -192,19 +192,11 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
     }
   }
 ```
-
-3. Navigate to the **Prompt** tab, erase the exisiting instructions and copy the following instructions into the Instructions textbox.
-
-  ```
-  You are an AI assistant that helps people find hotels. 
-  In the conversation with the user, your goal is to retrieve the required fields for the function search_hotels.
-  ```
-
-2. To test the function we have added, try the prompt below:
+3. To test the function we have added, try the prompt below:
 
    ```I need a warm jacket.```
 
-3. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
+4. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
 
 ## Next Steps
 
