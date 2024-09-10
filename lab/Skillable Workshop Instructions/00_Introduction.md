@@ -20,10 +20,6 @@ You are a developer at *Contoso Outdoor Company*, a leading e-commerce company t
 > [!TIP]
 > You can find login and subscription information over on the Resources tab
 
-Before you start, in the virtual machine, sign in with the following credentials
-- Username: will already be set to Admin.
-- Password: enter +++@lab.VirtualMachine(Win11Base23B-W11-22H2).Password+++ and click the arrow on the right.
-
 All additional information on the lab can be found on GitHub:
 
 - [Skillable Workshop Instructions](https://github.com/microsoft/aitour-interact-with-llms/blob/main/lab/Skillable%20Workshop%20Instructions/00_Introduction.md)

@@ -19,7 +19,13 @@ Working with functions can be broken down into three high-level steps:
 
 1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select **gpt-4o** model. 
 
-1. First we will clear some of the changes we had previously made. Navigate to **Prompt** and clear the Instructions. Next, navigate to the **Tools** tab and remove the **Contoso_Sales_Revenue.csv** file we uploaded. Lastly, on the top left of the chat window, select **CLear Chat**.
+1. First we will clear some of the changes we had previously made. Navigate to **Prompt** and clear the Instructions. 
+
+![image on the step to clear prompt instructions](./Images/ai-studio-clear-instructios.png)
+
+1. Next, navigate to the **Tools** tab and remove the **Contoso_Sales_Revenue.csv** file we uploaded. Lastly, on the top left of the chat window, select **Clear Chat**.
+
+![image on the step to delete contoso_sales_Revenue file](./Images/ai-studio-remove-csv-file.png)
 
 2. Next, update the Assistant **instruction**.
 
@@ -87,7 +93,7 @@ You can add your function as follows:
 
 ![chat conversation with the model to output structured json](./Images/ai-studio-function-calling-chat.jpg)
 
->[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
+<!-- >[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history. -->
 
 ## Best Practices for Function Calling
 
@@ -105,13 +111,13 @@ You can add your function as follows:
 
 We can create a parallel function to find local attractions in the area.
 
-1. First update the prompt instructions to include the tourist attractions function:
+1. First update the existing prompt instructions by adding the instructions below to call the tourist attractions function:
 
   ```
   Once you have retrieved the information use tourist_activities to get a list of activities a person can engage in once in the select country.
   ```
 
-2. Create a new function referencing the local tourist attractions in the location:
+2. In addition to the existing function, create a new function referencing the local tourist attractions in the location:
 
   ```
   {
@@ -156,6 +162,8 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
 
 >[!alert] Before moving on with the next part, delete the existing functions we had created.
 
+1. Delete the existing **find_products** and **tourist_attractions** functions.
+
 1. Create a new function called **find_products** with the parameters category, activity and cost. 
 
   ```
@@ -185,9 +193,16 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
   }
 ```
 
+3. Navigate to the **Prompt** tab, erase the exisiting instructions and copy the following instructions into the Instructions textbox.
+
+  ```
+  You are an AI assistant that helps people find hotels. 
+  In the conversation with the user, your goal is to retrieve the required fields for the function search_hotels.
+  ```
+
 2. To test the function we have added, try the prompt below:
 
-  ```I need a warm jacket.```
+   ```I need a warm jacket.```
 
 3. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
 
