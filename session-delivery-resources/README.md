@@ -18,8 +18,8 @@ code.
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AAryqzi) | Slides |
-| Session Delivery Resources PPT Recording     | [Video]() | Recorded delivery of the Session Delivery Resources PowerPoint slides |
-| Session Delivery Resources PowerPoint |  [Video]() | The Session Delivery Resources slides for this workshop |
+| Session Delivery Resources PPT Recording     | [Video](https://aka.ms/AAs7etz) | Recorded delivery of the Session Delivery Resources PowerPoint slides |
+| Session Delivery Resources PowerPoint |  [Deck](https://aka.ms/AAs7mfu) | The Session Delivery Resources slides for this workshop |
 | Workshop Instructions |  [Video](/lab/Workshop%20Instructions/00_Introduction.md) | Step by step instructions to interact with LLMs |
 | Skillable Workshop Instructions |  [Video](/lab/Skillable%20Workshop%20Instructions/00_Introduction.md) | Skillable lab instructions |
 
