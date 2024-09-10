@@ -17,16 +17,20 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](https://aka.ms/AAryqzi) | Slides |
-<!-- | PPT Recording     | - [Presentation]() | Video Recording of the PowerPoint slides with no audio | -->
+| PowerPoint        | [Presentation](https://aka.ms/AAryqzi) | Slides |
+| Session Delivery Resources PPT Recording     | [Video]() | Recorded delivery of the Session Delivery Resources PowerPoint slides |
+| Session Delivery Resources PowerPoint |  [Video]() | The Session Delivery Resources slides for this workshop |
+| Workshop Instructions |  [Video](/lab/Workshop%20Instructions/00_Introduction.md) | Step by step instructions to interact with LLMs |
+| Skillable Workshop Instructions |  [Video](/lab/Skillable%20Workshop%20Instructions/00_Introduction.md) | Skillable lab instructions |
+
 
 ## Get Started
 
 This repository is divided in to the following sections:
 
-| [Slides](https://aka.ms/AAryqzi) | [Skillable Workshop Instructions](/lab/Skillable%20Workshop%20Instructions/00_Introduction.md) | [Non-Skillable Workshop Instructions](/lab/README.md) | 
+| [Slides](https://aka.ms/AAryqzi) | [Skillable Workshop Instructions](/lab/Skillable%20Workshop%20Instructions/00_Introduction.md) | [Non-Skillable Workshop Instructions](/lab/Workshop%20Instructions/00_Introduction.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 35 slides - 75 minutes| 5 parts - 15 minutes | Running the workshop outside Skillable |
+| 35 slides  | 3 parts - 15 minutes | [Running the workshop outside Skillable](/lab/Workshop%20Instructions/00_Introduction.md) |
 
 ## Slides
 
@@ -65,4 +69,12 @@ The [slides](https://aka.ms/AAryqzi) have presenter notes in each part of the se
 To deliver this session with no Skillable access, please make sure to that the audience has the following requirements adhrered to when completing the lab:
 
 - An Azure subscription - [Create one for free.](https://azure.microsoft.com/free/cognitive-services?WT.mc_id=aiml-132569-bethanycheum)
-- An Azure OpenAI resource with [GPT-4o and DALL.E 3 model supported in a supported region.](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview?WT.mc_id=aiml-132569-bethanycheum)
+- An Azure OpenAI resource with [GPT-4o and DALL.E 3 model supported in a supported region.](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview?WT.mc_id=aiml-132569-bethanycheum) Regions recommended are **East US** and **Sweden Central.**
+
+To deploy the resources to Azure, you can simply click the **Deploy to Azure** button.
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Faitour-interact-with-llms%2Fmain%2Flab%2FWorkshop%20Instructions%2Fassets%2FAITour24_WKR540_Template.json)
+
+All the workshop isntructions can be found [here](/lab/Workshop%20Instructions/00_Introduction.md)
+
+
