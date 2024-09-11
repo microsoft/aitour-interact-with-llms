@@ -30,7 +30,11 @@ For this workshop we will be working on Azure AI Studio, especially focusing on 
 
 ![Azure AI Studio logged in homepage](./Images/ai-studio-hubmanagement.jpg)
 
-2. To begin, navigate to the left-hand sidebar where you will find the **Management** section. Under this section, select **All Hubs.** This action will lead you to a centralized area where all available resources and tools are displayed, giving you an overview of your current hub connections. 
+2. To begin, navigate to the left-hand sidebar where you will find the **Management** section. Under this section, select **All Resources.** This action will lead you to a centralized area where all available resources and tools are displayed, giving you an overview of your current hub connections.
+
+> [NOTE!]
+> In case you can't find the **all Resources** section, click on the **all hubs** section.
+
 3. Next, locate the **WRK540 AI Hub** in the list of available hubs. It is listed under the **"Name"** column. Click on this hub to access its settings and resources.
 
 ![Hub management tab](./Images/ai-studio-hubmanagement-hub.jpg)
