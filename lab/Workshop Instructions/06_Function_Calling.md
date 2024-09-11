@@ -159,7 +159,7 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
 
 1. Click on **New Assistant** to create a new assistant.
 
-1. Create a new function called **find_products** with the parameters category, activity and cost. 
+2. Create a new function called **find_products** with the parameters category, activity and cost. 
 
   ```
   {
@@ -201,8 +201,10 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
 
 5. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
 
+
 ## Next Steps
 
 Congratulations! You have now completed the 5th part of the lab and you learnt how to interact with LLMs using Function Calling. 
 
 Navigate to the [Summary](./07_Summary.md) section of the workshop.
+
