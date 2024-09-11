@@ -31,7 +31,9 @@ Lastly, we can **Run** the assistant. This means activating an assistant to begi
 
 ## Creating the Assistant
 
-1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select **gpt-4o** model.
+1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. Click **+ New assistant** to get started.
+
+2. In the **Deployments** section, ensure you select **gpt-4o** model.
 
     >[!TIP] 
     > **Ensure that you chose the correct deployment**. It should say **gpt-4o** along with its version. 
