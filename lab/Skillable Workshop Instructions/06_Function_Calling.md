@@ -19,15 +19,9 @@ Working with functions can be broken down into three high-level steps:
 
 1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select **gpt-4o** model. 
 
-1. First we will clear some of the changes we had previously made. Navigate to **Prompt** and clear the Instructions. 
+2. Click on **+ New assistant** to get started with this section.
 
-![image on the step to clear prompt instructions](./Images/ai-studio-clear-instructios.png)
-
-1. Next, navigate to the **Tools** tab and remove the **Contoso_Sales_Revenue.csv** file we uploaded. Lastly, on the top left of the chat window, select **Clear Chat**.
-
-![image on the step to delete contoso_sales_Revenue file](./Images/ai-studio-remove-csv-file.png)
-
-2. Next, update the Assistant **instruction**.
+3. Next, update the Assistant **instruction**.
 
   - In the Prompt Instructions explain the goal of the assistant
   - Explain the information that needs to be gathered
@@ -36,7 +30,7 @@ Working with functions can be broken down into three high-level steps:
   > [!TIP]
   > Instructions are similar to system messages in the chat playground.
 
-3. Navigate to the **Prompt** tab and copy the following instructions into the Instructions textbox.
+4. Navigate to the **Prompt** tab and copy the following instructions into the Instructions textbox.
 
   ```
   You are an AI assistant that helps people find hotels. 
