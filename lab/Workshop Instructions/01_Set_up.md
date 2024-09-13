@@ -78,7 +78,8 @@ On this page, we can see an overview of our Azure AI Studio Hub. This includes t
 
 1. Now, under the **Projects** section, locate the existing project. Click on this project to move forward and access the detailed project environment. 
  
- >[!alert] Click on the existing project to move forward.
+ > [!Alert] 
+ > Click on the existing project to move forward.
  
  ![image showing where to click to access a project](./Images/ai-studio-click-project.png)
 
