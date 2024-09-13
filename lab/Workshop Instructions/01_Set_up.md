@@ -34,7 +34,7 @@ In this workshop we will be working with Azure AI Studio. First, you will need t
 
 1. To begin, navigate to the left-hand sidebar where you will find the **Management** section. Under this section, select **All Resources.** This action will lead you to a centralized area where all available resources and tools are displayed, giving you an overview of your current hub connections.
 
-> [NOTE!]
+> [!NOTE]
 > In case you can't find the **all Resources** section, click on the **all hubs** section.
 
 2. Next, locate the **WRK540 AI Hub** in the list of available hubs. It is listed under the **"Name"** column. Click on this hub to access its settings and resources.
@@ -78,7 +78,8 @@ On this page, we can see an overview of our Azure AI Studio Hub. This includes t
 
 1. Now, under the **Projects** section, locate the existing project. Click on this project to move forward and access the detailed project environment. 
  
- >[!alert] Click on the existing project to move forward.
+ > [!IMPORTANT]
+ > Click on the existing project to move forward.
  
  ![image showing where to click to access a project](./Images/ai-studio-click-project.png)
 
@@ -161,4 +162,5 @@ That covers the necessary setup and basics of Azure AI Studio. We will now move 
 
 Return to the  **Chat** under **project plaground** and click Next in the instructions to proceed to Part 1: Text Generation
 
->[!alert] Go back to the **Chat Playground** and move to [Part 1: Text Generation](./02_Text_Generation.md)
+> [!IMPORTANT]
+> Go back to the **Chat Playground** and move to [Part 1: Text Generation](./02_Text_Generation.md)
