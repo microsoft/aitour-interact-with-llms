@@ -162,4 +162,5 @@ That covers the necessary setup and basics of Azure AI Studio. We will now move 
 
 Return to the  **Chat** under **project plaground** and click Next in the instructions to proceed to Part 1: Text Generation
 
->[!ALERT] Go back to the **Chat Playground** and move to [Part 1: Text Generation](./02_Text_Generation.md)
+> [!alert] 
+> Go back to the **Chat Playground** and move to [Part 1: Text Generation](./02_Text_Generation.md)
