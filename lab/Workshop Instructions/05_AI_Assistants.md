@@ -33,7 +33,7 @@ Lastly, we can **Run** the assistant. This means activating an assistant to begi
 
 1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select **gpt-4o** model.
 
-    >[!TIP] 
+    > [!TIP] 
     > **Ensure that you chose the correct deployment**. It should say **gpt-4o** along with its version. 
 
 2. Next, let's name our assistant. Type the following in the Assistant Name textbox:
@@ -54,8 +54,8 @@ Lastly, we can **Run** the assistant. This means activating an assistant to begi
 
     ![Assistants Playground](./Images/assistants_playground_with_name_and_prompt.png)
 
-    >[!NOTE]
-    >How many prompt engineering techniques from the previous sections are you able to identify in this prompt? For clues, check Part 2 of the workshop.
+    > [!NOTE]
+    > How many prompt engineering techniques from the previous sections are you able to identify in this prompt? For clues, check Part 2 of the workshop.
 
 3. Download the `Contoso_Sales_Revenue.csv` from [here](./assets/Contoso_Sales_Revenue.csv).
 
@@ -66,7 +66,7 @@ Lastly, we can **Run** the assistant. This means activating an assistant to begi
 6.  On the pop up window, click on **Upload Local Files** and select the `Contoso_Sales_Revenue.csv` file on you just downloaded and click on *Open*.
     ![assistants code interpreter](Images/assistants-playground-code-interpreter-tool.png)
 
-    >[!NOTE]
+    > [!NOTE]
     > If you cannot find the file on your desktop, you can download it from [here](./assets/Contoso_Sales_Revenue.csv).
 
 7. Click on the **Attach** button. You should now see the file under the *Code Interpreter* tool.

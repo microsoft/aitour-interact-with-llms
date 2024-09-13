@@ -78,7 +78,7 @@ On this page, we can see an overview of our Azure AI Studio Hub. This includes t
 
 1. Now, under the **Projects** section, locate the existing project. Click on this project to move forward and access the detailed project environment. 
  
- > [!ALERT] 
+ > [!IMPORTANT]
  > Click on the existing project to move forward.
  
  ![image showing where to click to access a project](./Images/ai-studio-click-project.png)
@@ -162,5 +162,5 @@ That covers the necessary setup and basics of Azure AI Studio. We will now move 
 
 Return to the  **Chat** under **project plaground** and click Next in the instructions to proceed to Part 1: Text Generation
 
-> [!alert] 
+> [!IMPORTANT]
 > Go back to the **Chat Playground** and move to [Part 1: Text Generation](./02_Text_Generation.md)
