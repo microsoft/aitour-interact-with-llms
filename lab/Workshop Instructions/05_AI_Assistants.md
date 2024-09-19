@@ -6,7 +6,7 @@ So far, we have interacted with Large Language Models in many different ways. Ho
 
 
 > [!TIP] 
-> **What is an Azure OpenAI Assistant?** Azure OpenAI Assistant is a new feature of Azure OpenAI Service, that makes it easier for developers to create applications with sophisticated copilot-like experiences that can sift through data, suggest solutions, and automate tasks. It integrates capabilities such as state management, context association, chat threads, and code execution, making it easier to access third-party extensions​.
+> **What is an Azure OpenAI Assistant?** Azure OpenAI Assistant is a new feature of Azure OpenAI Service that makes it easier for developers to create applications with sophisticated copilot-like experiences that can sift through data, suggest solutions, and automate tasks. It integrates capabilities such as state management, context association, chat threads, and code execution, making it easier to access third-party extensions​.
 
 Previously, building custom AI assistants needed heavy lifting even for experienced developers. While the chat completions API is lightweight and powerful, it's inherently stateless, which means that developers had to manage conversation state and chat threads, tool integrations, retrieval documents and indexes, and execute code manually.
 
@@ -31,7 +31,7 @@ Lastly, we can **Run** the assistant. This means activating an assistant to begi
 
 ## Creating the Assistant
 
-1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select **gpt-4o** model.
+1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. In the **Deployments** section, ensure you select the **gpt-4o** model.
 
     > [!TIP] 
     > **Ensure that you chose the correct deployment**. It should say **gpt-4o** along with its version. 
@@ -94,7 +94,7 @@ You will notice that we get a series of sample questions that we can test. Test 
 
     ```What is the trending product category? ```
 
-    The assistant should provide you with a graph showcasing a trending product by carrying out an analysis of the sales revenue data overtime.
+    The assistant should provide you with a graph showcasing a trending product by carrying out an analysis of the sales revenue data over time.
 
 Congratulations! You have now completed the last part of the workshop and have learnt what Azure OpenAI Assistants are, how they work and how to create one using Azure AI Studio.
 

@@ -3,9 +3,9 @@
 In this section, we will explore another modality we can interact with LLMs - function calling. This allows you to include functions in your requests, and the model will respond with a JSON object containing the function’s arguments. The models are capable of formulating API calls and structuring data outputs based on the functions you provide.
 
 > [!TIP]
-> **What is function calling?** GPT-3.5, GPT-4o and GPT-4-turbo models can take user-defined functions as input and generate structured output. The models are capable of formulating API calls and structuring data outputs based on the functions you provide.
+> **What is function calling?** GPT-3.5, GPT-4o, GPT-4, and GPT-4-turbo models can take user-defined functions as input and generate structured output. The models are capable of formulating API calls and structuring data outputs based on the functions you provide.
 
-The latest versions of gpt-35-turbo and gpt-4 are fine-tuned to work with functions and are able to both determine when and how a function should be called. If one or more functions are included in your request, the model determines if any of the functions should be called based on the context of the prompt. When the model determines that a function should be called, it responds with a JSON object including the arguments for the function.
+The latest versions of GPT-3.5-turbo and GPT-4 are fine-tuned to work with functions and are able to both determine when and how a function should be called. If one or more functions are included in your request, the model determines if any of the functions should be called based on the context of the prompt. When the model determines that a function should be called, it responds with a JSON object including the arguments for the function.
 
 The models formulate API calls and structure data outputs, all based on the functions you specify. It's important to note that while the models can generate these calls, it's up to you to execute them, ensuring you remain in control.
 
@@ -49,7 +49,7 @@ You can add your function as follows:
 
 1. In the Assistants Playground, navigate to the **Tools** tab, you should see an option labeled **Add Function**. Click on this option to create a new function.
 
-2. A pop up window will appear where you can input the necessary details for your new function. In the pop up window, copy the following function: 
+2. A pop-up window will appear where you can input the necessary details for your new function. In the pop-up window, copy the following function: 
 
   ```
   {
@@ -92,7 +92,7 @@ You can add your function as follows:
 
 ## Best Practices for Function Calling
 
-- Define **Clear Function Parameters:** Ensure that each function has a clear and concise description, along with well-defined parameters. This helps the model understand when and how to call the function, reducing ambiguity and improving the acuracy of the model's responses.
+- Define **Clear Function Parameters:** Ensure that each function has a clear and concise description, along with well-defined parameters. This helps the model understand when and how to call the function, reducing ambiguity and improving the accuracy of the model's responses.
 
 - **Error Handling:** Include robust error handling in your functions to manage unexpected inputs or failures gracefully.
 
@@ -109,7 +109,7 @@ We can create a parallel function to find local attractions in the area.
 1. First update the existing prompt instructions by adding the instructions below to call the tourist attractions function:
 
   ```
-  Once you have retrieved the information use tourist_activities to get a list of activities a person can engage in once in the select country.
+  Once you have retrieved the information, use tourist_activities to get a list of activities a person can engage in once in the select country.
   ```
 
 2. In addition to the existing function, create a new function referencing the local tourist attractions in the location:
@@ -147,7 +147,7 @@ We can create a parallel function to find local attractions in the area.
 
 ## Bringing it all together
 
-For the Contoso Outdoor Company, we can create a function that searches through the catalog based on specific parameter, that is: product category, activity and cost of the product.
+For the Contoso Outdoor Company, we can create a function that searches through the catalog based on specific parameters, that is: product category, activity and cost of the product.
 
 First we will need to update the instructions with a description and sample catalog for the different products. Replace the existing instructions with:
 
