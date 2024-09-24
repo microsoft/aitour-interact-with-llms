@@ -88,6 +88,40 @@ You can add your function as follows:
 
 ![chat conversation with the model to output structured json](./Images/ai-studio-function-calling-chat.jpg)
 
+6. Provide the answers to the model like the example below:
+
+```
+Amsterdam, $234, a hotel with a beachfront view
+```
+
+7. The model should return to you the parameters in a JSON format so your application can call the function.
+8. Suppose your function return 2 hotels which meet the traveler requirements. Let's inform the model by pasting the following answer in the submit output box:
+
+```
+[
+    { 
+        "Name": "Beach Hotel Amsterdam",
+        "Price": 150,
+        "City": "Amsterdam",
+        "Country": "Netherlands",
+        "Stars": 3,
+        "FreeRooms": 5,
+        "Ammenities": ["Free Wi-Fi", "Free Parking", "Swimming Pool"]
+    },
+    { 
+        "Name": "Hotel Amsterdam Sea",
+        "Price": 200,
+        "City": "Amsterdam",
+        "Country": "Netherlands",
+        "Stars": 3,
+        "FreeRooms": 2,
+        "Ammenities": ["Swimming Pool"]
+    }
+]
+```
+
+9. Finally the model returns a message with the hotel details in an user-friendly format. 
+
 <!-- >[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history. -->
 
 ## Best Practices for Function Calling
@@ -141,7 +175,11 @@ We can create a parallel function to find local attractions in the area.
 
   ```What activities can I engage in while in Amsterdam?```
 
-  You will receive a structured output.
+4. The model might ask you for more details. If it does, provide an interesting activity, like:
+
+  ```Cycling```
+
+5. You will receive a structured output that you can use to call an external function.
 
 >[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
 
@@ -200,7 +238,9 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
    ```I need a warm jacket.```
 
 5. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
+6. To take a look at the properties returned by the model, provide an answer to it like the one below:
 
+   ```Hiking, $100```
 
 ## Next Steps
 
