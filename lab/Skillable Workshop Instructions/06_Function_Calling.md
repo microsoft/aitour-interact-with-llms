@@ -85,6 +85,40 @@ You can add your function as follows:
 
 5. The agent should start asking you about location, price and hotel features and finally call the function and return the properties in JSON format.
 
+6. Provide the answers to the model like the example below:
+
+```
+Amsterdam, $234, a hotel with a beachfront view
+```
+
+7. The model should return to you the parameters in a JSON format so your application can call the function.
+8. Suppose your function return 2 hotels which meet the traveler requirements. Let's inform the model by pasting the following answer in the submit output box:
+
+```
+[
+    { 
+        "Name": "Beach Hotel Amsterdam",
+        "Price": 150,
+        "City": "Amsterdam",
+        "Country": "Netherlands",
+        "Stars": 3,
+        "FreeRooms": 5,
+        "Ammenities": ["Free Wi-Fi", "Free Parking", "Swimming Pool"]
+    },
+    { 
+        "Name": "Hotel Amsterdam Sea",
+        "Price": 200,
+        "City": "Amsterdam",
+        "Country": "Netherlands",
+        "Stars": 3,
+        "FreeRooms": 2,
+        "Ammenities": ["Swimming Pool"]
+    }
+]
+```
+
+9. Finally the model returns a message with the hotel details in an user-friendly format. 
+
 ![chat conversation with the model to output structured json](./Images/ai-studio-function-calling-chat.jpg)
 
 <!-- >[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history. -->
@@ -142,23 +176,27 @@ We can create a parallel function to find local attractions in the area.
 
   You will receive a structured output.
 
+4. The model might ask you for more details. If it does, provide an interesting activity, like:
+
+  ```Cycling```
+
+5. You will receive a structured output that you can use to call an external function.
+
 >[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
 
 ## Bringing it all together
 
 For the Contoso Outdoor Company, we can create a function that searches through the catalog based on specific parameter, that is: product category, activity and cost of the product.
 
-First we will need to update the instructions with a description and sample catalog for the different products. Replace the existing instructions with:
+1. Click on **New Assistant** to create a new assistant.
+
+2. Update the instructions with a description and sample catalog for the different products. Replace the existing instructions with:
 
 ```
 You are an AI assistant that helps people find products in the Contoso Outdoor Company’s database. In the conversation with the user, your goal is to retrieve the required fields for the function find_products.
 ```
 
->[!alert] Before moving on with the next part, delete the existing functions we had created.
-
-1. Click on **New Assistant** to create a new assistant.
-
-1. Create a new function called **find_products** with the parameters category, activity and cost. 
+3. Create a new function called **find_products** with the parameters category, activity and cost. 
 
   ```
   {
@@ -187,18 +225,18 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
   }
 ```
 
-3. Navigate to the **Prompt** tab, erase the exisiting instructions and copy the following instructions into the Instructions textbox.
+4. Navigate to the **Prompt** tab, erase the exisiting instructions and copy the following instructions into the Instructions textbox.
 
   ```
   You are an AI assistant that helps people find products. 
   In the conversation with the user, your goal is to retrieve the required fields for the function find_products.
   ```
 
-4. To test the function we have added, try the prompt below:
+5. To test the function we have added, try the prompt below:
 
    ```I need a warm jacket.```
 
-5. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
+6. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
 
 ## Next Steps
 

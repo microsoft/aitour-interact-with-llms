@@ -187,17 +187,15 @@ We can create a parallel function to find local attractions in the area.
 
 For the Contoso Outdoor Company, we can create a function that searches through the catalog based on specific parameters, that is: product category, activity and cost of the product.
 
-First we will need to update the instructions with a description and sample catalog for the different products. Replace the existing instructions with:
+1. Click on **New Assistant** to create a new assistant.
+
+2. Update the instructions with a description and sample catalog for the different products. Replace the existing instructions with:
 
 ```
 You are an AI assistant that helps people find products in the Contoso Outdoor Company’s database. In the conversation with the user, your goal is to retrieve the required fields for the function find_products.
 ```
 
->[!alert] Before moving on with the next part, delete the existing functions we had created.
-
-1. Click on **New Assistant** to create a new assistant.
-
-2. Create a new function called **find_products** with the parameters category, activity and cost. 
+3. Create a new function called **find_products** with the parameters category, activity and cost. 
 
   ```
   {
@@ -226,19 +224,20 @@ You are an AI assistant that helps people find products in the Contoso Outdoor C
   }
 ```
 
-3. Navigate to the **Prompt** tab, erase the exisiting instructions and copy the following instructions into the Instructions textbox.
+4. Navigate to the **Prompt** tab, erase the exisiting instructions and copy the following instructions into the Instructions textbox.
 
   ```
   You are an AI assistant that helps people find products. 
   In the conversation with the user, your goal is to retrieve the required fields for the function find_products.
   ```
 
-4. To test the function we have added, try the prompt below:
+5. To test the function we have added, try the prompt below:
 
    ```I need a warm jacket.```
 
-5. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
-6. To take a look at the properties returned by the model, provide an answer to it like the one below:
+6. The agent should start asking you about activity category and maximum budget then finally call the function and return the properties in JSON format.
+
+7. To take a look at the properties returned by the model, provide an answer to it like the one below:
 
    ```Hiking, $100```
 
