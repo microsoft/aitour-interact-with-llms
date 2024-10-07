@@ -102,6 +102,7 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 - **Chat Playground**
 - **Images Playground**
 - **Assistants Playground**
+- **Real-time audio playground**
 
 ### Chat Playground
 
@@ -150,6 +151,19 @@ Within the Assistants section, navigate to the **Tools** tab. This area provides
 - **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
 - **Code interpeter**: Code Interpreter allows the Assistants API to write and run code in a sandboxed execution environment. 
 - **Functions**: This allows you to describe the structure of functions to an Assistant and then return the functions that need to be called along with their arguments..
+
+### Real-time audio playground
+
+In the Project playground section, select **Real-time audio**. This feature allows you to engage with and test various AI models in a audio conversational format.
+
+![alt text](image.png)
+
+1. **Deployment**: This section allows us to change between our deployed models.
+1. **Model instructions Box**: Here is where we enter instructions for the model, previous to the user interaction.
+1. **Choose a voice**: Azure AI Studio supports providing the deployed models with external data, allowing for better search and context.
+1. **Server turn detection**: The chat box is where we will see our interactions with the model in the form of chat messages.
+1. **Parameters**: This tab contains the models detailed settings, such as temperature.
+1. **Prompt Button**: This is where we record the prompts we want to send to the model.
 
 ## Ready to start
 

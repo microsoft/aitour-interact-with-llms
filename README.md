@@ -16,7 +16,7 @@ This workshop is designed to give you a hands-on introduction to the core concep
 
 ### Abstract
 
-This lab provides a hands-on and engaging learning opportunity for working with Large Language Models. Learn how to use methods such as few-shot learning and chain of thought. See the creative possibilities of generative AI for image creation and multi-modal scenarios, master the skill of function calling and understand how the model can apply existing knowledge.
+Innovate with Azure OpenAI's GPT-4o multimodal model in this hands-on experience. Learn the core concepts to and best practices to effectively generate with text, sound and images. Experience creating AI assistants with function calling that enhance user experiences and drive innovation.
 
 ### Duration
 75 Minutes
