@@ -156,14 +156,14 @@ Within the Assistants section, navigate to the **Tools** tab. This area provides
 
 In the Project playground section, select **Real-time audio**. This feature allows you to engage with and test various AI models in a audio conversational format.
 
-![alt text](image.png)
+![Image of Azure AI Studio Playground Real time audio mode](./Images/ai-studio-real-time-audio-playground.jpg)
 
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **Model instructions Box**: Here is where we enter instructions for the model, previous to the user interaction.
-1. **Choose a voice**: Azure AI Studio supports providing the deployed models with external data, allowing for better search and context.
-1. **Server turn detection**: The chat box is where we will see our interactions with the model in the form of chat messages.
-1. **Parameters**: This tab contains the models detailed settings, such as temperature.
-1. **Prompt Button**: This is where we record the prompts we want to send to the model.
+1. **Choose a voice**: Gpt-4o-audio offers a variety of voices to choose from with unique accents or tonal capabilities tailored to your liking.
+1. **Server turn detection**: These are parameters used in voice detection to help improve the model capabilities to improve efficiency and performance.
+1. **Parameters**: This tab contains the models detailed settings, such as temperature and max response.
+1. **Prompt Button**: Similar to the chat playground's box, this is where the models get their input from the user. 
 
 ## Ready to start
 

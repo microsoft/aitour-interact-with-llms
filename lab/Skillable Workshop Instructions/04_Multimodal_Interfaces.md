@@ -1,10 +1,12 @@
 # Part 3 - Multimodal interfaces
 
-By now we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular, as they allow users to interact with models using multiple modalities, such as text, images, and speech, thus facilitating human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with GPT-4o.
+By now we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular, as they allow users to interact with models using multiple modalities, such as text, images, and speech, thus facilitating human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with GPT-4o and Gpt-4o audio.
 
 
 > [!TIP]
 > **GPT-4o** is a multimodal model that incorporates both natural language processing and visual understanding. It is able to process as input a combination of text and images, and generate an output which is relevant to both modalities.
+
+**Gpt-4o audio** supports low-latency, "speech in, speech out" conversational interactions. It is a great fit for use cases involving live interactions between a user and a model, such as customer support agents, voice assistants, and real-time translators.
 
 ## Best Practices
 
@@ -99,6 +101,28 @@ Instructions:
 ```
 
 Copy the new HTML, navigate back to **Visual Studio Code** and replace the old html with the new one. Notice any differences? Feel free to adjust the code template according to the final design you wish to achieve.
+
+5. Navigate back to the chat playground and generate a product catalog of the Contoso Outdoor company, using the following prompt:
+
+`` Generate a product catalog of the Contoso Outdoor company based on the image``
+
+6. Copy the catalog generated.
+
+## Real time-audio interactions
+
+By integrating the ``gpt-4o-realtime-preview `` model, users can interact with the website using voice commands, making the shopping experience more engaging and accessible.
+
+1. Navigate to the **Real-time audio playground** and set the deployment to ``gpt-4o-realtime-preview``
+
+2. Update the model instructions with products of the Contoso Outdoor Company by **pasting** the product catalog you just copied into the **Give the model instructions and context box**
+
+3. Interact with the model by clicking on the **start listening** button, ask the model questions on the different products and recommendations:
+
+`` What jacket can I buy for the winter``
+
+`` Suggest a tent I can use to go hiking``
+
+`` What about a tent I can use for the winter?``
 
 ## Next Steps
 
