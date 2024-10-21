@@ -75,6 +75,6 @@ To deploy the resources to Azure, you can simply click the **Deploy to Azure** b
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Faitour-interact-with-llms%2Fmain%2Flab%2FWorkshop%20Instructions%2Fassets%2FAITour24_WKR540_Template.json)
 
-All the workshop isntructions can be found [here](/lab/Workshop%20Instructions/00_Introduction.md)
+All the workshop instructions can be found [here](/lab/Workshop%20Instructions/00_Introduction.md)
 
 
