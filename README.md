@@ -8,7 +8,7 @@ This repository is for the AI Tour workshop: Interacting with Large Language Mod
 
 ![session banner](./Images/banner.jpg)
 
-## Session Desciption
+## Session Description
 
 This workshop is designed to give you a hands-on introduction to the core concepts and best practices for interacting with OpenAI models in Azure AI Studio. If you have been provided with a Skillable Environment, you'll be using the VM and pre-provisioned Azure resources provided to you to complete the lab. If you are running this workshop on your own, you will need to have an Azure subscription and provision the resources yourself by deploying the resources to Azure.
 
