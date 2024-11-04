@@ -1,37 +1,37 @@
-# Part 4 - Azure AI Assistants
+# Part 4 - Azure AI Agents
 
 Welcome to Part 4 of this workshop! 
 
-So far, we have interacted with Large Language Models in many different ways. However, these interactions have been isolated and tied to a very specific purpose. **Azure OpenAI Assistants** represent the next step in our interactions, as they help us integrate previous interactions into one solution.
+So far, we have interacted with Large Language Models in many different ways. However, these interactions have been isolated and tied to a very specific purpose. **Azure OpenAI Agents** represent the next step in our interactions, as they help us integrate previous interactions into one solution.
 
 
 > [!TIP] 
 > **What is an Azure OpenAI Assistant?** Azure OpenAI Assistant is a new feature of Azure OpenAI Service, that makes it easier for developers to create applications with sophisticated copilot-like experiences that can sift through data, suggest solutions, and automate tasks. It integrates capabilities such as state management, context association, chat threads, and code execution, making it easier to access third-party extensions​.
 
-Previously, building custom AI assistants needed heavy lifting even for experienced developers. While the chat completions API is lightweight and powerful, it's inherently stateless, which means that developers had to manage conversation state and chat threads, tool integrations, retrieval documents and indexes, and execute code manually.
+Previously, building custom AI agents needed heavy lifting even for experienced developers. While the chat completions API is lightweight and powerful, it's inherently stateless, which means that developers had to manage conversation state and chat threads, tool integrations, retrieval documents and indexes, and execute code manually.
 
-Azure OpenAI Assistants, as the stateful evolution of the chat completion API, provides a solution for these challenges. Azure OpenAI Assistants support persistent automatically managed threads. This means that as a developer you no longer need to develop conversation state management systems and work around a model’s context window constraints. The Assistants API will automatically handle the optimizations to keep the thread below the max context window of your chosen model. Once you create a Thread, you can simply append new messages to it as users respond. Assistants can also access multiple tools in parallel, if needed. Some of these tools include:
+Azure OpenAI Agents, as the stateful evolution of the chat completion API, provides a solution for these challenges. Azure OpenAI Agents support persistent automatically managed threads. This means that as a developer you no longer need to develop conversation state management systems and work around a model’s context window constraints. The Agents API will automatically handle the optimizations to keep the thread below the max context window of your chosen model. Once you create a Thread, you can simply append new messages to it as users respond. Agents can also access multiple tools in parallel, if needed. Some of these tools include:
 - **Function Calling**
 - **Code Interpreter**
 - **File Search**
 
 In this section, we will be covering Code Interpreter and in the next, Function Calling.
 
-## Understanding the Components of Assistants
+## Understanding the Components of Agents
 
-To begin working with Azure OpenAI Assistants, it is important to understand and address the different components that take part in its functionality.
+To begin working with Azure OpenAI Agents, it is important to understand and address the different components that take part in its functionality.
 
-As we now know, an **Assistant** is simply a Custom AI that uses Azure OpenAI models in conjunction with tools. This is created first.
+As we now know, an **Agent** is simply a Custom AI that uses Azure OpenAI models in conjunction with tools. This is created first.
 
-The next step once the assistant has been created, is to create a **Thread**. A **Thread** is a conversation session between an Assistant and a user. Threads store Messages and automatically handle truncation to fit content into a model’s context.
+The next step once the Agent has been created, is to create a **Thread**. A **Thread** is a conversation session between an Agent and a user. Threads store Messages and automatically handle truncation to fit content into a model’s context.
 
-The **Messages** are created by either the Assistant or an user, include text, images and other files. These are stored as a list on the thread.
+The **Messages** are created by either the Agent or an user, include text, images and other files. These are stored as a list on the thread.
 
-Lastly, we can **Run** the assistant. This means activating an assistant to begin running base on the contents of the Thread. The Assistant uses its configuration and the *Thread’s Messages* to perform tasks by calling models and tools. As part of a Run, the Assistant *appends Messages to the Thread*.
+Lastly, we can **Run** the Agent. This means activating an Agent to begin running base on the contents of the Thread. The Agent uses its configuration and the *Thread’s Messages* to perform tasks by calling models and tools. As part of a Run, the Agent *appends Messages to the Thread*.
 
-## Creating the Assistant
+## Creating the Agent
 
-1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. Click **+ New assistant** to get started.
+1. Start by clicking on the **Agents** Playground. Here you will see the different components of the Playground. Click **+ New assistant** to get started.
 
 2. In the **Deployments** section, ensure you select **gpt-4o-mini** model.
 

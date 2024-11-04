@@ -27,12 +27,11 @@ All additional information on the lab can be found on GitHub:
 
 ## Lab Outline
 
-The lab is organized into 5 sections, taking you through generating text content, image assets, and code snippets through a multimodal conversational interface on Azure with OpenAI models. In addition, we will cover Function Calling and AI Assistants. The goal of the lab is to leverage generative AI to build the user interface components for the *Contoso Outdoor Company* e-commerce website.
+The lab is organized into 5 sections, taking you through generating text content, image assets, and code snippets through a multimodal conversational interface on Azure with OpenAI models. In addition, we will cover Function Calling and AI Agents. The goal of the lab is to leverage generative AI to build the user interface components for the *Contoso Outdoor Company* e-commerce website.
 
 1. **Part 1 - Text Generation** Generate text content and descriptions with GPT4-Turbo
 2. **Part 2 - Image Generation** Generate image assets with DALLE-3
 3. **Part 3 - Multimodality** Leverage multimodal capabilities of GPT-4o to generate code snippets from hand-drawn sketches.
-4. **Part 4 - Azure AI Assistants** Use code interpreter to understand your data.
-5. **Part 5 - Function Calling** Generate structured outputs with GPT-4o.
+4. **Part 4 - Azure AI Agents** Use code interpreter to understand your data.
 
 Click **Next** to set up your Workshop environment and get started.

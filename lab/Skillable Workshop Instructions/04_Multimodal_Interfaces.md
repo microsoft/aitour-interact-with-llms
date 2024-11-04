@@ -32,8 +32,9 @@ By now we have interacted with LLMs using a single modality: inputting text and 
 
 ![Uploading image as input](./Images/upload_image_icon.png)
 
-3. Select the [](./Images/*) image.
-4. Once you have uploaded the file, try these prompts to start interacting with the image:
+3. Select the [to be uploaded](https://github.com/microsoft/aitour-generative-ai-in-azure/tree/main/session-delivery-resources/multimodal/holiday-home) images.
+
+4. Once you have uploaded the files, try these prompts to start interacting with the image:
 
 ```What is on the image?```
 
@@ -41,32 +42,25 @@ By now we have interacted with LLMs using a single modality: inputting text and 
 
 ```Does the house have a swimming pool?```
 
-## Answer questions based on image
+## Providing Context
 
-Answer the questions on the image.
+For this next demo, we have an obstructed image. Bounding boxes were purposefully added in the image to obscure the full context.
 
-
-## Apply Prompt Tuning
-
-If you are not satisfied with the result you got in the previous step, you can apply some prompt tuning techniques to improve the quality of the generated code. In fact, the prompt you have used to instruct the model in the previous step already contains some prompt engineering best practices, such as *placing the image before the text* and specifying the *output format*. However, you can try to further refine the prompt to get better results.
+1. In the chat text box, add the prompt: ``what is that?``
+2. Click on the attachment icon and add [this image]() and send the prompt.
 
 > [!NOTE]
-> If the model indicates an inability to perform the task, you can **handle the refusal** by requesting explanations for generated responses and what kind of information it misses to compete the task.
+> you might struggle to identify this text if I asked, 'Hey, what is this?' This demonstrates a classic computer vision challenge in optical character recognition: deciphering unclear, isolated words. Now, if I use gpt-4o-mini and ask, 'What is this?', it responds, 'The text is not clearly readable due to its handwritten style. It could be something like “Mark.”' Remarkably, it also notes, 'Some portions of the text appear to be blocked and cannot be read.'
 
->[!alert] Select the System Message tab. In the window titled "Give the model instructions and context" clear the information and replace it with the following and then choose Apply Changes. 
+3. We will add a [new image]() to our chat, with the prompt ```Extract all the texts from the image. Explain what you think this is.```
 
-Create a tagline and short description for this rental home advertisement.
-    - The first picture is from the home
-    - The other pictures are from sights nearby
-    - In the description use the features of the house and make the ad more compelling with the sights. 
-    - Do not talk about features not visible in the images.
-    - If you have information about the location of the images, use that information in the description
+> [!NOTE]
+> Revealing a bit more, it's still quite challenging to identify what it is. This time, the prompt is adjusted slightly to: 'Extract all the text from the image. Explain what you think this is.' gpt-4o-mini responded, 'This says "milk, steak" and appears to be a shopping list.' It also noted that the image is still partially obscured, which is quite interesting.
 
-5. Navigate back to the chat playground and generate a product catalog of the Contoso Outdoor company, using the following prompt:
+4. We will add [one final image]() to our chat, with the prompt: ```Extract all the texts from the image. Explain what you think this is.```
 
-`` Generate a product catalog of the Contoso Outdoor company based on the image``
-
-6. Copy the catalog generated.
+> [!NOTE]
+> Upon revealing the entire image, we see that gpt-4o-mini was correct—it is indeed a shopping list. It accurately identifies items like 'mayo' and 'organic bread.' Even more intriguing is its interpretation of the note at the bottom. It captures the subtle context, stating, 'The note on the beer item suggests a reminder or an emphasis on moderation or limiting the quantity.
 
 ## Real time-audio interactions
 
@@ -74,15 +68,11 @@ By integrating the ``gpt-4o-realtime-preview `` model, users can interact with t
 
 1. Navigate to the **Real-time audio playground** and set the deployment to ``gpt-4o-realtime-preview``
 
-2. Update the model instructions with products of the Contoso Outdoor Company by **pasting** the product catalog you just copied into the **Give the model instructions and context box**
+2. Update the model instructions box with the following:
 
-3. Interact with the model by clicking on the **start listening** button, ask the model questions on the different products and recommendations:
+    ```You are a pirate, and every response must be full of pirate lingo.```
 
-`` What jacket can I buy for the winter``
-
-`` Suggest a tent I can use to go hiking``
-
-`` What about a tent I can use for the winter?``
+3. Interact with the model by clicking on the **start listening** button, saying ``hello`` and having a conversation with the model
 
 ## Next Steps
 
