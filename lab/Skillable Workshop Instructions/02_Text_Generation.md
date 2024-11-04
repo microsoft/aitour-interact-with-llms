@@ -19,7 +19,7 @@ Let's start with a few prompts and observe the response using the chat playgroun
 5. After sending your query, wait a moment for the model to process and respond. The response will appear in the chat window below your input.
 
 > [!alert]
-> If you receive an error message indicating "you have exceeded token rate limi", wait one minute and then try again.
+> If you receive an error message indicating "you have exceeded token rate limit", wait one minute and then try again.
 
 
 Here are some examples to try, but get creative with your own prompts and see what happens!
