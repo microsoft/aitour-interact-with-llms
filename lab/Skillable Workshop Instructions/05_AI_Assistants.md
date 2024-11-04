@@ -33,10 +33,10 @@ Lastly, we can **Run** the assistant. This means activating an assistant to begi
 
 1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. Click **+ New assistant** to get started.
 
-2. In the **Deployments** section, ensure you select **gpt-4o** model.
+2. In the **Deployments** section, ensure you select **gpt-4o-mini** model.
 
     >[!TIP] 
-    > **Ensure that you chose the correct deployment**. It should say **gpt-4o** along with its version. 
+    > **Ensure that you chose the correct deployment**. It should say **gpt-4o-mini** along with its version. 
 
 2. Next, let's name our assistant. Type the following in the Assistant Name textbox:
 
@@ -98,4 +98,4 @@ You will notice that we get a series of sample questions that we can test. Test 
 
 Congratulations! You have now completed the last part of the workshop and have learnt what Azure OpenAI Assistants are, how they work and how to create one using Azure AI Studio.
 
-Click **Next** to advance to the Function Calling section.
+Click **Next** to advance to the Summary section of the workshop.

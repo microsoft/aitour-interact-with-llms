@@ -1,6 +1,6 @@
 # Part 1 - Text Generation
 
-Welcome to Part 1 of this workshop, where we'll be interacting with GPT-4o model to generate text.
+Welcome to Part 1 of this workshop, where we'll be interacting with gpt-4o-mini model to generate text.
 
 > [!TIP]
 > What is prompt engineering?

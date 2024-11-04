@@ -30,39 +30,13 @@ For this workshop we will be working on Azure AI Studio, especially focusing on 
 
 <!-- ![Azure AI Studio logged in homepage](./Images/ai-studio-hubmanagement.jpg) -->
 
-2. Locate the **Workshop AI Hub** in the list of available hubs. Click on the project associated to the hub to access its settings and resources.
+2. Locate the **Workshop AI Hub** in the list of available hubs. **Click on the project** associated to the hub to access its settings and resources.
 
 ![Hub management tab](./Images/ai-studio-hubmanagement-hub.jpg)
 
-<!-- ## Hub Homepage
-
-You will notice a set of elements once we have logged in and land on the Hub Homepage.
-
-![Hub Homepage](./Images/ai-studio-hub-homepage.jpg)
-
-
-### Navigation Panel
-
-On the left side of the screen you will see a navigation panel with a group of different tabs.
-
-- **Current Hub, Hub Overview and All Projects**: This tab provides access to the Hub Overview, and a list of all the projects within the Hub.
-- **Get Started**: 
-    - *Model Catalog*: The model catalog showcases the available models inside Azure AI Studio. You can click and expand on each model for in-depth description of usage and other details.
-    - *Model Benchmarks*: Here you can compare benchmarks across models and datasets available, with charts on accuracy, similarity, fluency, coherence, etc.
-    - *Prompt Catalog*: The prompt catalog provides sample prompts for a myriad of common use cases, which can be used to further understand how a model works, and can be customized for specific scenarios.
-    - *AI Services*: In the AI Services tab you can see a list of Azure AI Services available, along with demos, use cases and more.
-
-> [!NOTE]
-> Azure AI Studio hosts some of the most popular foundation models provided by companies such as Microsoft, Open AI, Hugging Face, Meta and Mistral.
-
-- **Playgrounds**: The Playgrounds represent a fast and accessible way to interact with the models.
-- **Shared Resources**: This tab provides access to the resources connected or shared by the AI Hub. Here you can access resources such as the model Deployments, connections to other services, compute instances available in the Hub, user access and content filters applied to our models.
-
--->
-
 ## Project
 
-## Project Overview
+### Project Overview
 
 On this page, we can see an overview of our Azure AI Studio Project. This includes:
 - **Project Name and Description**: The name of the project and a short description of the Azure AI Studio Project we are in.
@@ -75,7 +49,7 @@ On this page, we can see an overview of our Azure AI Studio Project. This includ
 You will notice the navigation bar has updated with new tabs, which represent functionalities tied to our project.
 
 We have two new sections:
--  The first section remains the same and now include **Project Playgrounds**.
+-  The first section includes _Playgrounds_ to interact with the models, _project overview_ which gives a general overview of your project, _model catalog_ which showcases the available models inside Azure AI Studio, and _AI services_ where you can see a list of Azure AI Services available, along with demos, use cases and more.
 - **Build and Customize**: This includes useful opportunities to expand your project's reach, such as ***working in Code*** by running a cloud compute, **agents**, access to [***Prompt Flow***](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow), and the ability to carry ***Fine Tuning*** on your deployments.
 - **Assess and Improve:** this includes development of ***Evaluations*** for your models, **tracing** to debug your flows and **content filters** to add guardrails to prompt inputs and completion outputs.
 - **My assets**: Here you can add complimentary elements to the project, with resources such as ***Data***, ***Indexes***, ***models and endpoints*** and ***Web apps*** to be used as part of your work.
@@ -92,7 +66,7 @@ We will be carrying most of our work in these Playgrounds, but namely in the fol
 - **Chat Playground**
 - **Images Playground**
 - **Real-time audio playground**
-- **healthcare playground**: `<placeholder on what it does>` we will not be focussing on this in our workshop today
+- **healthcare playground**: `<placeholder on what it does>` & we will not be focussing on this in our workshop today
 
 ### Chat Playground
 
@@ -133,7 +107,7 @@ Navigate back to Playgrounds, navigate to the **Real-time audio playground** and
 
 ## Agents 
 
-``error: invalid subscription``
+``error: still not working :-()``
 
 In the Navigation bar, select **Agents**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
 
@@ -162,9 +136,11 @@ Within the Assistants section, navigate to the **Tools** tab. This area provides
 
 That covers the necessary setup and basics of Azure AI Studio. We will now move forward to begin interacting with the models. 
 
-5. Return to the  **playgrounds** navigate to the **Chat playground** and select **Try the Chat Playground.**  In the instructions tab, Click Next to proceed to Part 1: Text Generation
+- Navigate to the  **playgrounds** 
+- Navigate to the **Chat playground** and select **Try the Chat Playground.**  
+- In the _instructions tab_, Click Next to proceed to Part 1: Text Generation
 
 
->[!alert] Return to the  **Chat** under **project playground** and click Next in the instructions to proceed to Part 1: Text Generation
+>[!alert] Navigate to the  **playgrounds** and select **Try the Chat Playground** and click Next in the instructions to proceed to Part 1: Text Generation
 
 Click **Next** to advance to the Text Generation section.

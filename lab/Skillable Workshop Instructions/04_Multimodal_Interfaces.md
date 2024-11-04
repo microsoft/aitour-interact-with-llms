@@ -1,12 +1,12 @@
 # Part 3 - Multimodal interfaces
 
-By now we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular, as they allow users to interact with models using multiple modalities, such as text, images, and speech, thus facilitating human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with GPT-4o and Gpt-4o audio.
+By now we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular, as they allow users to interact with models using multiple modalities, such as text, images, and speech, thus facilitating human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with gpt-4o-mini and gpt-4o-realtime-preview.
 
 
 > [!TIP]
-> **GPT-4o** is a multimodal model that incorporates both natural language processing and visual understanding. It is able to process as input a combination of text and images, and generate an output which is relevant to both modalities.
+> **gpt-4o-mini** is a multimodal model that incorporates both natural language processing and visual understanding. It is able to process as input a combination of text and images, and generate an output which is relevant to both modalities.
 
-**Gpt-4o audio** supports low-latency, "speech in, speech out" conversational interactions. It is a great fit for use cases involving live interactions between a user and a model, such as customer support agents, voice assistants, and real-time translators.
+**gpt-4o-realtime-preview** supports low-latency, "speech in, speech out" conversational interactions. It is a great fit for use cases involving live interactions between a user and a model, such as customer support agents, voice assistants, and real-time translators.
 
 ## Best Practices
 
@@ -27,53 +27,23 @@ By now we have interacted with LLMs using a single modality: inputting text and 
 
 ## Interacting with the model using an Image
 
-1. In Project playground section, on the left-hand navigation bar, navigate to the available tools and select **Chat.** 
+1. Navigate to the  **playgrounds** and select **Try the Chat Playground**
 2. In the chat text box, click on the attachment icon to upload a local image.
 
 ![Uploading image as input](./Images/upload_image_icon.png)
 
-3. Select the *contoso_outdoor_ecommerce_sketch_notes.jpg* image from the local Desktop folder.
-Folder Path: Desktop\contoso_outdoor_ecommerce_sketch_notes.jpg. 
-
-    If you cannot find the image on the local Desktop of your VM, you can download it from [here](./Images/contoso_outdoor_ecommerce_sketch_notes.jpg).
-
-    ![Contoso Ecommerce Website UI](./Images/contoso_outdoor_ecommerce_sketch_notes.jpg).
-
-    This image represents a sketch of our Contoso Outdoor e-commerce website we want to build. We will use this image as input to GPT-4o to gather information from the image, and later generate a code snippet for the website, using the sketch as a reference.
-
+3. Select the [](./Images/*) image.
 4. Once you have uploaded the file, try these prompts to start interacting with the image:
 
-    ```How many products are shown in the homepage below?```
+```What is on the image?```
 
+```What is the house made of?```
 
-    ```What is the name of the company?```
+```Does the house have a swimming pool?```
 
+## Answer questions based on image
 
-    ```What is the most expensive product?```
-
-## Generate a code snippet for the website UI from an image
-
-Next, we will prompt the model to generate a code snippet for the website using the sketch as a reference.
-1. Go to the **Parameters** tab and set the *Max Response* to 4000.
-1. Go back to the text field in the chat window and add the text below to instruct the model on how to use the image input:
-
-    ```
-    Generate the html and bootstrap code to implement the UI of the Contoso Outdoor Company e-commerce landing page, based on the hand-drawn sketches in the image.
-    ```
-
-1. The outcome should provide a basic layout for the landing page of Contoso Outdoor Company. It includes placeholders for product descriptions, which you can populate with the text and image artifacts created throughout part 1 and 2.
-
-If you want to view the code syntax is correct and what the template looks like:
-1. Launch the Visual Studio Code (VS Code) application on your Virtual Machine.
-2. In the top menu bar, click on File. From the dropdown menu, choose New File. This will open a pop up in your VS Code.
-
-![alt text](./Images/image.png)
-3. In the pop up, enter ``website.html`` as the file name, then click **Create New File**. It will open up File Explorer, click on **Create File** to create and save your new file.
-4. Copy the HTML code you have generated. Paste this code into the newly created website.html file in VS Code.
-5. In the top-right corner of the VS Code interface, find and click the **Open Preview to the Side button.** This button often looks like a split-screen icon or might be labeled as **Open Preview**.
-6. The preview pane will open on the side, displaying the rendered output of your HTML code.
-
-![Preview website code in VS Code](./Images/vs-code-view-html.png)
+Answer the questions on the image.
 
 
 ## Apply Prompt Tuning
@@ -85,22 +55,12 @@ If you are not satisfied with the result you got in the previous step, you can a
 
 >[!alert] Select the System Message tab. In the window titled "Give the model instructions and context" clear the information and replace it with the following and then choose Apply Changes. 
 
-```
-## Task
-You are a web designer for the Contoso Outdoor Company e-commerce website. Your goal is to generate the website code snippets for the homepage GUI.
-```
-
-In addition, let's modify the previous query, by breaking down the instructions into smaller steps. This will help the model to better understand the task and generate more accurate results. Clear the chat history. Upload the picture again and send the following text to the chat interface:
-
-```
-You will generate the website GUI template for the homepage of the e-commerce website.
-Instructions:
-1. Use the provided image to extract the layout, the sections, and the e-commerce products names and prices
-2. Use html and bootstrap as output format
-3. Add placeholders for products images
-```
-
-Copy the new HTML, navigate back to **Visual Studio Code** and replace the old html with the new one. Notice any differences? Feel free to adjust the code template according to the final design you wish to achieve.
+Create a tagline and short description for this rental home advertisement.
+    - The first picture is from the home
+    - The other pictures are from sights nearby
+    - In the description use the features of the house and make the ad more compelling with the sights. 
+    - Do not talk about features not visible in the images.
+    - If you have information about the location of the images, use that information in the description
 
 5. Navigate back to the chat playground and generate a product catalog of the Contoso Outdoor company, using the following prompt:
 
