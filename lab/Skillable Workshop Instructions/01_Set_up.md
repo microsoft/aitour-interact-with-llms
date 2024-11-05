@@ -4,8 +4,8 @@
 > What is **Azure AI Studio**? Azure AI Studio is designed for developers to build generative AI applications on an enterprise-grade platform. Developers can interact with their projects code-first via the Azure AI SDK, explore, build, test, and deploy AI models using cutting-edge tooling, and collaborate in a secure environment. The platform supports transforming proof of concepts into production-ready solutions with continuous monitoring and refinement.
 
 ## Sign in to Windows
-As a first step, login into the lab Virtual Machine by using these credentials:
-- Username: will already be set to Admin.
+As a first step, login into the lab Virtual Machine using the following credentials:
+- Username: already set to Admin.
 - Password: enter +++@lab.VirtualMachine(Win11Base23B-W11-22H2).Password+++ and click.
 
 > [!TIP]
@@ -13,16 +13,16 @@ As a first step, login into the lab Virtual Machine by using these credentials:
 
 ## Sign in to Azure AI Studio
    
-For this workshop we will be working on Azure AI Studio, especially focusing on the playground feature. 
+In this workshop we will be working on Azure AI Studio, focusing especially on the playground feature. 
 
-1. In the Desktop, click on **Microsoft Edge** browser.
+1. On the Desktop, click on **Microsoft Edge** browser.
 2. Type +++https://ai.azure.com+++ on the search box to access Azure AI Studio. The browser will open a new tab with the Azure AI Studio Homepage as shown in the following image.
 
 ![Homepage of Azure AI Studio](./Images/ai-studio-homepage.png)
 
 ## Navigating Azure AI Studio
 
-1. Let's start by clicking on **Sign In**, you can find the sign in link in the top right of the window, and entering the following credentials when prompted for the login credentials:
+1. Start by clicking **Sign In**, you can find the sign in link in the top right of the window, and enter the following credentials when prompted for the login credentials:
     -  Email: +++@lab.CloudPortalCredential(User1).Username+++
     -  Password: +++@lab.CloudPortalCredential(User1).Password+++
 
@@ -30,7 +30,7 @@ For this workshop we will be working on Azure AI Studio, especially focusing on 
 
 <!-- ![Azure AI Studio logged in homepage](./Images/ai-studio-hubmanagement.jpg) -->
 
-2. Locate the **Workshop AI Hub** in the list of available hubs. **Click on the project** associated to the hub to access its settings and resources.
+2. Locate the **Workshop AI Hub** in the list of available hubs. **Click on the project** with the hub to access its settings and resources.
 
 ![Hub management tab](./Images/ai-studio-hubmanagement-hub.jpg)
 
@@ -40,8 +40,8 @@ For this workshop we will be working on Azure AI Studio, especially focusing on 
 
 On this page, we can see an overview of our Azure AI Studio Project. This includes:
 - **Project Name and Description**: The name of the project and a short description of the Azure AI Studio Project we are in.
-- **Quick Refereence**: A collection of various properties such as the Project's connection string, its location, resource group, etc. 
-- **Endpoints and keys**: Azure AI Studio allows for multiple resources to be connected to it, expanding its features and functionality. Resources such as Azure OpenAI, Azure AI Search and Azure AI Servicse further increase the capabilities of our Project, and grant us access to deployments such as LLMs or functionalities such as vector search.  Here we can find useful information such as *API endpoints and keys* and documentation.
+- **Quick Reference**: A collection of various properties such as the Project's connection string, its location, resource group, etc. 
+- **Endpoints and keys**: Azure AI Studio allows for multiple resources to be connected to it, expanding its features and functionality. Resources such as Azure OpenAI, Azure AI Search and Azure AI Services further enhance the capabilities of our Project, granting us access to deployments such as LLMs or functionalities such as vector search.  Here we can find useful information such as *API endpoints and keys* and documentation.
 - **Recent work and tutorials**: Under this, your recent work is highlighted with additional learning resources and tutorials to help you get started.
 
 ### Navigation Bar
@@ -49,11 +49,11 @@ On this page, we can see an overview of our Azure AI Studio Project. This includ
 You will notice the navigation bar has updated with new tabs, which represent functionalities tied to our project.
 
 We have two new sections:
--  The first section includes _Playgrounds_ to interact with the models, _project overview_ which gives a general overview of your project, _model catalog_ which showcases the available models inside Azure AI Studio, and _AI services_ where you can see a list of Azure AI Services available, along with demos, use cases and more.
+-  The first section includes _Playgrounds_ to interact with the models, _Project Overview_ which provides a general overview of your project, _Model Catalog_ which showcases the available models inside Azure AI Studio, and _AI Services_ where you can see a list of Azure AI Services available along with demos, use cases and more.
 - **Build and Customize**: This includes useful opportunities to expand your project's reach, such as ***working in Code*** by running a cloud compute, **agents**, access to [***Prompt Flow***](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow), and the ability to carry ***Fine Tuning*** on your deployments.
 - **Assess and Improve:** this includes development of ***Evaluations*** for your models, **tracing** to debug your flows and **content filters** to add guardrails to prompt inputs and completion outputs.
 - **My assets**: Here you can add complimentary elements to the project, with resources such as ***Data***, ***Indexes***, ***models and endpoints*** and ***Web apps*** to be used as part of your work.
-- **Management Center:** location to manage all you  hub and project details and resources.
+- **Management Center:** a location to manage all you  hub and project details and resources.
 
 For this lab we will focus on using the **Playgrounds** and **Agents**. Navigate to the Playgrounds and move on to the next section.
 
@@ -61,12 +61,11 @@ For this lab we will focus on using the **Playgrounds** and **Agents**. Navigate
 
 You will notice we have four options for our **Playground**. Each option represents a different approach to interacting and using AI models, which can be tailored to our specific needs.
 
-We will be carrying most of our work in these Playgrounds, but namely in the following three:
+We will be doing most of our work in these Playgrounds, but namely in the following three:
 
 - **Chat Playground**
 - **Images Playground**
 - **Real-time audio playground**
-- **healthcare playground**: `<placeholder on what it does>` & we will not be focussing on this in our workshop today
 
 ### Chat Playground
 
@@ -83,7 +82,7 @@ Within the playground section, navigate to the **Chat playground** and select **
 
 ### Images Playground
 
-Navigate back to Playgrounds, navigate to the **Image playground** and select **Try the Image Playground.** This option allows you to work with image generation
+Navigate back to Playgrounds, select the **Image playground** and click **Try the Image Playground.** This option allows you to work with image generation
 
 ![Image of Azure AI Studio Playground Images Mode](./Images/ai-studio-image-playground.jpg)
 
@@ -93,7 +92,7 @@ Navigate back to Playgrounds, navigate to the **Image playground** and select **
 
 ### Real-time audio playground
 
-Navigate back to Playgrounds, navigate to the **Real-time audio playground** and select **Try the Real-time audio Playground.** This feature allows you to engage with and test various AI models in a audio conversational format.
+Navigate back to Playgrounds, then select the **Real-time audio playground** and click **Try the Real-time audio Playground.** This feature allows you to engage with and test various AI models in an audio conversational format.
 
 ![Image of Azure AI Studio Playground Real time audio mode](./Images/ai-studio-real-time-audio-playground.jpg)
 
@@ -101,7 +100,7 @@ Navigate back to Playgrounds, navigate to the **Real-time audio playground** and
 1. **Server turn detection**: Determines if the server should utilize voice activity detection (VAD) to identify when a user has finished speaking.
 1. **Model instructions Box**: Here is where we enter instructions for the model, previous to the user interaction.
 1. **Choose a voice**: Gpt-4o-audio offers a variety of voices to choose from with unique accents or tonal capabilities tailored to your liking.
-1. **Server turn detection**: These are parameters used in voice detection to help improve the model capabilities to improve efficiency and performance.
+1. **Server turn detection**: These parameters help optimize the model's efficiency and performance by improving voice activity detection.
 1. **Parameters**: This tab contains the models detailed settings, such as temperature and max response.
 1. **Prompt Button**: Similar to the chat playground's box, this is where the models get their input from the user. 
 
@@ -136,11 +135,10 @@ Within the Assistants section, navigate to the **Tools** tab. This area provides
 
 That covers the necessary setup and basics of Azure AI Studio. We will now move forward to begin interacting with the models. 
 
-- Navigate to the  **playgrounds** 
-- Navigate to the **Chat playground** and select **Try the Chat Playground.**  
+- Navigate to the  **playgrounds** select the **Chat playground** and click **Try the Chat Playground.**  
 - In the _instructions tab_, Click Next to proceed to Part 1: Text Generation
 
 
->[!alert] Navigate to the  **playgrounds** and select **Try the Chat Playground** and click Next in the instructions to proceed to Part 1: Text Generation
+>[!alert] Navigate to the  **playgrounds** and select **Try the Chat Playground** and click next in the instructions to proceed to Part 1: Text Generation
 
-Click **Next** to advance to the Text Generation section.
+Click **Next** to proceed to the Text Generation section.
