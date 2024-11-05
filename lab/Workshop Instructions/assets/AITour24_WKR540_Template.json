@@ -104,18 +104,6 @@
                 }
               },
               {
-                "name": "gpt-4o-realtime-preview",
-                "model": {
-                  "format": "OpenAI",
-                  "name": "gpt-4o-realtime-preview",
-                  "version": "2024-10-01"
-                },
-                "sku": {
-                  "name": "GlobalStandard",
-                  "capacity": 1
-                }
-              },
-              {
                 "name": "dall-e-3",
                 "model": {
                   "format": "OpenAI",
@@ -124,6 +112,18 @@
                 },
                 "sku": {
                   "name": "Standard",
+                  "capacity": 1
+                }
+              },
+              {
+                "name": "gpt-4o-realtime-preview",
+                "model": {
+                  "format": "OpenAI",
+                  "name": "gpt-4o-realtime-preview",
+                  "version": "2024-10-01"
+                },
+                "sku": {
+                  "name": "GlobalStandard",
                   "capacity": 1
                 }
               }
@@ -143,7 +143,7 @@
           "parameters": {
             "location": {
               "type": "string",
-              "defaultValue": "[resourceGroup().location]",
+              "defaultValue": "swedencentral",
               "metadata": {
                 "description": "Azure region of the deployment"
               }
@@ -270,6 +270,20 @@
               "dependsOn": [
                 "[resourceId('Microsoft.CognitiveServices/accounts', parameters('aiServicesName'))]",
                 "[resourceId('Microsoft.CognitiveServices/accounts/deployments', parameters('aiServicesName'), parameters('deployments')[0].name)]"
+              ]
+            },
+            {
+              "type": "Microsoft.CognitiveServices/accounts/deployments",
+              "apiVersion": "2023-10-01-preview",
+              "name": "[format('{0}/{1}', parameters('aiServicesName'), parameters('deployments')[2].name)]",
+              "properties": {
+                "model": "[parameters('deployments')[2].model]",
+                "raiPolicyName": "[if(contains(parameters('deployments')[0], 'raiPolicyName'), parameters('deployments')[2].raiPolicyName, null())]"
+              },
+              "sku": "[if(contains(parameters('deployments')[2], 'sku'), parameters('deployments')[2].sku, createObject('name', 'GlobalStandard', 'capacity', 20))]",
+              "dependsOn": [
+                "[resourceId('Microsoft.CognitiveServices/accounts', parameters('aiServicesName'))]",
+                "[resourceId('Microsoft.CognitiveServices/accounts/deployments', parameters('aiServicesName'), parameters('deployments')[1].name)]"
               ]
             },
             {
