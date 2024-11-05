@@ -20,21 +20,21 @@
     },
     "aiHubFriendlyName": {
       "type": "string",
-      "defaultValue": "WRK540 AI Hub",
+      "defaultValue": "Workshop AI Hub",
       "metadata": {
         "description": "Friendly name for your Azure AI resource"
       }
     },
     "aiHubDescription": {
       "type": "string",
-      "defaultValue": "This is an AI Hub for WRK540. It contains a collection of AI models and services.",
+      "defaultValue": "This is an AI Hub for Workshop. It contains a collection of AI models and services.",
       "metadata": {
         "description": "Description of your Azure AI resource dispayed in AI studio"
       }
     },
     "domainName": {
         "type": "string",
-        "defaultValue": "wrk540",
+        "defaultValue": "workshop",
         "metadata": {
           "description": "Custom domain name for the AI services"
         }
@@ -92,15 +92,27 @@
           "deployments": {
             "value": [
               {
-                "name": "gpt-4o",
+                "name": "gpt-4o-mini",
                 "model": {
                   "format": "OpenAI",
-                  "name": "gpt-4o",
-                  "version": "2024-05-13"
+                  "name": "gpt-4o-mini",
+                  "version": "2024-07-18"
                 },
                 "sku": {
                   "name": "Standard",
                   "capacity": 20
+                }
+              },
+              {
+                "name": "gpt-4o-realtime-preview",
+                "model": {
+                  "format": "OpenAI",
+                  "name": "gpt-4o-realtime-preview",
+                  "version": "2024-10-01-preview"
+                },
+                "sku": {
+                  "name": "Standard",
+                  "capacity": 6
                 }
               },
               {
