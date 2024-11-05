@@ -41,7 +41,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "[resourceGroup().location]",
+      "defaultValue": "swedencentral",
       "metadata": {
         "description": "Azure region used for the deployment of all resources."
       }
@@ -108,11 +108,11 @@
                 "model": {
                   "format": "OpenAI",
                   "name": "gpt-4o-realtime-preview",
-                  "version": "2024-10-01-preview"
+                  "version": "2024-10-01"
                 },
                 "sku": {
-                  "name": "Standard",
-                  "capacity": 6
+                  "name": "GlobalStandard",
+                  "capacity": 1
                 }
               },
               {

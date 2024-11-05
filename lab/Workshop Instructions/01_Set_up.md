@@ -8,24 +8,24 @@
 To complete the lab, you will need:
 
 - An Azure subscription - [Create one for free.](https://azure.microsoft.com/free/cognitive-services?WT.mc_id=aiml-132569-bethanycheum)
-- An Azure OpenAI resource with [GPT-4o and DALL.E 3 model supported in a supported region.](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview?WT.mc_id=aiml-132569-bethanycheum)
+- An Azure OpenAI resource with [GPT-4o and DALL.E 3 models available in a supported region.](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview?WT.mc_id=aiml-132569-bethanycheum)
 
 ## Deploying your resources
 
-In this workshop we will be working with Azure AI Studio. First, you will need to deploy the necessary resources using the steps below:
+In this workshop we will be working with Azure AI Studio. First, deploy the necessary resources by following the steps below:
 
 1. Click the deploy to Azure button to deploy your resources: [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Faitour-interact-with-llms%2Fmain%2Flab%2FWorkshop%20Instructions%2Fassets%2FAITour24_WKR540_Template.json)
 
-2. In the tab that you just opened sign in to your Azure account.
+2. In the newly opened tab, sign in to your Azure account.
 
-3. Once signed in, you will be redirected to create resources based on the custom template. Create a new Resource Group and name it: **interact-with-llms**. 
+3. Once signed in, you will be redirected to create resources based on the custom template. Create a new resource group and name it **interact-with-llms**. 
 
-4. Next in the **Unique Suffix** field, add any unqiue four letters. Once done, click **Review and Create** button to create your resources
+4. Next in the **Unique Suffix** field, add any unique four letters. Once done, click **Review and Create** button to create your resources
 
 > [!NOTE]
 > Deployment of the resources will take ~2-3 minutes to complete.
 
-5. For this workshop we will be working on Azure AI Studio, especially focusing on the playground feature. Once your deployment is complete, in your browser, navigate to Azure AI Studio by visiting the link [https://ai.azure.com](https://ai.azure.com?WT.mc_id=aiml-132569-bethanycheum)
+5. In this workshop, we will be working in Azure AI Studio, focusing particularly on the playground feature. Once your deployment is complete, in your browser, navigate to Azure AI Studio by visiting the link [https://ai.azure.com](https://ai.azure.com?WT.mc_id=aiml-132569-bethanycheum)
 
 
 ## Navigating Azure AI Studio
