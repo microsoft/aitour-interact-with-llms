@@ -138,6 +138,4 @@ Submit your request to the model.
 
 Congratulations! You have now completed the second part of the lab, and have generated different image assets. In the next part of the lab, you will learn how to use the model for multimodal requests.
 
-Move to [Part 3: Multimodality](./04_Multimodal_Interfaces.md)
-
 Click **Next** to proceed to the Multimodality section.

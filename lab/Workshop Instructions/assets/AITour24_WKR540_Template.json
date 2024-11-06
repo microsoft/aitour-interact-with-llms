@@ -253,7 +253,7 @@
                 "model": "[parameters('deployments')[0].model]",
                 "raiPolicyName": "[if(contains(parameters('deployments')[0], 'raiPolicyName'), parameters('deployments')[0].raiPolicyName, null())]"
               },
-              "sku": "[if(contains(parameters('deployments')[0], 'sku'), parameters('deployments')[0].sku, createObject('name', 'Standard', 'capacity', 20))]",
+              "sku": "[if(contains(parameters('deployments')[0], 'sku'), parameters('deployments')[0].sku, createObject('name', 'Standard', 'capacity', 50))]",
               "dependsOn": [
                 "[resourceId('Microsoft.CognitiveServices/accounts', parameters('aiServicesName'))]"
               ]

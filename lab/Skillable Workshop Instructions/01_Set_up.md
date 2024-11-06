@@ -61,11 +61,12 @@ For this lab we will focus on using the **Playgrounds** and **Agents**. Navigate
 
 You will notice we have four options for our **Playground**. Each option represents a different approach to interacting and using AI models, which can be tailored to our specific needs.
 
-We will be doing most of our work in these Playgrounds, but namely in the following three:
+We will be doing most of our work in these Playgrounds, but namely in the following:
 
 - **Chat Playground**
 - **Images Playground**
 - **Real-time audio playground**
+- **Agents playground**
 
 ### Chat Playground
 
@@ -104,13 +105,13 @@ Navigate back to Playgrounds, then select the **Real-time audio playground** and
 1. **Parameters**: This tab contains the models detailed settings, such as temperature and max response.
 1. **Prompt Button**: Similar to the chat playground's box, this is where the models get their input from the user. 
 
-## Agents 
+## Agents playground
 
 ``error: still not working :-()``
 
-In the Navigation bar, select **Agents**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
+In the Navigation bar, select **Agents**. This feature provides you with the tools to build, test, and customize AI-driven agents.
 
-![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-playground.jpg)
+![Image of Azure AI Studio Playground agents Mode](./Images/ai-studio-assistants-playground.jpg)
 
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
 1. **Assistant Name**: Here you can give your assistant a name.
@@ -120,15 +121,15 @@ In the Navigation bar, select **Agents**. This feature provides you with the too
 1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. 
 1. **Results Box**: Finally, here is where the generated images are displayed.
 
-#### Tools in the Assistant Playground
+#### Tools in the agent Playground
 
-Within the Assistants section, navigate to the **Tools** tab. This area provides access to various utilities that can enhance and extend the capabilities of your assistant.
+Within the agents section, navigate to the **Tools** tab. This area provides access to various utilities that can enhance and extend the capabilities of your agent.
 
-![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-functions-playground.jpg)
+![Image of Azure AI Studio Playground agents Mode](./Images/ai-studio-assistants-functions-playground.jpg)
 
-- **Tools**: Under tools in the Assistants Playground you will find file search, code interpreter and functions.
+- **Tools**: Under tools in the Agents Playground you will find file search, code interpreter and functions.
 - **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
-- **Code interpeter**: Code Interpreter allows the Assistants API to write and run code in a sandboxed execution environment. 
+- **Code interpeter**: Code Interpreter allows the Agents API to write and run code in a sandboxed execution environment. 
 - **Functions**: This allows you to describe the structure of functions to an Assistant and then return the functions that need to be called along with their arguments..
 
 ## Ready to start

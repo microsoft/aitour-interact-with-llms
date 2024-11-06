@@ -18,22 +18,18 @@ Let's start with a few prompts and observe the response using the chat playgroun
 4. After adding your prompt, locate the Paper Plane icon, usually positioned next to the input box. Click on the Paper Plane icon to submit your text to the model deployment.
 5. After sending your query, wait a moment for the model to process and respond. The response will appear in the chat window below your input.
 
-> [!alert]
-> If you receive an error message indicating "you have exceeded token rate limit", wait one minute and then try again.
-
-
 Here are some examples to try, but get creative with your own prompts and see what happens!
 
 ### Website copy and conversation history
 
 ```
-Suggest a tagline for the website landing page of an e-commerce for outdoor clothing and equipment called Contoso Outdoor Company.
+Suggest a tagline for the website landing page of an ice cream shop called SweetScoops Delight.
 ```
 
 Without clearing the chat history, try now the following prompt:
 
 ```
-Generate website copy for the homepage of the e-commerce website.
+Generate website copy for the homepage of the ice cream shop.
 ```
 
 Note that the model is providing a copy for the *Contoso Outdoor Company* website, even if we didn't specify again the company name or business. This is because under-the-hood the model is given the **whole conversation history** as context, not just the latest prompt. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back, but the application is using prompt engineering to add this 'memory'.
@@ -74,7 +70,7 @@ Moreover, you can also instruct your LLM to extract key information from text. I
 LLMs are trained on such large amounts of data they may be able to perform some tasks with very little prompting. This is known as **zero-shot learning**. For example, let's ask the model to generate a list of product names and to categorize them:
 
 ```
-Create a list of 10 product names the Contoso Outdoor shop might sell, include the type of item.
+Generate 10 unique menu items for a futuristic themed restaurant, including dish names and a short description.
 ```
 >[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
 
@@ -83,14 +79,12 @@ Create a list of 10 product names the Contoso Outdoor shop might sell, include t
 If zero-shot learning is failing for your examples and more complex tasks, **few-shot prompting** can provide examples that can better steer the model to the desired outcomes. Examples show the model clearly how we want it to operate. Here's an example of a few-shot learning prompt for categorizing products.
 
 ```
-Create a list of 10 product names the Contoso Outdoor shop might sell, include the type of item.
+Generate 10 unique pizza menu items with futuristic names, including the name of the pizza and a short description.
 
 Examples:  
-RidgeRunner Pro Trekking Poles: EQUIPMENT  
-SummitShield 3-Season Tent: EQUIPMENT  
-CascadeTech StormProof Jacket: APPAREL  
-TerraFirm 40L Daypack: EQUIPMENT  
-AlpineGlow Solar Lantern: EQUIPMENT
+The Nebula Supreme: A classic supreme pizza with pepperoni, sausage, bell peppers, onions, and olives, topped with a hint of spicy marinara sauce.
+Galactic Garden: A vegetarian delight featuring spinach, cherry tomatoes, mushrooms, and artichokes with a basil pesto drizzle.
+Asteroid Meat Feast: Loaded with pepperoni, ham, ground beef, bacon, and Italian sausage for a hearty, protein-packed slice.
 ```
 
 ### Chain of thought prompting
@@ -101,19 +95,23 @@ When interacting with LLMs, a useful tip is to imagine that you are speaking to 
 
 
 ```
-You will generate the website copy for the homepage of the Contoso Outdoor Company e-commerce website.
+Develop a new pizza for our restaurant.
+
 Instructions:
-- Write a short welcome message for the homepage, specifying the company name and the main value proposition.
-- Write a brief description of the business, including the categories of products offered.
-- Write a short description for each of the following product categories: tents, backpacks, hiking clothing, sleeping bags.
+- Start by deciding on a theme for the new pizza.
+- Determine the overall flavor profile. Should it be spicy, sweet, savory, or a mix?
+- Pick the base ingredients. This includes the type of sauce and cheese
+- Think about unique toppings that fit the theme and flavor profile.
+- Finally, come up with a creative, memorable name that fits both the futuristic theme of the restaurant and the flavor experience you’ve crafted.
 ```
 
 Another option is using a technique - called **chain of thought** where the LLM is responsible for breaking the task down into smaller steps. The LLM uses its knowledge of the world and its ability to reason. The LLM then generates a chain of thoughts that lead to the solution of the task.
 Clear the playground chat again and then enter the user prompt below to see 'Chain of thought prompting' in action:
 
 ```
-Generate the website copy for the homepage of the Contoso Outdoor Company e-commerce website.
-Take a step-by-step approach in your response, include a welcome message, a brief description of the business, and a description of the product categories offered (tents, backpacks, hiking clothing, sleeping bags). Also, give reasoning before sharing the final answer in the below format: ANSWER is: <website copy>.
+Develop a new pizza for our restaurant.
+
+Take a step-by-step approach in your response: Start by thinking about the theme, considering how it fits into the restaurant's overall futuristic concept. Then, define the flavor profile, keeping in mind our audience's preferences and the overall taste experience you want to create. Next, choose the base ingredients, including the sauce type and cheese blend, and think about unique toppings that make this pizza stand out. Finally, decide on a name that aligns with the theme and enhances the pizza's appeal. Include your reasoning before sharing the final answer in the below format: ANSWER is: <pizza description>.
 ```
 
 ## System message and added knowledge
@@ -134,12 +132,12 @@ Update the System Message to give the model instructions and context as follows:
 
 ```
 ## Task
-You are a web copywriter for the Contoso Outdoor Company e-commerce website. Your goal is to generate the website copy for the homepage. 
+You are a menu designer for a futuristic-themed restaurant. Your goal is to generate creative menu items and descriptions. Keep your answers brief, engaging, and aligned with the restaurant's theme.
+
 Your answer should be brief and engaging. Always use a friendly and professional tone of voice.
-Always show the word CONTOSO in capital letters.
 
 ## Safety
-In the copy you write always stick to the subject of the company and the products it offers. Avoid any irrelevant information and controversial opinions.
+Keep the descriptions family-friendly and suitable for all age groups visiting our pizzeria. Avoid any irrelevant information and controversial opinions.
 ```
 
 3. Find the button labeled Apply changes, it is located directly above the System message tab and will be highlighted with a blue background. Click this button to save and apply the changes you’ve made to the System message field.
@@ -153,13 +151,13 @@ The text provided in the System Message is handled specially by the model, and i
 5. To see how the model's behavior changes with the added context, try the prompt below in the text box:
 
 ```
-Write a brief description of the business, including the categories of products offered.
+Write a brief description of the hotel, including the categories of products offered.
 ```
 
 You will see that not only does the model respond with the requested information, but it also follows the tasks accurately, such as writing CONTOSO in capital letters. To go further, we can test the **safety measures**: 
 
 ```
-What are your thoughts on the upcoming election?
+What are your thoughts on the just concluded election?
 ```
 
 6. The model will refrain from answering this (as it is both irrelevant to the company and could be deemed controversial), and stick to the subject of the company and its products.

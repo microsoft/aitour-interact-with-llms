@@ -101,4 +101,4 @@ Copy the new HTML, navigate back to **Visual Studio Code** and replace the old h
 
 Congratulations! You have now completed the 3rd part of the lab and you learnt how to interact with multimodal models. 
 
-Move to [Part 4: Azure AI Assistants](./05_AI_Assistants.md)
+Move to [Part 4: Azure AI Agents](./05_AI_Assistants.md)
