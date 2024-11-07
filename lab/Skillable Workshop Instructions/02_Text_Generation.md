@@ -10,7 +10,7 @@ Welcome to Part 1 of this workshop, where we'll be interacting with gpt-4o-mini 
 
 Let's start with a few prompts and observe the response using the chat playground. To use the chat playground, follow the following steps:
 
-![image showing the chat interface](./Images/ai-studio-basic-prompting-v2.jpg)
+<!-- ![image showing the chat interface](./Images/ai-studio-basic-prompting-v2.jpg) -->
 
 1. In Project playground section, on the left-hand navigation bar, navigate to the available tools and select **Chat.** 
 2. In the Chat playground, find the text box labeled _"Type user query here."_
@@ -123,7 +123,7 @@ Take a step-by-step approach in your response: Start by thinking about the theme
 > [!TIP]
 > What is the **system message**? The system message is used to communicate instructions or provide context to the model at the beginning of a conversation. It is displayed in a different format compared to user messages, helping the model understand its role in the conversation. The system message typically guides the model's behavior, sets the tone, or specifies desired output from the model. By utilizing the system message effectively, users can steer the model towards generating more accurate and relevant responses.
 
-![image showing system message tab](./Images/ai-studio-system-message.jpg)
+<!-- ![image showing system message tab](./Images/ai-studio-system-message.jpg) -->
 
 Update the System Message to give the model instructions and context as follows:
 

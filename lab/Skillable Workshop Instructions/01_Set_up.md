@@ -72,7 +72,7 @@ We will be doing most of our work in these Playgrounds, but namely in the follow
 
 Within the playground section, navigate to the **Chat playground** and select **Try the Chat Playground.** This feature allows you to engage with and test various AI models in a conversational format.
 
-![Image of Azure AI Studio Playground Chat Mode](./Images/ai-studio-playground.jpg)
+<!-- ![Image of Azure AI Studio Playground Chat Mode](./Images/ai-studio-playground.jpg) -->
 
 1. **Setup Deployment**: This section allows us to change between our deployed models.
 1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
@@ -85,7 +85,7 @@ Within the playground section, navigate to the **Chat playground** and select **
 
 Navigate back to Playgrounds, select the **Image playground** and click **Try the Image Playground.** This option allows you to work with image generation
 
-![Image of Azure AI Studio Playground Images Mode](./Images/ai-studio-image-playground.jpg)
+<!-- ![Image of Azure AI Studio Playground Images Mode](./Images/ai-studio-image-playground.jpg) -->
 
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
 1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. In the case of images, descriptions of what we want to generate.
@@ -95,7 +95,7 @@ Navigate back to Playgrounds, select the **Image playground** and click **Try th
 
 Navigate back to Playgrounds, then select the **Real-time audio playground** and click **Try the Real-time audio Playground.** This feature allows you to engage with and test various AI models in an audio conversational format.
 
-![Image of Azure AI Studio Playground Real time audio mode](./Images/ai-studio-real-time-audio-playground.jpg)
+<!-- ![Image of Azure AI Studio Playground Real time audio mode](./Images/ai-studio-real-time-audio-playground.jpg) -->
 
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **Server turn detection**: Determines if the server should utilize voice activity detection (VAD) to identify when a user has finished speaking.
@@ -111,7 +111,7 @@ Navigate back to Playgrounds, then select the **Real-time audio playground** and
 
 In the Navigation bar, select **Agents**. This feature provides you with the tools to build, test, and customize AI-driven agents.
 
-![Image of Azure AI Studio Playground agents Mode](./Images/ai-studio-assistants-playground.jpg)
+<!-- ![Image of Azure AI Studio Playground agents Mode](./Images/ai-studio-assistants-playground.jpg) -->
 
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
 1. **Assistant Name**: Here you can give your assistant a name.
@@ -125,7 +125,7 @@ In the Navigation bar, select **Agents**. This feature provides you with the too
 
 Within the agents section, navigate to the **Tools** tab. This area provides access to various utilities that can enhance and extend the capabilities of your agent.
 
-![Image of Azure AI Studio Playground agents Mode](./Images/ai-studio-assistants-functions-playground.jpg)
+<!-- ![Image of Azure AI Studio Playground agents Mode](./Images/ai-studio-assistants-functions-playground.jpg) -->
 
 - **Tools**: Under tools in the Agents Playground you will find file search, code interpreter and functions.
 - **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
