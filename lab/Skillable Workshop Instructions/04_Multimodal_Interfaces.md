@@ -32,10 +32,10 @@ Until now, we have interacted with LLMs using a single modality: inputting text 
 
 ![Uploading image as input](./Images/upload_image_icon.png)
 
-3. Select the images from the ```house-multimodal``` folder
+3. Select the images from the ```desktop/house-multimodal``` folder
 
 > [!NOTE] 
-> You can use this link [to be uploaded](https://github.com/microsoft/aitour-generative-ai-in-azure/tree/main/session-delivery-resources/multimodal/holiday-home) to access the image.
+> You can use this link [house-multimodal](./Images/house-multimodal/) to access the images.
 
 4. Once you have uploaded the files, try these prompts to start interacting with the image:
 
@@ -50,12 +50,12 @@ Until now, we have interacted with LLMs using a single modality: inputting text 
 For this next demo, we have an obstructed image. Bounding boxes were purposefully added in the image to obscure the full context.
 
 1. In the chat text box, add the prompt: ``what is that?``
-2. Click on the attachment icon and add [this image](./Images/demo-4-context-001.png) and send the prompt.
+2. Click on the attachment icon and add [this image](./Images/context-001.png) and send the prompt.
 
 
 > You might struggle to identify this text if I asked, 'Hey, what is this?' This demonstrates a classic computer vision challenge in optical character recognition: deciphering unclear, isolated words. Now, if I use gpt-4o-mini and ask, 'What is this?', it responds, 'The text is not clearly readable due to its handwritten style. It could be something like “Mark.”' Remarkably, it also notes, 'Some portions of the text appear to be blocked and cannot be read.'
 
-3. We will add a [new image](./Images/demo-4-context-002.png) to our chat, with the prompt ```Extract all the texts from the image. Explain what you think this is.```
+3. We will add a [new image](./Images/context-002.png) to our chat, with the prompt ```Extract all the texts from the image. Explain what you think this is.```
 
 > Revealing a bit more, it's still quite challenging to identify what it is. This time, the prompt is adjusted slightly to: 'Extract all the text from the image. Explain what you think this is.' gpt-4o-mini responded, 'This says "milk, steak" and appears to be a shopping list.' It also noted that the image is still partially obscured, which is quite interesting.
 
