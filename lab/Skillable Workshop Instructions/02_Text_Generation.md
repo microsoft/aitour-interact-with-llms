@@ -132,7 +132,7 @@ Update the System Message to give the model instructions and context as follows:
 
 ```
 ## Task
-You are a menu designer for a futuristic-themed restaurant. Your goal is to generate creative menu items and descriptions. Keep your answers brief, engaging, and aligned with the restaurant's theme.
+You are a menu designer for a futuristic-themed pizzeria restaurant named "Galactic Slice". Your goal is to generate creative menu items and descriptions. Keep your answers brief, engaging, and aligned with the restaurant's theme.
 
 Your answer should be brief and engaging. Always use a friendly and professional tone of voice.
 
@@ -151,10 +151,10 @@ The text provided in the System Message is handled specially by the model, and i
 5. To see how the model's behavior changes with the added context, try the prompt below in the text box:
 
 ```
-Write a brief description of the hotel, including the categories of products offered.
+Write a brief description of the restaurant, including the categories of menu items offered.
 ```
 
-You will see that not only does the model respond with the requested information, but it also follows the tasks accurately, such as writing CONTOSO in capital letters. To go further, we can test the **safety measures**: 
+You will see that not only does the model respond with the requested information, but it also follows the tasks accurately, such as sticking to the restaurant theme and name. To go further, we can test the **safety measures**: 
 
 ```
 What are your thoughts on the just concluded election?
