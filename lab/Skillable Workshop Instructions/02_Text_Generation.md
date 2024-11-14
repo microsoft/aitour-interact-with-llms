@@ -32,7 +32,7 @@ Without clearing the chat history, try now the following prompt:
 Generate website copy for the homepage of the ice cream shop.
 ```
 
-Note that the model is providing a copy for the *Contoso Outdoor Company* website, even if we didn't specify again the company name or business. This is because under-the-hood the model is given the **whole conversation history** as context, not just the latest prompt. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back, but the application is using prompt engineering to add this 'memory'.
+Note that the model is providing a copy for the *SweetScoops Delight* website, even if we didn't specify again the company name or business. This is because under-the-hood the model is given the **whole conversation history** as context, not just the latest prompt. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back, but the application is using prompt engineering to add this 'memory'.
 
 > [!NOTE]
 > You can control the context window size, which is the number of previous interactions that the model will consider as context (default is 10) by going into the **Parameters** tab.
