@@ -32,7 +32,7 @@ Until now, we have interacted with LLMs using a single modality: inputting text 
 
 ![Uploading image as input](./Images/upload_image_icon.png)
 
-3. Select the images from the ```desktop/house-multimodal``` folder
+3. Select all the images from the ```house-multimodal``` folder on your desktop.
 
 > [!NOTE] 
 > You can use this link [house-multimodal](./Images/house-multimodal/) to access the images.
@@ -50,16 +50,16 @@ Until now, we have interacted with LLMs using a single modality: inputting text 
 For this next demo, we have an obstructed image. Bounding boxes were purposefully added in the image to obscure the full context.
 
 1. In the chat text box, add the prompt: ``what is that?``
-2. Click on the attachment icon and add [this image](./Images/context-001.png) and send the prompt.
+2. Click on the attachment icon and go to Desktop folder and upload [context-001](./Images/context-001.png) image and send the prompt.
 
 
 > You might struggle to identify this text if I asked, 'Hey, what is this?' This demonstrates a classic computer vision challenge in optical character recognition: deciphering unclear, isolated words. Now, if I use gpt-4o-mini and ask, 'What is this?', it responds, 'The text is not clearly readable due to its handwritten style. It could be something like “Mark.”' Remarkably, it also notes, 'Some portions of the text appear to be blocked and cannot be read.'
 
-3. We will add a [new image](./Images/context-002.png) to our chat, with the prompt ```Extract all the texts from the image. Explain what you think this is.```
+3. We will add a new image, go to Desktop folder and upload [context-002](./Images/context-002.png) image to our chat, with the prompt ```Extract all the texts from the image. Explain what you think this is.```
 
 > Revealing a bit more, it's still quite challenging to identify what it is. This time, the prompt is adjusted slightly to: 'Extract all the text from the image. Explain what you think this is.' gpt-4o-mini responded, 'This says "milk, steak" and appears to be a shopping list.' It also noted that the image is still partially obscured, which is quite interesting.
 
-4. We will add [one final image](./Images/demo-4-context-003.png) to our chat, with the prompt: ```Extract all the texts from the image. Explain what you think this is.```
+4. We will add a new final image, go to Desktop folder and upload [context-003](./Images/demo-4-context-003.png) image to our chat, with the prompt: ```Extract all the texts from the image. Explain what you think this is.```
 
 > Upon revealing the entire image, we see that gpt-4o-mini was correct—it is indeed a shopping list. It accurately identifies items like 'mayo' and 'organic bread.' Even more intriguing is its interpretation of the note at the bottom. It captures the subtle context, stating, 'The note on the beer item suggests a reminder or an emphasis on moderation or limiting the quantity.
 
