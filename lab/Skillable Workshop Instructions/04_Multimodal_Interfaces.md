@@ -32,7 +32,7 @@ Until now, we have interacted with LLMs using a single modality: inputting text 
 
 ![Uploading image as input](./Images/upload_image_icon.png)
 
-3. Select all the images from the ```house-multimodal``` folder on your desktop.
+3. Select all the images from the ```house-multimodal``` folder on your desktop.Consider uploading images one by one, to avoid incurring rate limit. 
 
 > [!NOTE] 
 > You can use this link [house-multimodal](./Images/house-multimodal/) to access the images.
@@ -65,9 +65,9 @@ For this next demo, we have an obstructed image. Bounding boxes were purposefull
 
 ## Real time-audio interactions
 
-By integrating the ``gpt-4o-realtime-preview `` model, users can interact with the platform using voice commands, making the shopping experience more engaging and accessible.
+By integrating the **gpt-4o-realtime-preview** model, users can interact with the platform using voice commands, making the shopping experience more engaging and accessible.
 
-1. Navigate to the **Real-time audio playground** and set the deployment to ``gpt-4o-realtime-preview``
+1. Navigate to the **Real-time audio playground** and set the deployment to **gpt-4o-realtime-preview**
 
 2. Update the model instructions box with the following:
 

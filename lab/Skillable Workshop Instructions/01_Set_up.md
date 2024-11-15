@@ -15,8 +15,7 @@ As a first step, login into the lab Virtual Machine using the following credenti
    
 In this workshop we will be working on Azure AI Studio, focusing especially on the playground feature. 
 
-1. On the Desktop, click on **Microsoft Edge** browser.
-2. Type +++https://ai.azure.com+++ on the search box to access Azure AI Studio. The browser will open a new tab with the Azure AI Studio Homepage as shown in the following image.
+1. On the Desktop, click on **Microsoft Edge** browser. Navigate to the second browser tab which will be showing the Azure AI Studio Homepage as shown in the following image.
 
 ![Homepage of Azure AI Studio](./Images/aistudio-homepage.png)
 
@@ -54,7 +53,7 @@ We have two new sections:
 1.  The first section includes **_Playgrounds_** to interact with the models, _Project Overview_ which provides a general overview of your project, _Model Catalog_ which showcases the available models inside Azure AI Studio, and _AI Services_ where you can see a list of Azure AI Services available along with demos, use cases and more.
 1. **Build and Customize**: This includes useful opportunities to expand your project's reach, such as _working in Code_ by running a cloud compute, access to [_Prompt Flow_](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow), and the ability to carry _Fine Tuning_ on your deployments.
 1. **Assess and Improve:** this includes development of _Evaluations_ for your models, **tracing** to debug your flows and **content filters** to add guardrails to prompt inputs and completion outputs.
-1. **My assets**: Here you can add complimentary elements to the project, with resources such as _Data_, _Indexes_, _models and endpoints_ and _Web apps_ to be used as part of your work.
+1. **My assets**: Here you can add additional elements to the project, with resources such as _Data_, _Indexes_, _models and endpoints_ and _Web apps_ to be used as part of your work.
 1. **Management Center:** a location to manage all you  hub and project details and resources.
 
 For this lab we will focus on using the **Playgrounds**, navigate to the Playgrounds and move on to the next section.
@@ -115,6 +114,7 @@ In the Navigation bar, select **Assistants**. This feature provides you with the
 
 ![Image of Azure AI Studio Playground assistants Mode](./Images/aistudio-assistant-plaground.jpeg)
 
+Once you _create your first assistant_ you will see the UI components as follows:
 1. **Assistant Name and id**: Here you can give your assistant a name.
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
 1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
@@ -131,8 +131,5 @@ That covers the necessary setup and basics of Azure AI Studio. We will now move 
 
 - Navigate to the  **playgrounds** select the **Chat playground** and click **Try the Chat Playground.**  
 - In the _instructions tab_, Click Next to proceed to Part 1: Text Generation
-
-
->[!alert] Navigate to the  **playgrounds** and select **Try the Chat Playground** and click next in the instructions to proceed to Part 1: Text Generation
 
 Click **Next** to proceed to the Text Generation section.

@@ -65,13 +65,13 @@ Lastly, we can **Run** the Assistant. This means activating an Assistant to begi
 
     ![assistant attach new file](Images/aistudio-tools-codeinterpreter.jpeg)
 
-6. On the pop up window, click on **Upload Local Files** and select the `Contoso_Sales_Revenue.csv` file on your Desktop and click on *Open*.
+6. On the pop up window, click on **select Local Files** and select the `Contoso_Sales_Revenue.csv` file on your Desktop and click on *Open*.
     ![assistants code interpreter](Images/aistudio-codeinterpreter-upload-file.jpeg)
 
     >[!NOTE]
     > If you cannot find the file on your desktop, you can download it from [here](assets/Contoso_Sales_Revenue.csv).
 
-7. Click on the **Attach** button. You should now see the file under the *Code Interpreter* tool.
+7. Click on the **upload and add** button. You should now see the file under the *Code Interpreter* tool.
 
 The assistant is now ready for us to interact with it.
 
