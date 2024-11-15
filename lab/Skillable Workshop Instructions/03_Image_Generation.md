@@ -9,7 +9,7 @@ Welcome to part 2 of this workshop, where we will interact with a text-to-image 
 
 To create your first image, follow the following steps:
 
-![image showing image generation](./Images/ai-studio-create-image.jpg)
+![image showing image generation](./Images/aistudio-image-generation.jpeg)
 
 1. Navigate to the  **playgrounds**, on the left-hand navigation bar, and select **Try the Chat Playground**
 2. In the Images playground, find and click on the drop-down menu labeled **Deployments**. From the drop-down list, select **dall-e-3**.

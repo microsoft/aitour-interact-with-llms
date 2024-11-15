@@ -31,7 +31,9 @@ Lastly, we can **Run** the Assistant. This means activating an Assistant to begi
 
 ## Creating the Assistant
 
-1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. Click **+ New assistant** to get started.
+1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. Click **+ create an assistant** to get started.
+
+![Assistants Playground](./Images/aistudio-create-new-assistant.jpeg)
 
 2. In the **Deployments** section, ensure you select **gpt-4o-mini** model.
 
@@ -54,17 +56,17 @@ Lastly, we can **Run** the Assistant. This means activating an Assistant to begi
     If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
     ```
 
-    <!-- ![Assistants Playground](./Images/assistants_playground_with_name_and_prompt.png) -->
+    ![Assistants Playground](./Images/aistudio-assistant-update-details.jpeg)
 
     >[!NOTE]
     >How many prompt engineering techniques from the previous sections are you able to identify in this prompt? For clues, check Part 2 of the workshop.
 
 4. Click on the **Tools** tab, and click to enable **Code Interpreter** then click **Add files**.
 
-    <!-- ![assistant attach new file](Images/assistants_playground_attach_new_file.png) -->
+    ![assistant attach new file](Images/aistudio-tools-codeinterpreter.jpeg)
 
 6. On the pop up window, click on **Upload Local Files** and select the `Contoso_Sales_Revenue.csv` file on your Desktop and click on *Open*.
-    ![assistants code interpreter](Images/assistants-playground-code-interpreter-tool.png)
+    ![assistants code interpreter](Images/aistudio-codeinterpreter-upload-file.jpeg)
 
     >[!NOTE]
     > If you cannot find the file on your desktop, you can download it from [here](assets/Contoso_Sales_Revenue.csv).
