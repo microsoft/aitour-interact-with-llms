@@ -35,14 +35,14 @@ Generate website copy for the homepage of the ice cream shop.
 Note that the model is providing a copy for the *SweetScoops Delight* website, even if we didn't specify again the company name or business. This is because under-the-hood the model is given the **whole conversation history** as context, not just the latest prompt. An AI model cannot learn and has no memory of previous interactions if the user leaves and comes back, but the application is using prompt engineering to add this 'memory'.
 
 > [!NOTE]
-> You can control the context window size, which is the number of previous interactions that the model will consider as context (default is 10) by going into the **Parameters** tab.
+> You can control the context window size, which is the number of previous interactions that the model will consider as context (default is 10) by going into the **Parameters** section.
 
 You can control your model parameters as follows:
 
 ![image showing parameters tab](./Images/aistudio-chat-parameters.jpeg)
 
-1. In the Chat interface, navigate to the **Parameters** tab.
-2. Once in the Parameters tab, adjust the setting controls. You can change the number of past messages included which the model will consider as context. Once set, the changes will be applied automatically.
+1. In the Chat interface, navigate to the **Parameters** section.
+2. Once in the Parameters section, adjust the setting controls. You can change the number of past messages included which the model will consider as context. Once set, the changes will be applied automatically.
 
 
 ### Summarization and key entities extraction
@@ -140,7 +140,7 @@ Your answer should be brief and engaging. Always use a friendly and professional
 Keep the descriptions family-friendly and suitable for all age groups visiting our pizzeria. Avoid any irrelevant information and controversial opinions.
 ```
 
-3. Find the button labeled Apply changes, it is located directly above the System message tab and will be highlighted with a blue background. Click this button to save and apply the changes you’ve made to the System message field.
+3. Find the button labeled Apply changes, it is located directly below the System message box. Click this button to save and apply the changes you’ve made to the System message field.
 4. After applying the changes, click update in the pop-up to update the system message.
 
 

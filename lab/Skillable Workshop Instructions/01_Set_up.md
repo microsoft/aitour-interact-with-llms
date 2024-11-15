@@ -103,7 +103,7 @@ Navigate back to Playgrounds, then select the **Real-time audio playground** and
 
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **Server turn detection**: Determines if the server should utilize voice activity detection (VAD) to identify when a user has finished speaking.
-1. **Model instructions Box**: Here is where we enter instructions for the model, previous to the user interaction.
+1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
 1. **Choose a voice**: Gpt-4o-audio offers a variety of voices to choose from with unique accents or tonal capabilities tailored to your liking.
 1. **Server turn detection**: These parameters help optimize the model's efficiency and performance by improving voice activity detection.
 1. **Parameters**: This tab contains the models detailed settings, such as temperature and max response.
@@ -115,14 +115,14 @@ In the Navigation bar, select **Assistants**. This feature provides you with the
 
 ![Image of Azure AI Studio Playground assistants Mode](./Images/aistudio-assistant-plaground.jpeg)
 
+1. **Assistant Name and id**: Here you can give your assistant a name.
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
-1. **Assistant Name**: Here you can give your assistant a name.
-1. **Prompt**: Here is where we enter instructions for the model, previous to the user interaction.
+1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
 1. **Tools**: Here is where you get additional tools to customize your assistant including functions, file search and code interpreter
     - **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
     - **Code interpeter**: Code Interpreter allows the Assistants API to write and run code in a sandboxed execution environment. 
     - **Functions**: This allows you to describe the structure of functions to an Assistant and then return the functions that need to be called along with their arguments..
-1. **Parameters**: This tab contains the models detailed settings, such as temperature.
+1. **Model settings**: This tab contains the models detailed settings, such as temperature.
 1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. 
 
 ## Ready to start
