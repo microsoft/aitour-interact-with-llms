@@ -1,4 +1,4 @@
-# Part 3 - Multimodal interfaces
+# Part 3 - Multimodal
 
 Until now, we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular because they allow users to interact with models using multiple modalities, such as text, images, and speech, thereby improving human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with **GPT-4o mini** and **GPT-4o audio**.
 
@@ -32,24 +32,23 @@ Until now, we have interacted with LLMs using a single modality: inputting text 
 
 ![Uploading image as input](./Images/upload_image_icon.png)
 
-3. Select all the images from the ```house-multimodal``` folder on your desktop.Consider uploading images one by one, to avoid incurring rate limit. 
-
-> [!NOTE] 
-> You can use this link [house-multimodal](./Images/house-multimodal/) to access the images.
-
+3. Select all the images from the ```house-multimodal``` folder on your desktop.
 4. Once you have uploaded the files, try these prompts to start interacting with the image:
 
-```What is on the image?```
-
-```What is the house made of?```
-
-```Does the house have a swimming pool?```
+```
+Create a tagline and short description for this rental home advertisement.
+- The first picture is from the home
+- The other pictures are from sights nearby
+- In the description use the features of the house and make the ad more compelling with the sights. 
+- Do not talk about features not visible in the images.
+- If you have information about the location of the images, use that information in the description
+```
 
 ## Providing Context
 
 For this next demo, we have an obstructed image. Bounding boxes were purposefully added in the image to obscure the full context.
 
-1. In the chat text box, add the prompt: ``what is that?``
+1. _Clear the chant_ and in the chat text box, add the prompt: ``what is that?``
 2. Click on the attachment icon and go to Desktop folder and upload [context-001](./Images/context-001.png) image and send the prompt.
 
 
@@ -67,13 +66,17 @@ For this next demo, we have an obstructed image. Bounding boxes were purposefull
 
 By integrating the **gpt-4o-realtime-preview** model, users can interact with the platform using voice commands, making the shopping experience more engaging and accessible.
 
-1. Navigate to the **Real-time audio playground** and set the deployment to **gpt-4o-realtime-preview**
+1. Navigate back to **Playgrounds** and select **try Real-time audio playground** and set the deployment to **gpt-4o-realtime-preview**
 
 2. Update the model instructions box with the following:
 
-    ```You are a pirate, and every response must be full of pirate lingo.```
+    ```You are a pirate, and every response must be full of pirate lingo. ```
 
-3. Interact with the model by clicking on the **start listening** button, saying ``hello`` and having a conversation with the model
+3. Interact with the model by clicking on the **start listening** button, saying ``hello`` and ask the model a few facts.
+
+4. Next, change the tone with the system message as follows and interact with the model again: 
+
+```You are a valiant medieval knight. Every response should echo the chivalry, honor, and grandeur of the court. Speak with formality and grace, as if addressing kings, queens, and noble warriors.```
 
 ## Next Steps
 

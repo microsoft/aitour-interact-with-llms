@@ -72,7 +72,9 @@ LLMs are trained on such large amounts of data they may be able to perform some 
 ```
 Generate 10 unique menu items for a futuristic themed restaurant, including dish names and a short description.
 ```
->[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
+>[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history. To this, click on the **broom-like icon** on the top right of your plaground.
+
+![Screenshot of the clear chat button](./Images/text-generation-clearchat.jpg)
 
 ### Few-shot learning
 
