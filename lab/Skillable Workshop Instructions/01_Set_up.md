@@ -39,9 +39,9 @@ In this workshop we will be working on Azure AI Studio, focusing especially on t
 
 On this page, we can see an overview of our Azure AI Studio Project. This includes:
 - **Project Name and Description**: The name of the project and a short description of the Azure AI Studio Project we are in.
-- **Quick Reference**: A collection of various properties such as the Project's connection string, its location, resource group, etc. 
+- **Project details**: A collection of various properties such as the Project's connection string, its location, resource group, etc. 
 - **Endpoints and keys**: Azure AI Studio allows for multiple resources to be connected to it, expanding its features and functionality. Resources such as Azure OpenAI, Azure AI Search and Azure AI Services further enhance the capabilities of our Project, granting us access to deployments such as LLMs or functionalities such as vector search.  Here we can find useful information such as *API endpoints and keys* and documentation.
-- **Recent work and tutorials**: Under this, your recent work is highlighted with additional learning resources and tutorials to help you get started.
+- **Recent resources and tutorials**: Under this, your recent resources is highlighted with additional learning resources and tutorials to help you get started.
 
 ### Navigation Bar
 
@@ -50,9 +50,9 @@ You will notice the navigation bar has updated with new tabs, which represent fu
 ![project navigation bar](./Images/aistudio-project-navigation.jpeg)
 
 We have two new sections:
-1.  The first section includes **_Playgrounds_** to interact with the models, _Project Overview_ which provides a general overview of your project, _Model Catalog_ which showcases the available models inside Azure AI Studio, and _AI Services_ where you can see a list of Azure AI Services available along with demos, use cases and more.
+1.  The first section includes _Playgrounds_ to interact with the models, _Overview_ which provides a general overview of your project, _Model Catalog_ which showcases the available models inside Azure AI Studio, and _AI Services_ where you can see a list of Azure AI Services available along with demos, use cases and more.
 1. **Build and Customize**: This includes useful opportunities to expand your project's reach, such as _working in Code_ by running a cloud compute, access to [_Prompt Flow_](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow), and the ability to carry _Fine Tuning_ on your deployments.
-1. **Assess and Improve:** this includes development of _Evaluations_ for your models, **tracing** to debug your flows and **content filters** to add guardrails to prompt inputs and completion outputs.
+1. **Assess and Improve:** this includes development of _Evaluations_ for your models, _tracing_ to debug your flows and _content filters_ to add guardrails to prompt inputs and completion outputs.
 1. **My assets**: Here you can add additional elements to the project, with resources such as _Data_, _Indexes_, _models and endpoints_ and _Web apps_ to be used as part of your work.
 1. **Management Center:** a location to manage all you  hub and project details and resources.
 
@@ -60,7 +60,7 @@ For this lab we will focus on using the **Playgrounds**, navigate to the Playgro
 
 ## Playgrounds
 
-You will notice we have four options for our **Playground**. Each option represents a different approach to interacting and using AI models, which can be tailored to our specific needs.
+You will notice we have different options for our **Playground**. Each option represents a different approach to interacting and using AI models, which can be tailored to our specific needs.
 
 We will be doing most of our work in these Playgrounds, but namely in the following:
 
@@ -77,7 +77,7 @@ Within the playground section, navigate to the **Chat playground** and select **
 
 ![Image of Azure AI Studio Playground Chat Mode](./Images/aistudio-chat-playground.jpeg)
 
-1. **Setup Deployment**: This section allows us to change between our deployed models.
+1. **Deployment**: This section allows us to change between our deployed models.
 1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
 1. **Add your data**: Azure AI Studio supports providing the deployed models with external data, allowing for better search and context.
 1. **Parameters**: This tab contains the models detailed settings, such as temperature.
@@ -104,7 +104,7 @@ Navigate back to Playgrounds, then select the **Real-time audio playground** and
 1. **Server turn detection**: Determines if the server should utilize voice activity detection (VAD) to identify when a user has finished speaking.
 1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
 1. **Choose a voice**: Gpt-4o-audio offers a variety of voices to choose from with unique accents or tonal capabilities tailored to your liking.
-1. **Server turn detection**: These parameters help optimize the model's efficiency and performance by improving voice activity detection.
+1. **Server turn detection**: additional parameters to help optimize the model's efficiency and performance by improving voice activity detection.
 1. **Parameters**: This tab contains the models detailed settings, such as temperature and max response.
 1. **Prompt Button**: Similar to the chat playground's box, this is where the models get their input from the user. 
 
@@ -115,9 +115,9 @@ In the Navigation bar, select **Assistants**. This feature provides you with the
 ![Image of Azure AI Studio Playground assistants Mode](./Images/aistudio-assistant-plaground.jpeg)
 
 Once you _create your first assistant_ you will see the UI components as follows:
-1. **Assistant Name and id**: Here you can give your assistant a name.
-1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
-1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
+1. **Assistant id and name**: Here you can give your assistant a name.
+1. **Deployment**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
+1. **Instructions Box**: Here is where we enter instructions for the model, previous to the user interaction.
 1. **Tools**: Here is where you get additional tools to customize your assistant including functions, file search and code interpreter
     - **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
     - **Code interpeter**: Code Interpreter allows the Assistants API to write and run code in a sandboxed execution environment. 

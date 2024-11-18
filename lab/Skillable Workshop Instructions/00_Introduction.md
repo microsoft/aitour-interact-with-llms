@@ -18,16 +18,16 @@ By the end of this workshop, you should be able to:
 
 All additional information on the lab can be found on GitHub:
 
-- [Skillable Workshop Instructions](https://github.com/microsoft/aitour-interact-with-llms/blob/main/lab/Skillable%20Workshop%20Instructions/00_Introduction.md)
-- [Workshop Instructions if you are deploying directly on Azure](https://github.com/microsoft/aitour-interact-with-llms/blob/main/lab/Workshop%20Instructions/00_Introduction.md)
+- [Skillable Workshop Instructions](https://github.com/microsoft/aitour-interact-with-llms/tree/microsoft-ignite-update/lab/Skillable%20Workshop%20Instructions)
+<!-- - [Workshop Instructions if you are deploying directly on Azure](https://github.com/microsoft/aitour-interact-with-llms/blob/main/lab/Workshop%20Instructions/00_Introduction.md) -->
 
 ## Lab Outline
 
-The lab is organized into 5 sections, taking you through generating text content, image assets, and code snippets through a multimodal conversational interface on Azure with OpenAI models. In addition, we will cover Function Calling and AI Assistants. The goal of the lab is to leverage generative AI capabilities over a wide range of scenarios.
+The lab is organized into 4 sections, taking you through generating text content, image assets, and code snippets through a multimodal conversational interface on Azure with OpenAI models. In addition, we will cover AI Assistants. The goal of the lab is to leverage generative AI capabilities over a wide range of scenarios.
 
 1. **Part 1 - Text Generation** Generate text content and descriptions with GPT4o
 2. **Part 2 - Image Generation** Generate image assets with DALLE-3
-3. **Part 3 - Multimodality** Leverage multimodal capabilities of GPT-4o to generate code snippets from hand-drawn sketches.
+3. **Part 3 - Multimodality** Leverage multimodal capabilities of GPT-4o to interact with images and text.
 4. **Part 4 - Azure AI Assistants** Use code interpreter to understand your data.
 
 Click **Next** to set up your Workshop environment and get started.

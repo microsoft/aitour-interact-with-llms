@@ -12,7 +12,7 @@ Let's start with a few prompts and observe the response using the chat playgroun
 
 ![image showing the chat interface](./Images/aistudio-chat-basicprompting.jpeg)
 
-1. In Project playground section, on the left-hand navigation bar, navigate to the available tools and select **Chat.** 
+1. Navigate to the playgrounds section, on the left-hand navigation bar, and click **Try the Chat Playground.**
 2. In the Chat playground, find the text box labeled _"Type user query here."_
 3. From the prompt examples below, click the "T" (e.g., ``here is a sample prompt``) which will automatically input for you at the current cursor location, with one click.
 4. After adding your prompt, locate the Paper Plane icon, usually positioned next to the input box. Click on the Paper Plane icon to submit your text to the model deployment.
@@ -63,7 +63,9 @@ Moreover, you can also instruct your LLM to extract key information from text. I
 
 ## Advanced prompting
 
->[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history.
+>[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history. To do this, click on the **broom-like icon** on the top right of your plaground. A pop-up will appear, click **clear button** to clear the chat history.
+
+![Screenshot of the clear chat button](./Images/text-generation-clearchat.jpg)
 
 ### Zero-shot learning
 
@@ -72,9 +74,7 @@ LLMs are trained on such large amounts of data they may be able to perform some 
 ```
 Generate 10 unique menu items for a futuristic themed restaurant, including dish names and a short description.
 ```
->[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history. To this, click on the **broom-like icon** on the top right of your plaground.
-
-![Screenshot of the clear chat button](./Images/text-generation-clearchat.jpg)
+>[!alert] Before moving on with the next section, click on the **Clear Chat** button to clear the message history. 
 
 ### Few-shot learning
 
@@ -129,8 +129,8 @@ Take a step-by-step approach in your response: Start by thinking about the theme
 
 Update the System Message to give the model instructions and context as follows:
 
-1. In the Chat interface, navigate to the **System message** tab.
-2. Once in the System message tab, erase the existing message. Click inside the System message field to place your cursor there and  insert the text below:
+1. In the Chat interface, navigate to the **System message** section.
+2. Once in the System message section, erase the existing message. Click inside the System message field to place your cursor there and  insert the text below:
 
 ```
 ## Task
@@ -143,7 +143,7 @@ Keep the descriptions family-friendly and suitable for all age groups visiting o
 ```
 
 3. Find the button labeled Apply changes, it is located directly below the System message box. Click this button to save and apply the changes you’ve made to the System message field.
-4. After applying the changes, click update in the pop-up to update the system message.
+4. After applying the changes, click the **continue button** in the pop-up to update the system message.
 
 
 Observe that we have provided the model with a **clear task**, a **tone of voice**, and **safety measures** to follow. Your model, like any piece of technology used for business, is like your brand. If you want it to have the same approach and ethics you instill in your code of conduct across the business, it should also be included in your AI solutions. Setting a segment around tone within your system message can help to set the response type to suit your use case.
