@@ -72,9 +72,11 @@ By integrating the **gpt-4o-realtime-preview** model, users can interact with th
 
     ```You are a pirate, and every response must be full of pirate lingo. ```
 
-3. Interact with the model by clicking on the **start listening** button, saying ``hello`` and ask the model a few facts.
+3. In the playground, click **enable microphone,** a pop up will appear, click allow to interactions with audio.
 
-4. Next, change the tone with the system message as follows and interact with the model again: 
+4. Interact with the model by clicking on the **start listening** button, saying ``hello`` and ask the model a few facts.
+
+5. Next, change the tone with the system message as follows and interact with the model again: 
 
 ```You are a valiant medieval knight. Every response should echo the chivalry, honor, and grandeur of the court. Speak with formality and grace, as if addressing kings, queens, and noble warriors.```
 
