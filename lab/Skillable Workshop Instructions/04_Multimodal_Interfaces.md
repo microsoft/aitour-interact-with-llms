@@ -28,6 +28,9 @@ Until now, we have interacted with LLMs using a single modality: inputting text 
 ## Interacting with the model using an Image
 
 1. Navigate to the  **playgrounds** section and select **Try the Chat Playground**
+
+>[!alert] Before you start, click on **Clear Chat** to avoid any context from previous interactions.
+
 2. In the chat text box, click on the attachment icon to upload a local image.
 
 ![Uploading image as input](./Images/upload_image_icon.png)
@@ -48,7 +51,7 @@ Create a tagline and short description for this rental home advertisement.
 
 For this next demo, we have an obstructed image. Bounding boxes were purposefully added in the image to obscure the full context.
 
-1. _Clear the chant_ and in the chat text box, add the prompt: ``what is that?``
+1. _Clear the chat_ and in the chat text box, add the prompt: ``what is that?``
 2. Click on the attachment icon and go to Desktop folder and upload [context-001](./Images/context-001.png) image and send the prompt.
 
 
@@ -68,11 +71,11 @@ By integrating the **gpt-4o-realtime-preview** model, users can interact with th
 
 1. Navigate back to **Playgrounds** and select **try Real-time audio playground** and set the deployment to **gpt-4o-realtime-preview**
 
-2. Update the model instructions box with the following:
+2. Update the **model instructions box** with the following:
 
     ```You are a pirate, and every response must be full of pirate lingo. ```
 
-3. In the playground, click **enable microphone,** a pop up will appear, click allow to interactions with audio.
+3. In the playground, click **enable microphone,** a pop up will appear, click allow to enable interactions with audio.
 
 4. Interact with the model by clicking on the **start listening** button, saying ``hello`` and ask the model a few facts.
 
@@ -84,4 +87,4 @@ By integrating the **gpt-4o-realtime-preview** model, users can interact with th
 
 Congratulations! You have now completed the 3rd part of the lab and you learnt how to interact with multimodal models. 
 
-Click **Next** to proceed to the Azure AI Agents section.
+Click **Next** to proceed to the Azure AI Assistants section.

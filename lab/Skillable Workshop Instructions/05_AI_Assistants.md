@@ -31,7 +31,7 @@ Lastly, we can **Run** the Assistant. This means activating an Assistant to begi
 
 ## Creating the Assistant
 
-1. Start by clicking on the **Assistants** Playground. Here you will see the different components of the Playground. Click **+ create an assistant** to get started.
+1. Navigate back to _Playgrounds_ and click on the **try assistants playground** button. Here you will see the different components of the Playground. Click **+ create an assistant** to get started.
 
 ![Assistants Playground](./Images/aistudio-create-new-assistant.jpeg)
 
@@ -65,7 +65,7 @@ Lastly, we can **Run** the Assistant. This means activating an Assistant to begi
 
     ![assistant attach new file](Images/aistudio-tools-codeinterpreter.jpeg)
 
-6. On the pop up window, click on **select Local Files** and select the `Contoso_Sales_Revenue.csv` file on your Desktop and click on *Open*.
+6. On the pop up window, click on **select local files** and select the `Contoso_Sales_Revenue.csv` file on your Desktop.
     ![assistants code interpreter](Images/aistudio-codeinterpreter-upload-file.jpeg)
 
     >[!NOTE]
