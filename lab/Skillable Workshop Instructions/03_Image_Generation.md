@@ -9,7 +9,7 @@ Welcome to part 2 of this workshop, where we will interact with a text-to-image 
 
 To create your first image, follow the following steps:
 
-![image showing image generation](./Images/aistudio-image-generation.jpeg)
+![image showing image generation](./Images/aifoundry-image-generation.jpeg)
 
 1. Navigate to the  **playgrounds**, on the left-hand navigation bar, and select **Try the Image Playground**
 2. In the Images playground, find and click on the drop-down menu labeled **Deployments**. From the drop-down list, select **dall-e-3**.
@@ -124,7 +124,7 @@ Beyond its aesthetic appeal, the 3D Animated Office Space Design is designed wit
 
 2. Once you get the response, click on the three dots at the top of the response and click on **Copy response to clipboard**.
 
-![Image of copying option](./Images/ai-studio-copy-response.png)
+![Image of copying option](./Images/ai-foundry-copy-response.png)
 
 3. Navigate back to the **Images playground** to generate an image from the prompt response.
 

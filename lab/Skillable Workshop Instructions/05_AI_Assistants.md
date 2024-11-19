@@ -33,7 +33,7 @@ Lastly, we can **Run** the Assistant. This means activating an Assistant to begi
 
 1. Navigate back to _Playgrounds_ and click on the **try assistants playground** button. Here you will see the different components of the Playground. Click **+ create an assistant** to get started.
 
-![Assistants Playground](./Images/aistudio-create-new-assistant.jpeg)
+![Assistants Playground](./Images/aifoundry-create-new-assistant.jpeg)
 
 2. In the **Deployments** section, ensure you select **gpt-4o-mini** model.
 
@@ -56,17 +56,17 @@ Lastly, we can **Run** the Assistant. This means activating an Assistant to begi
     If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
     ```
 
-    ![Assistants Playground](./Images/aistudio-assistant-update-details.jpeg)
+    ![Assistants Playground](./Images/aifoundry-assistant-update-details.jpeg)
 
     >[!NOTE]
     >How many prompt engineering techniques from the previous sections are you able to identify in this prompt? For clues, check Part 2 of the workshop.
 
 4. Click on the **Tools** tab, and click to enable **Code Interpreter** then click **Add files**.
 
-    ![assistant attach new file](Images/aistudio-tools-codeinterpreter.jpeg)
+    ![assistant attach new file](Images/aifoundry-tools-codeinterpreter.jpeg)
 
 6. On the pop up window, click on **select local files** and select the `Contoso_Sales_Revenue.csv` file on your Desktop.
-    ![assistants code interpreter](Images/aistudio-codeinterpreter-upload-file.jpeg)
+    ![assistants code interpreter](Images/aifoundry-codeinterpreter-upload-file.jpeg)
 
     >[!NOTE]
     > If you cannot find the file on your desktop, you can download it from [here](assets/Contoso_Sales_Revenue.csv).
@@ -98,6 +98,6 @@ You will notice that we get a series of sample questions that we can test. Test 
 
     The assistant should provide you with a graph showcasing a trending product by carrying out an analysis of the sales revenue data overtime.
 
-Congratulations! You have now completed the last part of the workshop and have learnt what Azure OpenAI Assistants are, how they work and how to create one using Azure AI Foundry.
+Congratulations! You have now completed the last part of the workshop and have learnt what Azure OpenAI Assistants are, how they work and how to create one using Azure AI Foundry portal.
 
 Click **Next** to advance to the Summary section of the workshop.

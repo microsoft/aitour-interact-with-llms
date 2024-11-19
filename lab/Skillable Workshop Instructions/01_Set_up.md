@@ -16,7 +16,7 @@ In this workshop we will be working on Azure AI Foundry portal, focusing especia
 
 1. On the Desktop, click on **Microsoft Edge** browser. Navigate to the second browser tab which will be showing the Azure AI Foundry portal homepage as shown in the following image.
 
-![Homepage of Azure AI Foundry](./Images/aistudio-homepage.jpeg)
+![Homepage of Azure AI Foundry](./Images/aifoundry-homepage.jpeg)
 
 ## Navigating Azure AI Foundry portal
 
@@ -32,7 +32,7 @@ In this workshop we will be working on Azure AI Foundry portal, focusing especia
 
 ## Project
 
-![project overview tab](./Images/aistudio-project-overview.jpeg)
+![project overview tab](./Images/aifoundry-project-overview.jpeg)
 
 ### Project Overview
 
@@ -46,10 +46,10 @@ On this page, we can see an overview of our Azure AI Foundry portal Project. Thi
 
 You will notice the navigation bar has updated with new tabs, which represent functionalities tied to our project.
 
-![project navigation bar](./Images/aistudio-project-navigation.jpeg)
+![project navigation bar](./Images/aifoundry-project-navigation.jpeg)
 
 We have two new sections:
-1.  The first section includes _Playgrounds_ to interact with the models, _Overview_ which provides a general overview of your project, _Model Catalog_ which showcases the available models inside Azure AI Studio, and _AI Services_ where you can see a list of Azure AI Services available along with demos, use cases and more.
+1.  The first section includes _Playgrounds_ to interact with the models, _Overview_ which provides a general overview of your project, _Model Catalog_ which showcases the available models inside Azure AI Foundry, and _AI Services_ where you can see a list of Azure AI Services available along with demos, use cases and more.
 1. **Build and Customize**: This includes useful opportunities to expand your project's reach, such as _working in Code_ by running a cloud compute, access to [_Prompt Flow_](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow), and the ability to carry _Fine Tuning_ on your deployments.
 1. **Assess and Improve:** this includes development of _Evaluations_ for your models, _tracing_ to debug your flows and _content filters_ to add guardrails to prompt inputs and completion outputs.
 1. **My assets**: Here you can add additional elements to the project, with resources such as _Data_, _Indexes_, _models and endpoints_ and _Web apps_ to be used as part of your work.
@@ -68,13 +68,13 @@ We will be doing most of our work in these Playgrounds, but namely in the follow
 1. **Real-time audio playground**
 1. **Assistants playground**
 
-![Image of Azure AI Foundry Playgrounds](./Images/aistudio-playgrounds.jpeg)
+![Image of Azure AI Foundry Playgrounds](./Images/aifoundry-playgrounds.jpeg)
 
 ### Chat Playground
 
 Within the playground section, navigate to the **Chat playground** and select **Try the Chat Playground.** This feature allows you to engage with and test various AI models in a conversational format.
 
-![Image of Azure AI Foundry Playground Chat Mode](./Images/aistudio-chat-playground.jpeg)
+![Image of Azure AI Foundry Playground Chat Mode](./Images/aifoundry-chat-playground.jpeg)
 
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
@@ -87,7 +87,7 @@ Within the playground section, navigate to the **Chat playground** and select **
 
 Navigate back to Playgrounds, select the **Image playground** and click **Try the Image Playground.** This option allows you to work with image generation
 
-![Image of Azure AI Foundry Playground Images Mode](./Images/aistudio-image-playground.jpeg)
+![Image of Azure AI Foundry Playground Images Mode](./Images/aifoundry-image-playground.jpeg)
 
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
 1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. In the case of images, descriptions of what we want to generate.
@@ -97,7 +97,7 @@ Navigate back to Playgrounds, select the **Image playground** and click **Try th
 
 Navigate back to Playgrounds, then select the **Real-time audio playground** and click **Try the Real-time audio Playground.** This feature allows you to engage with and test various AI models in an audio conversational format.
 
-![Image of Azure AI Foundry Playground Real time audio mode](./Images/aistudio-real-time-audio.jpeg)
+![Image of Azure AI Foundry Playground Real time audio mode](./Images/aifoundry-real-time-audio.jpeg)
 
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **Server turn detection**: Determines if the server should utilize voice activity detection (VAD) to identify when a user has finished speaking.
@@ -111,7 +111,7 @@ Navigate back to Playgrounds, then select the **Real-time audio playground** and
 
 In the Navigation bar, select **Assistants**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
 
-![Image of Azure AI Foundry Playground assistants Mode](./Images/aistudio-assistant-plaground.jpeg)
+![Image of Azure AI Foundry Playground assistants Mode](./Images/aifoundry-assistant-plaground.jpeg)
 
 Once you _create your first assistant_ you will see the UI components as follows:
 1. **Assistant id and name**: Here you can give your assistant a name.
@@ -126,7 +126,7 @@ Once you _create your first assistant_ you will see the UI components as follows
 
 ## Ready to start
 
-That covers the necessary setup and basics of Azure AI Studio. We will now move forward to begin interacting with the models. 
+That covers the necessary setup and basics of Azure AI Foundry portal . We will now move forward to begin interacting with the models. 
 
 - Navigate to the  **playgrounds** select the **Chat playground** and click **Try the Chat Playground.**  
 - In the _instructions tab_, Click Next to proceed to Part 1: Text Generation
