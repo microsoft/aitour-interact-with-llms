@@ -98,6 +98,6 @@ You will notice that we get a series of sample questions that we can test. Test 
 
     The assistant should provide you with a graph showcasing a trending product by carrying out an analysis of the sales revenue data overtime.
 
-Congratulations! You have now completed the last part of the workshop and have learnt what Azure OpenAI Assistants are, how they work and how to create one using Azure AI Studio.
+Congratulations! You have now completed the last part of the workshop and have learnt what Azure OpenAI Assistants are, how they work and how to create one using Azure AI Foundry.
 
 Click **Next** to advance to the Summary section of the workshop.

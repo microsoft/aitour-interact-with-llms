@@ -1,8 +1,7 @@
 # Get started
 
 > [!TIP]
-> What is **Azure AI Studio**? Azure AI Studio is designed for developers to build generative AI applications on an enterprise-grade platform. Developers can interact with their projects code-first via the Azure AI SDK, explore, build, test, and deploy AI models using cutting-edge tooling, and collaborate in a secure environment. The platform supports transforming proof of concepts into production-ready solutions with continuous monitoring and refinement.
-
+> What is **Azure Azure AI Foundry**? Azure AI Foundry is the ultimate platform for innovators to create the future. It offers a comprehensive suite of Azure AI capabilities and tools to design, customize, and manage AI applications and agents. It's seamlessly integrated with the world's most loved developer tools, including GitHub, Visual Studio, and Copilot Studio. Azure AI Foundry empowers developers and IT admins to bring their AI visions to life with ease and efficiency.
 ## Sign in to Windows
 As a first step, login into the lab Virtual Machine using the following credentials:
 - Username: already set to Admin.
@@ -11,15 +10,15 @@ As a first step, login into the lab Virtual Machine using the following credenti
 > [!TIP]
 >  First time using **Skillable?** The green "T" (e.g., +++Admin+++) indicates values that are automatically input for you at the current cursor location in VM, with one click. This reduces your effort and minimizes input errors.
 
-## Sign in to Azure AI Studio
+## Sign in to Azure AI Foundry portal
    
-In this workshop we will be working on Azure AI Studio, focusing especially on the playground feature. 
+In this workshop we will be working on Azure AI Foundry portal, focusing especially on the playground feature. 
 
-1. On the Desktop, click on **Microsoft Edge** browser. Navigate to the second browser tab which will be showing the Azure AI Studio Homepage as shown in the following image.
+1. On the Desktop, click on **Microsoft Edge** browser. Navigate to the second browser tab which will be showing the Azure AI Foundry portal homepage as shown in the following image.
 
-![Homepage of Azure AI Studio](./Images/aistudio-homepage.png)
+![Homepage of Azure AI Foundry](./Images/aistudio-homepage.jpeg)
 
-## Navigating Azure AI Studio
+## Navigating Azure AI Foundry portal
 
 1. Start by clicking **Sign In**, you can find the sign in link in the top right of the window, and enter the following credentials when prompted for the login credentials:
     -  Email: +++@lab.CloudPortalCredential(User1).Username+++
@@ -29,7 +28,7 @@ In this workshop we will be working on Azure AI Studio, focusing especially on t
 
 2. Locate the **Workshop AI Hub** in the list of available hubs. **Click on the project** with the hub to access its settings and resources.
 
-![Hub management tab](./Images/aistudio-hub-navigation.jpeg)
+![Hub management tab](./Images/aifoundry-hub-navigation.jpeg)
 
 ## Project
 
@@ -37,10 +36,10 @@ In this workshop we will be working on Azure AI Studio, focusing especially on t
 
 ### Project Overview
 
-On this page, we can see an overview of our Azure AI Studio Project. This includes:
-- **Project Name and Description**: The name of the project and a short description of the Azure AI Studio Project we are in.
+On this page, we can see an overview of our Azure AI Foundry portal Project. This includes:
+- **Project Name and Description**: The name of the project and a short description of the Azure AI Foundry portal Project we are in.
 - **Project details**: A collection of various properties such as the Project's connection string, its location, resource group, etc. 
-- **Endpoints and keys**: Azure AI Studio allows for multiple resources to be connected to it, expanding its features and functionality. Resources such as Azure OpenAI, Azure AI Search and Azure AI Services further enhance the capabilities of our Project, granting us access to deployments such as LLMs or functionalities such as vector search.  Here we can find useful information such as *API endpoints and keys* and documentation.
+- **Endpoints and keys**: Azure AI Foundry portal allows for multiple resources to be connected to it, expanding its features and functionality. Resources such as Azure OpenAI, Azure AI Search and Azure AI Services further enhance the capabilities of our Project, granting us access to deployments such as LLMs or functionalities such as vector search.  Here we can find useful information such as *API endpoints and keys* and documentation.
 - **Recent resources and tutorials**: Under this, your recent resources is highlighted with additional learning resources and tutorials to help you get started.
 
 ### Navigation Bar
@@ -69,17 +68,17 @@ We will be doing most of our work in these Playgrounds, but namely in the follow
 1. **Real-time audio playground**
 1. **Assistants playground**
 
-![Image of Azure AI Studio Playgrounds](./Images/aistudio-playgrounds.jpeg)
+![Image of Azure AI Foundry Playgrounds](./Images/aistudio-playgrounds.jpeg)
 
 ### Chat Playground
 
 Within the playground section, navigate to the **Chat playground** and select **Try the Chat Playground.** This feature allows you to engage with and test various AI models in a conversational format.
 
-![Image of Azure AI Studio Playground Chat Mode](./Images/aistudio-chat-playground.jpeg)
+![Image of Azure AI Foundry Playground Chat Mode](./Images/aistudio-chat-playground.jpeg)
 
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
-1. **Add your data**: Azure AI Studio supports providing the deployed models with external data, allowing for better search and context.
+1. **Add your data**: Azure AI Foundry portal supports providing the deployed models with external data, allowing for better search and context.
 1. **Parameters**: This tab contains the models detailed settings, such as temperature.
 1. **Chat Box**: The chat box is where we will see our interactions with the model in the form of chat messages.
 1. **Prompt Box**: This is where we type the prompts we want to send to the model.
@@ -88,7 +87,7 @@ Within the playground section, navigate to the **Chat playground** and select **
 
 Navigate back to Playgrounds, select the **Image playground** and click **Try the Image Playground.** This option allows you to work with image generation
 
-![Image of Azure AI Studio Playground Images Mode](./Images/aistudio-image-playground.jpeg)
+![Image of Azure AI Foundry Playground Images Mode](./Images/aistudio-image-playground.jpeg)
 
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
 1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. In the case of images, descriptions of what we want to generate.
@@ -98,7 +97,7 @@ Navigate back to Playgrounds, select the **Image playground** and click **Try th
 
 Navigate back to Playgrounds, then select the **Real-time audio playground** and click **Try the Real-time audio Playground.** This feature allows you to engage with and test various AI models in an audio conversational format.
 
-![Image of Azure AI Studio Playground Real time audio mode](./Images/aistudio-real-time-audio.jpeg)
+![Image of Azure AI Foundry Playground Real time audio mode](./Images/aistudio-real-time-audio.jpeg)
 
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **Server turn detection**: Determines if the server should utilize voice activity detection (VAD) to identify when a user has finished speaking.
@@ -112,7 +111,7 @@ Navigate back to Playgrounds, then select the **Real-time audio playground** and
 
 In the Navigation bar, select **Assistants**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
 
-![Image of Azure AI Studio Playground assistants Mode](./Images/aistudio-assistant-plaground.jpeg)
+![Image of Azure AI Foundry Playground assistants Mode](./Images/aistudio-assistant-plaground.jpeg)
 
 Once you _create your first assistant_ you will see the UI components as follows:
 1. **Assistant id and name**: Here you can give your assistant a name.
