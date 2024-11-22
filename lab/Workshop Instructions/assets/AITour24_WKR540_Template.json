@@ -20,28 +20,28 @@
     },
     "aiHubFriendlyName": {
       "type": "string",
-      "defaultValue": "WRK540 AI Hub",
+      "defaultValue": "Workshop AI Hub",
       "metadata": {
         "description": "Friendly name for your Azure AI resource"
       }
     },
     "aiHubDescription": {
       "type": "string",
-      "defaultValue": "This is an AI Hub for WRK540. It contains a collection of AI models and services.",
+      "defaultValue": "This is an AI Hub for Workshop. It contains a collection of AI models and services.",
       "metadata": {
         "description": "Description of your Azure AI resource dispayed in AI studio"
       }
     },
     "domainName": {
         "type": "string",
-        "defaultValue": "wrk540",
+        "defaultValue": "workshop",
         "metadata": {
           "description": "Custom domain name for the AI services"
         }
     },
     "location": {
       "type": "string",
-      "defaultValue": "[resourceGroup().location]",
+      "defaultValue": "swedencentral",
       "metadata": {
         "description": "Azure region used for the deployment of all resources."
       }
@@ -92,15 +92,15 @@
           "deployments": {
             "value": [
               {
-                "name": "gpt-4o",
+                "name": "gpt-4o-mini",
                 "model": {
                   "format": "OpenAI",
-                  "name": "gpt-4o",
-                  "version": "2024-05-13"
+                  "name": "gpt-4o-mini",
+                  "version": "2024-07-18"
                 },
                 "sku": {
                   "name": "Standard",
-                  "capacity": 20
+                  "capacity": 30
                 }
               },
               {
@@ -112,6 +112,18 @@
                 },
                 "sku": {
                   "name": "Standard",
+                  "capacity": 1
+                }
+              },
+              {
+                "name": "gpt-4o-realtime-preview",
+                "model": {
+                  "format": "OpenAI",
+                  "name": "gpt-4o-realtime-preview",
+                  "version": "2024-10-01"
+                },
+                "sku": {
+                  "name": "GlobalStandard",
                   "capacity": 1
                 }
               }
@@ -131,7 +143,7 @@
           "parameters": {
             "location": {
               "type": "string",
-              "defaultValue": "[resourceGroup().location]",
+              "defaultValue": "swedencentral",
               "metadata": {
                 "description": "Azure region of the deployment"
               }
@@ -241,7 +253,7 @@
                 "model": "[parameters('deployments')[0].model]",
                 "raiPolicyName": "[if(contains(parameters('deployments')[0], 'raiPolicyName'), parameters('deployments')[0].raiPolicyName, null())]"
               },
-              "sku": "[if(contains(parameters('deployments')[0], 'sku'), parameters('deployments')[0].sku, createObject('name', 'Standard', 'capacity', 20))]",
+              "sku": "[if(contains(parameters('deployments')[0], 'sku'), parameters('deployments')[0].sku, createObject('name', 'Standard', 'capacity', 50))]",
               "dependsOn": [
                 "[resourceId('Microsoft.CognitiveServices/accounts', parameters('aiServicesName'))]"
               ]
@@ -258,6 +270,20 @@
               "dependsOn": [
                 "[resourceId('Microsoft.CognitiveServices/accounts', parameters('aiServicesName'))]",
                 "[resourceId('Microsoft.CognitiveServices/accounts/deployments', parameters('aiServicesName'), parameters('deployments')[0].name)]"
+              ]
+            },
+            {
+              "type": "Microsoft.CognitiveServices/accounts/deployments",
+              "apiVersion": "2023-10-01-preview",
+              "name": "[format('{0}/{1}', parameters('aiServicesName'), parameters('deployments')[2].name)]",
+              "properties": {
+                "model": "[parameters('deployments')[2].model]",
+                "raiPolicyName": "[if(contains(parameters('deployments')[0], 'raiPolicyName'), parameters('deployments')[2].raiPolicyName, null())]"
+              },
+              "sku": "[if(contains(parameters('deployments')[2], 'sku'), parameters('deployments')[2].sku, createObject('name', 'GlobalStandard', 'capacity', 20))]",
+              "dependsOn": [
+                "[resourceId('Microsoft.CognitiveServices/accounts', parameters('aiServicesName'))]",
+                "[resourceId('Microsoft.CognitiveServices/accounts/deployments', parameters('aiServicesName'), parameters('deployments')[1].name)]"
               ]
             },
             {

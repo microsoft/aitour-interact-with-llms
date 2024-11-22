@@ -1,163 +1,134 @@
 # Get started
 
 > [!TIP]
-> What is **Azure AI Studio**? Azure AI Studio is designed for developers to build generative AI applications on an enterprise-grade platform. Developers can interact with their projects code-first via the Azure AI SDK, explore, build, test, and deploy AI models using cutting-edge tooling, and collaborate in a secure environment. The platform supports transforming proof of concepts into production-ready solutions with continuous monitoring and refinement.
-
+> What is **Azure Azure AI Foundry**? Azure AI Foundry is the ultimate platform for innovators to create the future. It offers a comprehensive suite of Azure AI capabilities and tools to design, customize, and manage AI applications and agents. It's seamlessly integrated with the world's most loved developer tools, including GitHub, Visual Studio, and Copilot Studio. Azure AI Foundry empowers developers and IT admins to bring their AI visions to life with ease and efficiency.
 ## Sign in to Windows
-As a first step, login into the lab Virtual Machine by using these credentials:
-- Username: will already be set to Admin.
+As a first step, login into the lab Virtual Machine using the following credentials:
+- Username: already set to Admin.
 - Password: enter +++@lab.VirtualMachine(Win11Base23B-W11-22H2).Password+++ and click.
 
 > [!TIP]
 >  First time using **Skillable?** The green "T" (e.g., +++Admin+++) indicates values that are automatically input for you at the current cursor location in VM, with one click. This reduces your effort and minimizes input errors.
 
-## Sign in to Azure AI Studio
+## Sign in to Azure AI Foundry portal
    
-For this workshop we will be working on Azure AI Studio, especially focusing on the playground feature. 
+In this workshop we will be working on Azure AI Foundry portal, focusing especially on the playground feature. 
 
-1. In the Desktop, click on **Microsoft Edge** browser.
-2. Type +++https://ai.azure.com+++ on the search box to access Azure AI Studio. The browser will open a new tab with the Azure AI Studio Homepage as shown in the following image.
+1. On the Desktop, click on **Microsoft Edge** browser. Navigate to the second browser tab which will be showing the Azure AI Foundry portal homepage as shown in the following image.
 
-![Homepage of Azure AI Studio](./Images/ai-studio-homepage.png)
+![Homepage of Azure AI Foundry](./Images/aifoundry-homepage.jpeg)
 
-## Navigating Azure AI Studio
+## Navigating Azure AI Foundry portal
 
-1. Let's start by clicking on **Sign In**, you can find the sign in link in the top right of the window, and entering the following credentials when prompted for the login credentials:
+1. Start by clicking **Sign In**, you can find the sign in link in the top right of the window, and enter the following credentials when prompted for the login credentials:
     -  Email: +++@lab.CloudPortalCredential(User1).Username+++
     -  Password: +++@lab.CloudPortalCredential(User1).Password+++
 
     Now that we are logged in, we can start navigating around the platform. 
 
-![Azure AI Studio logged in homepage](./Images/ai-studio-hubmanagement.jpg)
+2. Locate the **Workshop AI Hub** in the list of available hubs. **Click on the project** with the hub to access its settings and resources.
 
-2. To begin, navigate to the left-hand sidebar where you will find the **Management** section. Under this section, select **All Resources.** This action will lead you to a centralized area where all available resources and tools are displayed, giving you an overview of your current hub connections.
+![Hub management tab](./Images/aifoundry-hub-navigation.jpeg)
 
-> [NOTE!]
-> In case you can't find the **all Resources** section, click on the **all hubs** section.
+## Project
 
-3. Next, locate the **WRK540 AI Hub** in the list of available hubs. It is listed under the **"Name"** column. Click on this hub to access its settings and resources.
+![project overview tab](./Images/aifoundry-project-overview.jpeg)
 
-![Hub management tab](./Images/ai-studio-hubmanagement-hub.jpg)
+### Project Overview
 
-## Hub Homepage
-
-You will notice a set of elements once we have logged in and land on the Hub Homepage.
-
-![Hub Homepage](./Images/ai-studio-hub-homepage.jpg)
-
-
-### Navigation Panel
-
-On the left side of the screen you will see a navigation panel with a group of different tabs.
-
-- **Current Hub, Hub Overview and All Projects**: This tab provides access to the Hub Overview, and a list of all the projects within the Hub.
-- **Get Started**: 
-    - *Model Catalog*: The model catalog showcases the available models inside Azure AI Studio. You can click and expand on each model for in-depth description of usage and other details.
-    - *Model Benchmarks*: Here you can compare benchmarks across models and datasets available, with charts on accuracy, similarity, fluency, coherence, etc.
-    - *Prompt Catalog*: The prompt catalog provides sample prompts for a myriad of common use cases, which can be used to further understand how a model works, and can be customized for specific scenarios.
-    - *AI Services*: In the AI Services tab you can see a list of Azure AI Services available, along with demos, use cases and more.
-
-> [!NOTE]
-> Azure AI Studio hosts some of the most popular foundation models provided by companies such as Microsoft, Open AI, Hugging Face, Meta and Mistral.
-
-- **Playgrounds**: The Playgrounds represent a fast and accessible way to interact with the models.
-- **Shared Resources**: This tab provides access to the resources connected or shared by the AI Hub. Here you can access resources such as the model Deployments, connections to other services, compute instances available in the Hub, user access and content filters applied to our models.
-
-### Hub Overview
-
-On this page, we can see an overview of our Azure AI Studio Hub. This includes the following:
-
-- **Projects**: A project is a resource within Azure AI Studio that grants us access to most of the platform's features, such as the **Project Playgrounds**. You will notice we have a project created already. This is intentional and we will be working with it in the upcoming sections.
-- **Description**: A short description of the Azure AI Studio Hub we are in.
-- **Hub Properties**: A collection of various properties such as the Hub's name, its location, resource group, etc. Here we can find useful information such as *API endpoints and keys* and the *subscription's quota*.
-- **Connected Resources**: Azure AI Studio allows for multiple resources to be connected to it, expanding its features and functionality. Resources such as Azure AI Search, or in our case, Azure AI Service further increase the capabilities of our Hub, and grant us access to deployments such as LLMs or functionalities such as vector search.
-- **Users**: Allows us to grant access to collaborators or applications that may need to use the services within the Hub.
-
-## Project Overview
-
-1. Now, under the **Projects** section, locate the existing project. Click on this project to move forward and access the detailed project environment. 
- 
- >[!alert] Click on the existing project to move forward.
- 
- ![image showing where to click to access a project](./Images/ai-studio-click-project.jpg)
-
-The Project overview page is very similar to the Hub Overview, except the details are tied to the project instead of the Hub that hosts it. 
+On this page, we can see an overview of our Azure AI Foundry portal Project. This includes:
+- **Project Name and Description**: The name of the project and a short description of the Azure AI Foundry portal Project we are in.
+- **Project details**: A collection of various properties such as the Project's connection string, its location, resource group, etc. 
+- **Endpoints and keys**: Azure AI Foundry portal allows for multiple resources to be connected to it, expanding its features and functionality. Resources such as Azure OpenAI, Azure AI Search and Azure AI Services further enhance the capabilities of our Project, granting us access to deployments such as LLMs or functionalities such as vector search.  Here we can find useful information such as *API endpoints and keys* and documentation.
+- **Recent resources and tutorials**: Under this, your recent resources is highlighted with additional learning resources and tutorials to help you get started.
 
 ### Navigation Bar
 
-You will notice the navigation bar has updated with new tabs, which represent functionalities tied to our project. The **Get Started** section remains the same, and **Project Playgrounds** are expanded to include other versions.
+You will notice the navigation bar has updated with new tabs, which represent functionalities tied to our project.
+
+![project navigation bar](./Images/aifoundry-project-navigation.jpeg)
 
 We have two new sections:
-- **Tools**: This includes useful opportunities to expand your project's reach, such as ***working in VS Code*** by running a cloud compute, access to [***Prompt Flow***](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow), development of ***Evaluations*** for your models and the ability to carry ***Fine Tuning*** on your deployments.
-- **Components**: Here you can add complimentary elements to the project, with resources such as ***Data***, ***Indexes***, ***Deployments*** and ***Content Filters*** to be used as part of your work.
+1.  The first section includes _Playgrounds_ to interact with the models, _Overview_ which provides a general overview of your project, _Model Catalog_ which showcases the available models inside Azure AI Foundry, and _AI Services_ where you can see a list of Azure AI Services available along with demos, use cases and more.
+1. **Build and Customize**: This includes useful opportunities to expand your project's reach, such as _working in Code_ by running a cloud compute, access to [_Prompt Flow_](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow), and the ability to carry _Fine Tuning_ on your deployments.
+1. **Assess and Improve:** this includes development of _Evaluations_ for your models, _tracing_ to debug your flows and _content filters_ to add guardrails to prompt inputs and completion outputs.
+1. **My assets**: Here you can add additional elements to the project, with resources such as _Data_, _Indexes_, _models and endpoints_ and _Web apps_ to be used as part of your work.
+1. **Management Center:** a location to manage all you  hub and project details and resources.
 
-For this lab we will focus on using the **Playgrounds**. Click on the Chat Playground and move on to the next section.
+For this lab we will focus on using the **Playgrounds**, navigate to the Playgrounds and move on to the next section.
 
-## Project Playgrounds
+## Playgrounds
 
-You will notice we have four options for our **Project Playground**. Each option represents a different approach to interacting and using AI models, which can be tailored to our specific needs.
+You will notice we have different options for our **Playground**. Each option represents a different approach to interacting and using AI models, which can be tailored to our specific needs.
 
-We will be carrying most of our work in these Playgrounds, but namely in the following three:
+We will be doing most of our work in these Playgrounds, but namely in the following:
 
-- **Chat Playground**
-- **Images Playground**
-- **Assistants Playground**
+1. **Chat Playground**
+1. **Images Playground**
+1. **Real-time audio playground**
+1. **Assistants playground**
+
+![Image of Azure AI Foundry Playgrounds](./Images/aifoundry-playgrounds.jpeg)
 
 ### Chat Playground
 
-Within the Project playground section, navigate to the available tools and select **Chat.** This feature allows you to engage with and test various AI models in a conversational format.
+Within the playground section, navigate to the **Chat playground** and select **Try the Chat Playground.** This feature allows you to engage with and test various AI models in a conversational format.
 
-![Image of Azure AI Studio Playground Chat Mode](./Images/ai-studio-playground.jpg)
+![Image of Azure AI Foundry Playground Chat Mode](./Images/aifoundry-chat-playground.jpeg)
 
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
-1. **Add your data**: Azure AI Studio supports providing the deployed models with external data, allowing for better search and context.
+1. **Add your data**: Azure AI Foundry portal supports providing the deployed models with external data, allowing for better search and context.
 1. **Parameters**: This tab contains the models detailed settings, such as temperature.
 1. **Chat Box**: The chat box is where we will see our interactions with the model in the form of chat messages.
 1. **Prompt Box**: This is where we type the prompts we want to send to the model.
 
 ### Images Playground
 
-In the Project playground section, locate and select **Images.** This option allows you to work with image generation
+Navigate back to Playgrounds, select the **Image playground** and click **Try the Image Playground.** This option allows you to work with image generation
 
-![Image of Azure AI Studio Playground Images Mode](./Images/ai-studio-image-playground.jpg)
+![Image of Azure AI Foundry Playground Images Mode](./Images/aifoundry-image-playground.jpeg)
 
 1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
 1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. In the case of images, descriptions of what we want to generate.
 1. **Results Box**: Finally, here is where the generated images are displayed.
 
-### Assistants Playground
+### Real-time audio playground
 
-In the Project playground section, select **Assistants**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
+Navigate back to Playgrounds, then select the **Real-time audio playground** and click **Try the Real-time audio Playground.** This feature allows you to engage with and test various AI models in an audio conversational format.
 
-![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-playground.jpg)
+![Image of Azure AI Foundry Playground Real time audio mode](./Images/aifoundry-real-time-audio.jpeg)
 
-1. **Deployments**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
-1. **Assistant Name**: Here you can give your assistant a name.
-1. **Prompt**: Here is where we enter instructions for the model, previous to the user interaction.
+1. **Deployment**: This section allows us to change between our deployed models.
+1. **Server turn detection**: Determines if the server should utilize voice activity detection (VAD) to identify when a user has finished speaking.
+1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
+1. **Choose a voice**: Gpt-4o-audio offers a variety of voices to choose from with unique accents or tonal capabilities tailored to your liking.
+1. **Server turn detection**: additional parameters to help optimize the model's efficiency and performance by improving voice activity detection.
+1. **Parameters**: This tab contains the models detailed settings, such as temperature and max response.
+1. **Prompt Button**: Similar to the chat playground's box, this is where the models get their input from the user. 
+
+## Assistants playground
+
+In the Navigation bar, select **Assistants**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
+
+![Image of Azure AI Foundry Playground assistants Mode](./Images/aifoundry-assistant-plaground.jpeg)
+
+Once you _create your first assistant_ you will see the UI components as follows:
+1. **Assistant id and name**: Here you can give your assistant a name.
+1. **Deployment**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
+1. **Instructions Box**: Here is where we enter instructions for the model, previous to the user interaction.
 1. **Tools**: Here is where you get additional tools to customize your assistant including functions, file search and code interpreter
-1. **Parameters**: This tab contains the models detailed settings, such as temperature.
+    - **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
+    - **Code interpeter**: Code Interpreter allows the Assistants API to write and run code in a sandboxed execution environment. 
+    - **Functions**: This allows you to describe the structure of functions to an Assistant and then return the functions that need to be called along with their arguments..
+1. **Model settings**: This tab contains the models detailed settings, such as temperature.
 1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. 
-1. **Results Box**: Finally, here is where the generated images are displayed.
-
-#### Tools in the Assistant Playground
-
-Within the Assistants section, navigate to the **Tools** tab. This area provides access to various utilities that can enhance and extend the capabilities of your assistant.
-
-![Image of Azure AI Studio Playground Assistants Mode](./Images/ai-studio-assistants-functions-playground.jpg)
-
-- **Tools**: Under tools in the Assistants Playground you will find file search, code interpreter and functions.
-- **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
-- **Code interpeter**: Code Interpreter allows the Assistants API to write and run code in a sandboxed execution environment. 
-- **Functions**: This allows you to describe the structure of functions to an Assistant and then return the functions that need to be called along with their arguments..
 
 ## Ready to start
 
-That covers the necessary setup and basics of Azure AI Studio. We will now move forward to begin interacting with the models. 
+That covers the necessary setup and basics of Azure AI Foundry portal . We will now move forward to begin interacting with the models. 
 
-5. Return to the  **Chat** under **project playground** and click Next in the instructions to proceed to Part 1: Text Generation
+- Navigate to the  **playgrounds** select the **Chat playground** and click **Try the Chat Playground.**  
+- In the _instructions tab_, Click Next to proceed to Part 1: Text Generation
 
-
->[!alert] Return to the  **Chat** under **project playground** and click Next in the instructions to proceed to Part 1: Text Generation
-
-Click **Next** to advance to the Function Calling section.
+Click **Next** to proceed to the Text Generation section.
