@@ -1,10 +1,10 @@
-# Interacting with Large Language Models​
+# Interacting with Multimodal Models​ in Azure AI Foundry
 
 [![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=aiml-137032-bethanycheum)
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Faitour-interact-with-llms%2Fmain%2Flab%2FWorkshop%20Instructions%2Fassets%2FAITour24_WKR540_Template.json) 
 
-This repository is for the AI Tour workshop: Interacting with Large Language Models
+This repository is for the AI Tour workshop: Interacting with Multimodal Models in Azure AI Foundry
 
 ![session banner](./Images/banner.jpg)
 
@@ -16,7 +16,7 @@ This workshop is designed to give you a hands-on introduction to the core concep
 
 ### Abstract
 
-Innovate with Azure OpenAI's GPT-4o multimodal model in this hands-on experience. Learn the core concepts to and best practices to effectively generate with text, sound and images. Experience creating AI assistants with function calling that enhance user experiences and drive innovation.
+Innovate with Azure OpenAI's GPT-4o multimodal model in this hands-on experience in Azure AI Foundry. Learn the core concepts and best practices to effectively generate with text, sound, and images using GPT-4o-mini, DALL-E and GPT-4o-realtime. Create AI assistants that enhance user experiences and drive innovation.
 
 ### Duration
 75 Minutes
@@ -24,7 +24,7 @@ Innovate with Azure OpenAI's GPT-4o multimodal model in this hands-on experience
 ### [Slide Deck](https://aka.ms/AAryqzi)
 
 ## Learning Outcomes
-* Understand how Large Language Models work, including what tokens are​
+* Understand how Large Language Models work, including what tokens are​.
 * Explore Prompt Engineering techniques and best practices​
 * Understand how models apply existing knowledge​
 * Get started with building an Azure AI assistant

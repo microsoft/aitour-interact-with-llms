@@ -45,7 +45,7 @@ The [slides](https://aka.ms/AAryqzi) have presenter notes in each part of the se
 --------------|-------------
 0:00 - 3:00   | Introduction to the session 
 3:00 - 10:00  | How do Large Language Models Work? 
-10:00 - 20:00 | Introducing AI Studio
+10:00 - 20:00 | Introducing AI AI Foundry
 20:00 - 35:00 | Text Generation
 35:00 - 50:00 | Image Generation and Multimodality
 50:00 - 65:00 | Azure AI Assistants & Function Calling
@@ -57,19 +57,18 @@ The [slides](https://aka.ms/AAryqzi) have presenter notes in each part of the se
 
 | Section | Minutes | 
 -------------------------------------------------------------------------------------------------------|---------|
-|  [1 - Introducing AI Studio](/lab/Skillable%20Workshop%20Instructions/01_Set_up.md) | 10       | 
+|  [1 - Introducing Azure AI Foundry](/lab/Skillable%20Workshop%20Instructions/01_Set_up.md) | 10       | 
 |  [2 - Text Generation](/lab/Skillable%20Workshop%20Instructions/02_Text_Generation.md) | 15   |
-|  [3 - Image Generation](/lab/Skillable%20Workshop%20Instructions/03_Image_Generation.md) | 7   | [Link]() | 15       | 
-|  [4 - Multimodality](/lab/Skillable%20Workshop%20Instructions/04_Multimodal_Interfaces.md) | 8  | 
-|  [1 - AI Assistants](/lab/Skillable%20Workshop%20Instructions/05_AI_Assistants.md) | 8   | 
-|  [1 - Function Calling](/lab/Skillable%20Workshop%20Instructions/06_Function_Calling.md) | 7  | [Link]()  |
+|  [3 - Image Generation](/lab/Skillable%20Workshop%20Instructions/03_Image_Generation.md) | 10   | [Link]() | 15       | 
+|  [4 - Multimodality](/lab/Skillable%20Workshop%20Instructions/04_Multimodal_Interfaces.md) | 10  | 
+|  [5 - AI Assistants](/lab/Skillable%20Workshop%20Instructions/05_AI_Assistants.md) | 15  | [Link]()  |
 
 ## Running the Workshops Outside Skillable
 
 To deliver this session with no Skillable access, please make sure to that the audience has the following requirements adhrered to when completing the lab:
 
 - An Azure subscription - [Create one for free.](https://azure.microsoft.com/free/cognitive-services?WT.mc_id=aiml-132569-bethanycheum)
-- An Azure OpenAI resource with [GPT-4o and DALL.E 3 model supported in a supported region.](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview?WT.mc_id=aiml-132569-bethanycheum) Regions recommended are **East US** and **Sweden Central.**
+- An Azure OpenAI resource with [GPT-4o and DALL.E 3 model supported in a supported region.](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview?WT.mc_id=aiml-132569-bethanycheum) Regions recommended are **Sweden Central.**
 
 To deploy the resources to Azure, you can simply click the **Deploy to Azure** button.
 
