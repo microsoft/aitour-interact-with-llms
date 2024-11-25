@@ -48,7 +48,7 @@ The [slides](https://aka.ms/AAryqzi) have presenter notes in each part of the se
 10:00 - 20:00 | Introducing AI AI Foundry
 20:00 - 35:00 | Text Generation
 35:00 - 50:00 | Image Generation and Multimodality
-50:00 - 65:00 | Azure AI Assistants & Function Calling
+50:00 - 65:00 | Azure AI Assistants
 65:00 - 75:00 | Key event takeaways
 
 ## Workshop Instructions on SKillable
