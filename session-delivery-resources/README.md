@@ -30,7 +30,7 @@ This repository is divided in to the following sections:
 
 | [Slides](https://aka.ms/AAryqzi) | [Skillable Workshop Instructions](/lab/Skillable%20Workshop%20Instructions/00_Introduction.md) | [Non-Skillable Workshop Instructions](/lab/Workshop%20Instructions/00_Introduction.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 35 slides  | 3 parts - 15 minutes | [Running the workshop outside Skillable](/lab/Workshop%20Instructions/00_Introduction.md) |
+| 35 slides  | 4 parts - 15 minutes | [Running the workshop outside Skillable](/lab/Workshop%20Instructions/00_Introduction.md) |
 
 ## Slides
 
@@ -44,14 +44,19 @@ The [slides](https://aka.ms/AAryqzi) have presenter notes in each part of the se
 | Time        | Description 
 --------------|-------------
 0:00 - 3:00   | Introduction to the session 
-3:00 - 10:00  | How do Large Language Models Work? 
-10:00 - 20:00 | Introducing AI AI Foundry
-20:00 - 35:00 | Text Generation
-35:00 - 50:00 | Image Generation and Multimodality
-50:00 - 65:00 | Azure AI Assistants
-65:00 - 75:00 | Key event takeaways
+3:00 - 15:00  | How do Large Language Models Work? 
+15:00 - 30:00 | Text Generation
+30:00 - 45:00 | Image Generation and Multimodality
+45:00 - 65:00 | Azure AI Assistants
+70:00 - 75:00 | Key event takeaways
 
-## Workshop Instructions on SKillable
+### Workshop delivery format
+
+- For this workshop, dedicate the first 15 minutes to going through the slides explaining how LLMs work. 
+- For the remindinder of the time, have the attendees work on the workshop individually and offer help when needed. 
+- At the end, share the final slides and conclude the session.
+
+## Workshop Instructions on Skillable
 
 [You can get a high level overview of the tools and how we will be using them here](/lab/Skillable%20Workshop%20Instructions/01_Set_up.md).
 
@@ -65,7 +70,7 @@ The [slides](https://aka.ms/AAryqzi) have presenter notes in each part of the se
 
 ## Running the Workshops Outside Skillable
 
-To deliver this session with no Skillable access, please make sure to that the audience has the following requirements adhrered to when completing the lab:
+To deliver this session with no Skillable access, please make sure to that the audience has the following requirements adhered to when completing the lab:
 
 - An Azure subscription - [Create one for free.](https://azure.microsoft.com/free/cognitive-services?WT.mc_id=aiml-132569-bethanycheum)
 - An Azure OpenAI resource with [GPT-4o and DALL.E 3 model supported in a supported region.](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview?WT.mc_id=aiml-132569-bethanycheum) Regions recommended are **Sweden Central.**
