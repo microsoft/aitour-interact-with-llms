@@ -1,10 +1,10 @@
-# Interacting with Multimodal Models​ in Azure AI Foundry
+# Interacting with models and agents in Azure AI Foundry
 
 [![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=aiml-137032-bethanycheum)
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2Faitour-interact-with-llms%2Fmain%2Flab%2FWorkshop%20Instructions%2Fassets%2FAITour24_WKR540_Template.json) 
 
-This repository is for the AI Tour workshop: Interacting with Multimodal Models in Azure AI Foundry
+This repository is for the AI Tour workshop: *Interacting with models and agents in Azure AI Foundry*
 
 ![session banner](./Images/banner.jpg)
 
