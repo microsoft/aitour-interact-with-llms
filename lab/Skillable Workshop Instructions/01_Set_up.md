@@ -102,7 +102,7 @@ Navigate back to Playgrounds, then select the **Real-time audio playground** and
 1. **Deployment**: This section allows us to change between our deployed models.
 1. **Server turn detection**: Determines if the server should utilize voice activity detection (VAD) to identify when a user has finished speaking.
 1. **System Message Box**: Here is where we enter instructions for the model, previous to the user interaction.
-1. **Choose a voice**: Gpt-4o-audio offers a variety of voices to choose from with unique accents or tonal capabilities tailored to your liking.
+1. **Choose a voice**: gpt-4o-realtime offers a variety of voices to choose from with unique accents or tonal capabilities tailored to your liking.
 1. **Server turn detection**: additional parameters to help optimize the model's efficiency and performance by improving voice activity detection.
 1. **Parameters**: This tab contains the models detailed settings, such as temperature and max response.
 1. **Prompt Button**: Similar to the chat playground's box, this is where the models get their input from the user. 

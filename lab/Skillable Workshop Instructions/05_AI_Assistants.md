@@ -15,7 +15,7 @@ Azure OpenAI Assistants, as the stateful evolution of the chat completion API, p
 - **Code Interpreter**
 - **File Search**
 
-In this section, we will be covering Code Interpreter and in the next, Function Calling.
+In this section, we will be covering Code Interpreter.
 
 ## Understanding the Components of Assistants
 
@@ -92,9 +92,9 @@ You will notice that we get a series of sample questions that we can test. Test 
 
     Through code interpreter, the Assistant is able to convert the structured data into a graph!
 
-4. If you would like to see another type of graph, try the following prompt:
+4. If you would like to see another type of graph, try the following prompt and request the data to be in a graph:
 
-    ```What is the trending product category? ```
+    ```What is the trending product category? Give the output as a graph. ```
 
     The assistant should provide you with a graph showcasing a trending product by carrying out an analysis of the sales revenue data overtime.
 

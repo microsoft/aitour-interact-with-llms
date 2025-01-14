@@ -173,7 +173,7 @@ So far, the model has been creative in inventing a business value proposition an
 > [!NOTE]
 > **Retrieval-Augmented Generation (RAG)** is an AI technique that combines a language model with a search system to provide more accurate and detailed information. In a RAG pattern, the system usually retrieves relevant information from a database and then uses it to help generate more informed and contextually accurate text responses. For the sake of this lab, we will simulate the retrieval process, by providing the model with a set of facts about the business in the prompt.
 
-Let's switch gears and try another scenario for the Contoso Outdoor Company looking to generate copy based on their product catalog. Added product knowledge can be provided through the System message. So, let's add to the current System message. Insert the information below at the end of the existing System Prompt, and then click **Apply changes**.
+Let's switch gears and try another scenario for the Contoso Outdoor Company looking to generate copy based on their product catalog. Added product knowledge can be provided through the System message. Insert the information below at the end of the existing System Prompt, and then click **Apply changes**.
 
 ```
 ## Business Information
