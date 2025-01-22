@@ -77,6 +77,9 @@ The assistant is now ready for us to interact with it.
 
 ## Interacting with our Assistant
 
+> [!TIP] 
+> **Token error limit** In case you hit the token error limit, wait for a few seconds and try again.
+
 1. Let's begin by typing `help` in the chat box. You will notice this starts a New Thread. 
 You will notice that we get a series of sample questions that we can test. Test one of the questions and see what the assistant replies!
 
