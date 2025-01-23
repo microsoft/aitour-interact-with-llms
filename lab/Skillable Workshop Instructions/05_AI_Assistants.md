@@ -78,7 +78,7 @@ The assistant is now ready for us to interact with it.
 ## Interacting with our Assistant
 
 > [!TIP] 
-> **Token error limit** In case you hit the token error limit, wait for a few seconds and try again.
+> **Token error limit** In case you hit the token error limit, wait for a few seconds and try again. If it still persists, **follow the instructions after this section to increase the tokens per minute**.
 
 1. Let's begin by typing `help` in the chat box. You will notice this starts a New Thread. 
 You will notice that we get a series of sample questions that we can test. Test one of the questions and see what the assistant replies!
@@ -100,6 +100,22 @@ You will notice that we get a series of sample questions that we can test. Test 
     ```What is the trending product category? Give the output as a graph. ```
 
     The assistant should provide you with a graph showcasing a trending product by carrying out an analysis of the sales revenue data overtime.
+
+## Increase tokens per minute rate limit
+
+1. On the left navigation, select **Models + endpoints.** then, select the model **gpt-4o-mini**
+
+![](./Images/tpm-1.jpg)
+
+2. Under gpt-4o-mini, navigate to the **Edit** button to modify your tokens per limit (TPM).
+
+![](./Images/tpm-2.jpg)
+
+3. In the **Tokens per Minute Rate Limit** push the slider to the maximum tokens i.e. 2M. Then click **save and close** to save the changes.
+
+![](./Images/tpm-3.jpg)
+
+5. Navigate back to the **Playgrounds** section and interact with the model.
 
 Congratulations! You have now completed the last part of the workshop and have learnt what Azure OpenAI Assistants are, how they work and how to create one using Azure AI Foundry portal.
 
