@@ -89,4 +89,4 @@ By integrating the **gpt-4o-realtime-preview** model, users can interact with th
 
 Congratulations! You have now completed the 3rd part of the lab and you learnt how to interact with multimodal models. 
 
-Click **Next** to proceed to the Azure AI Assistants section.
+Click **Next** to proceed to the Azure AI Agents section.

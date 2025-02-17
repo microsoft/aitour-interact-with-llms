@@ -2,6 +2,7 @@
 
 > [!TIP]
 > What is **Azure Azure AI Foundry**? Azure AI Foundry is the ultimate platform for innovators to create the future. It offers a comprehensive suite of Azure AI capabilities and tools to design, customize, and manage AI applications and agents. It's seamlessly integrated with the world's most loved developer tools, including GitHub, Visual Studio, and Copilot Studio. Azure AI Foundry empowers developers and IT admins to bring their AI visions to life with ease and efficiency.
+
 ## Sign in to Windows
 As a first step, login into the lab Virtual Machine using the following credentials:
 - Username: already set to Admin.
@@ -66,7 +67,7 @@ We will be doing most of our work in these Playgrounds, but namely in the follow
 1. **Chat Playground**
 1. **Images Playground**
 1. **Real-time audio playground**
-1. **Assistants playground**
+1. **Agents playground**
 
 ![Image of Azure AI Foundry Playgrounds](./Images/aifoundry-playgrounds.jpeg)
 
@@ -107,22 +108,23 @@ Navigate back to Playgrounds, then select the **Real-time audio playground** and
 1. **Parameters**: This tab contains the models detailed settings, such as temperature and max response.
 1. **Prompt Button**: Similar to the chat playground's box, this is where the models get their input from the user. 
 
-## Assistants playground
+## Agents playground
 
-In the Navigation bar, select **Assistants**. This feature provides you with the tools to build, test, and customize AI-driven assistants.
+In the Navigation bar, select **Agents**. This feature provides you with the tools to build, test, and customize AI-driven agents.
 
-![Image of Azure AI Foundry Playground assistants Mode](./Images/aifoundry-assistant-plaground.jpeg)
+![Image of Azure AI Foundry Playground Agents Mode](./Images/agents-playground-pt1.jpeg)
 
-Once you _create your first assistant_ you will see the UI components as follows:
-1. **Assistant id and name**: Here you can give your assistant a name.
+Once you _create your first Agent_ you will see the UI components as follows:
+1. **Agent id and name:** Here you can give your Agent a name.
 1. **Deployment**: In this drop-down we are able to choose the model to prompt for image generation. These models, just like the chat ones, come from our deployments.
-1. **Instructions Box**: Here is where we enter instructions for the model, previous to the user interaction.
-1. **Tools**: Here is where you get additional tools to customize your assistant including functions, file search and code interpreter
-    - **File Search**: Here you can access your files you have uploaded. Each assistant can have at most 1 vector store attached to it.
-    - **Code interpeter**: Code Interpreter allows the Assistants API to write and run code in a sandboxed execution environment. 
-    - **Functions**: This allows you to describe the structure of functions to an Assistant and then return the functions that need to be called along with their arguments..
-1. **Model settings**: This tab contains the models detailed settings, such as temperature.
-1. **Prompt Box**: Similar to the chat playground's box, this is where the models get their input from the user. 
+1. **Instructions Box:** Here is where we enter instructions for the model, previous to the user interaction.
+
+![](Images/agents-playground-pt2.jpeg)
+
+4. **Knowledge:** Knowledge gives the agent access to data sources for grounding responses.
+1. **Actions:** Enhance the agent's capabilities by allowing it to run various tools at runtime.
+1. **Model settings**: This tab contains the models detailed settings, such as temperature and Top P.
+1. **Prompt Box:** Similar to the chat playground's box, this is where the models get their input from the user. 
 
 ## Ready to start
 

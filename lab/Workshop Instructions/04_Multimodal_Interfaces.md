@@ -1,14 +1,16 @@
-# Part 3 - Multimodal interfaces
+# Part 3 - Multimodal
 
-By now we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular, as they allow users to interact with models using multiple modalities, such as text, images, and speech, thus facilitating human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with GPT-4o.
+Until now, we have interacted with LLMs using a single modality: inputting text and receiving either text or images. However, multimodal interfaces are becoming increasingly popular because they allow users to interact with models using multiple modalities, such as text, images, and speech, thereby improving human-computer interactions. In this section, we will explore how to use multimodal interfaces to interact with **GPT-4o mini** and **GPT-4o audio**.
 
 
 > [!TIP]
-> **GPT-4o** is a multimodal model that incorporates both natural language processing and visual understanding. It is able to process as input a combination of text and images, and generate an output which is relevant to both modalities.
+> **GPT-4o mini** is a multimodal model that incorporates both natural language processing and visual understanding. It is able to process as input a combination of text and images, and generate an output which is relevant to both modalities.
+
+**GPT-4o realtime** supports low-latency, "speech-in, speech-out" conversational interactions. It is a great fit for use cases involving live interactions between a user and a model, such as customer support agents, voice assistants, and real-time translators.
 
 ## Best Practices
 
-- **Contextual specificity**: Adding context to the scenario at hand gives the model a better understanding of an appropriate output. This level of specificity aids in focusing on relevant aspects and avoiding extraneous details.​
+- **Contextual specificity**: Adding context to the current scenario provides the model a better understanding of an appropriate output. This level of specificity aids in focusing on relevant aspects and avoiding extraneous details.​
 
 - **Task-oriented prompts**: Focusing on a specific task helps the model to develop the output while taking that perspective into consideration.​
 
@@ -20,85 +22,71 @@ By now we have interacted with LLMs using a single modality: inputting text and 
     - Ask the model to describe the image in detail first and complete your specific task from the description​
 
 - **Prompt Tuning**: Try prompt tuning techniques that we explored for text generation scenarios such as:​
-    - Breaking down requests (e.g. chain of thoughts)​
-    - Adding examples (e.g. few-shot learning)​
+    - Breaking down requests (e.g., chain of thoughts)​
+    - Adding examples (e.g., few-shot learning)​
 
 ## Interacting with the model using an Image
 
-1. In Project playground section, on the left-hand navigation bar, navigate to the available tools and select **Chat.** 
+1. Navigate to the  **playgrounds** section and select **Try the Chat Playground**
+
+>[!alert] Before you start, click on **Clear Chat** to avoid any context from previous interactions.
+
 2. In the chat text box, click on the attachment icon to upload a local image.
 
 ![Uploading image as input](./Images/upload_image_icon.png)
 
-3. Select the [*contoso_outdoor_ecommerce_sketch_notes.jpg*](./Images/contoso_outdoor_ecommerce_sketch_notes.jpg) image. 
-
-    ![Contoso Ecommerce Website UI](./Images/contoso_outdoor_ecommerce_sketch_notes.jpg).
-
-    This image represents a sketch of our Contoso Outdoor e-commerce website we want to build. We will use this image as input to GPT-4o to gather information from the image, and later generate a code snippet for the website, using the sketch as a reference.
-
-4. Once you have uploaded the file, try these prompts to start interacting with the image:
-
-    ```How many products are shown in the homepage below?```
-
-
-    ```What is the name of the company?```
-
-
-    ```What is the most expensive product?```
-
-## Generate a code snippet for the website UI from an image
-
-Next, we will prompt the model to generate a code snippet for the website using the sketch as a reference.
-1. Go to the **Parameters** tab and set the *Max Response* to 4000.
-1. Go back to the text field in the chat window and add the text below to instruct the model on how to use the image input:
-
-    ```
-    Generate the html and bootstrap code to implement the UI of the Contoso Outdoor Company e-commerce landing page, based on the hand-drawn sketches in the image.
-    ```
-
-1. The outcome should provide a basic layout for the landing page of Contoso Outdoor Company. It includes placeholders for product descriptions, which you can populate with the text and image artifacts created throughout part 1 and 2.
-
-If you want to view the code syntax is correct and what the template looks like:
-1. Launch the Visual Studio Code (VS Code) application on your Virtual Machine.
-2. In the top menu bar, click on File. From the dropdown menu, choose New File. This will open a pop up in your VS Code.
-
-![alt text](./Images/image.png)
-3. In the pop up, enter ``website.html`` as the file name, then click **Create New File**. It will open up File Explorer, click on **Create File** to create and save your new file.
-4. Copy the HTML code you have generated. Paste this code into the newly created website.html file in VS Code.
-5. In the top-right corner of the VS Code interface, find and click the **Open Preview to the Side button.** This button often looks like a split-screen icon or might be labeled as **Open Preview**.
-6. The preview pane will open on the side, displaying the rendered output of your HTML code.
-
-![Preview website code in VS Code](./Images/vs-code-view-html.png)
-
-
-## Apply Prompt Tuning
-
-If you are not satisfied with the result you got in the previous step, you can apply some prompt tuning techniques to improve the quality of the generated code. In fact, the prompt you have used to instruct the model in the previous step already contains some prompt engineering best practices, such as *placing the image before the text* and specifying the *output format*. However, you can try to further refine the prompt to get better results.
-
-> [!NOTE]
-> If the model indicates an inability to perform the task, you can **handle the refusal** by requesting explanations for generated responses and what kind of information it misses to compete the task.
-
->[!alert] Select the System Message tab. In the window titled "Give the model instructions and context" clear the information and replace it with the following and then choose Apply Changes. 
+3. Select all the images from the ```house-multimodal``` folder on your desktop.
+4. Once you have uploaded the files, try these prompts to start interacting with the image:
 
 ```
-## Task
-You are a web designer for the Contoso Outdoor Company e-commerce website. Your goal is to generate the website code snippets for the homepage GUI.
+Create a tagline and short description for this rental home advertisement.
+- The first picture is from the home
+- The other pictures are from sights nearby
+- In the description use the features of the house and make the ad more compelling with the sights. 
+- Do not talk about features not visible in the images.
+- If you have information about the location of the images, use that information in the description
 ```
 
-In addition, let's modify the previous query, by breaking down the instructions into smaller steps. This will help the model to better understand the task and generate more accurate results. Clear the chat history. Upload the picture again and send the following text to the chat interface:
+## Providing Context
 
-```
-You will generate the website GUI template for the homepage of the e-commerce website.
-Instructions:
-1. Use the provided image to extract the layout, the sections, and the e-commerce products names and prices
-2. Use html and bootstrap as output format
-3. Add placeholders for products images
-```
+For this next demo, we have an obstructed image. Bounding boxes were purposefully added in the image to obscure the full context.
 
-Copy the new HTML, navigate back to **Visual Studio Code** and replace the old html with the new one. Notice any differences? Feel free to adjust the code template according to the final design you wish to achieve.
+1. _Clear the chat_ and in the chat text box, add the prompt: ``what is that?``
+2. Click on the attachment icon and go to Desktop folder and upload [context-001](./Images/context-001.png) image and send the prompt.
+
+
+> You might struggle to identify this text if I asked, 'Hey, what is this?' This demonstrates a classic computer vision challenge in optical character recognition: deciphering unclear, isolated words. Now, if I use gpt-4o-mini and ask, 'What is this?', it responds, 'The text is not clearly readable due to its handwritten style. It could be something like “Mark.”' Remarkably, it also notes, 'Some portions of the text appear to be blocked and cannot be read.'
+
+3. We will add a new image, go to Desktop folder and upload [context-002](./Images/context-002.png) image to our chat, with the prompt ```Extract all the texts from the image. Explain what you think this is.```
+
+> Revealing a bit more, it's still quite challenging to identify what it is. This time, the prompt is adjusted slightly to: 'Extract all the text from the image. Explain what you think this is.' gpt-4o-mini responded, 'This says "milk, steak" and appears to be a shopping list.' It also noted that the image is still partially obscured, which is quite interesting.
+
+4. We will add a new final image, go to Desktop folder and upload [context-003](./Images/demo-4-context-003.png) image to our chat, with the prompt: ```Extract all the texts from the image. Explain what you think this is.```
+
+> Upon revealing the entire image, we see that gpt-4o-mini was correct—it is indeed a shopping list. It accurately identifies items like 'mayo' and 'organic bread.' Even more intriguing is its interpretation of the note at the bottom. It captures the subtle context, stating, 'The note on the beer item suggests a reminder or an emphasis on moderation or limiting the quantity.
+
+## Real time-audio interactions
+
+By integrating the **gpt-4o-realtime-preview** model, users can interact with the platform using voice commands, making the shopping experience more engaging and accessible.
+
+1. Navigate back to **Playgrounds** and select **try Real-time audio playground** and set the deployment to **gpt-4o-realtime-preview**
+
+2. Update the **model instructions box** with the following:
+
+    ```You are a pirate, and every response must be full of pirate lingo. ```
+
+3. In the playground, click **enable microphone,** a pop up will appear, click allow to enable interactions with audio.
+
+![enable audio in AI Foundry](./Images/aifoundry-enable-audio.jpeg)
+
+4. Interact with the model by clicking on the **start listening** button, saying ``hello`` and ask the model a few facts.
+
+5. Next, change the tone with the system message as follows and interact with the model again: 
+
+```You are a valiant medieval knight. Every response should echo the chivalry, honor, and grandeur of the court. Speak with formality and grace, as if addressing kings, queens, and noble warriors.```
 
 ## Next Steps
 
 Congratulations! You have now completed the 3rd part of the lab and you learnt how to interact with multimodal models. 
 
-Move to [Part 4: Azure OpenAI Assistants](./05_AI_Assistants.md)
+Move to [Part 4: Azure AI Agents](./05_AI_Agents.md)

@@ -7,7 +7,7 @@
 
 By the end of this workshop, you should be able to:
 
- - Describe OpenAI model capabilities and implementation in the fields of text generation, image generation, multimodal conversation, and Azure OpenAI Assistants.
+ - Describe OpenAI model capabilities and implementation in the fields of text generation, image generation, multimodal conversation, and Azure AI Agents.
  - Understand prompt engineering concepts and best practices.
  - Leverage generative AI capabilities and apply prompt engineering techniques to your own solutions.
 
@@ -28,6 +28,6 @@ The lab is organized into 4 sections, taking you through generating text content
 1. **Part 1 - Text Generation** Generate text content and descriptions with GPT4o
 2. **Part 2 - Image Generation** Generate image assets with DALLE-3
 3. **Part 3 - Multimodality** Leverage multimodal capabilities of GPT-4o to interact with images and text.
-4. **Part 4 - Azure AI Assistants** Use code interpreter to understand your data.
+4. **Part 4 - Azure AI Agents** Use code interpreter to understand your data.
 
 Click **Next** to set up your Workshop environment and get started.
