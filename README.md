@@ -1,4 +1,4 @@
-# Interacting with Multimodal models in Azure AI Foundry
+# Interacting with Multimodal models and Agents in Azure AI Foundry
 
 [![Azure AI Community Discord](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4?WT.mc_id=aiml-137032-bethanycheum)
 
@@ -16,7 +16,7 @@ This workshop is designed to give you a hands-on introduction to the core concep
 
 ### Abstract
 
-Innovate with Azure OpenAI's GPT-4o multimodal model in this hands-on experience in Azure AI Foundry. Learn the core concepts and best practices to effectively generate with text, sound, and images using GPT-4o-mini, DALL-E and GPT-4o-realtime. Create AI assistants that enhance user experiences and drive innovation.
+Innovate with Azure OpenAI's GPT-4o multimodal model in this hands-on experience in Azure AI Foundry. Learn the core concepts and best practices to effectively generate with text, sound, and images using GPT-4o-mini, DALL-E and GPT-4o-realtime. Create AI Agents that enhance user experiences and drive innovation.
 
 ### Duration
 75 Minutes
@@ -27,7 +27,7 @@ Innovate with Azure OpenAI's GPT-4o multimodal model in this hands-on experience
 * Understand how Large Language Models work, including what tokens are​.
 * Explore Prompt Engineering techniques and best practices​
 * Understand how models apply existing knowledge​
-* Get started with building an Azure AI assistant
+* Get started with building an Azure AI Agents
 * Implementing function calling in LLM applications​
 
 ## Technology Used
