@@ -23,6 +23,15 @@ Innovate with Azure OpenAI's GPT-4o multimodal model in this hands-on experience
 
 ### [Slide Deck](https://aka.ms/AAryqzi)
 
+## Localizations
+
+| Language             | Code | Link to Translated README                                        | Last Updated |
+|----------------------|------|------------------------------------------------------------------|--------------|
+| Chinese (Simplified) | zh   | [Chinese Translation (Simplified)](./translations/zh/README.md)  | 2025-03-05   |
+| Chinese (Traditional)| tw   | [Chinese Translation (Traditional)](./translations/tw/README.md) | 2025-03-05   |
+| Japanese             | ja   | [Japanese Translation](./translations/ja/README.md)              | 2025-03-05   |
+| Korean               | ko   | [Korean Translation](./translations/ko/README.md)                | 2025-03-05   |
+
 ## Learning Outcomes
 * Understand how Large Language Models work, including what tokens are​.
 * Explore Prompt Engineering techniques and best practices​
