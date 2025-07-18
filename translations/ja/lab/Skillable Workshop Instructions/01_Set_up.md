@@ -130,7 +130,7 @@ Playgroundsに戻り、**Real-time audio playground**を選択して**Try the Re
 これで、Azure AI Foundryポータルの必要なセットアップと基本事項をカバーしました。それでは、モデルとの対話を開始しましょう。
 
 - **Playgrounds**に移動し、**Chat playground**を選択して**Try the Chat Playground**をクリックします。  
-- _指示タブ_で、次に進むには「Next」をクリックしてパート1：テキスト生成に進んでください。
+- _instructions タブ_ で、次に進むには「Next」をクリックしてパート1：テキスト生成に進んでください。
 
 「Next」をクリックしてテキスト生成セクションに進みます。
 
