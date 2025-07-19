@@ -9,7 +9,7 @@
 
 첫 이미지를 생성하려면 다음 단계를 따르세요:
 
-![이미지 생성 과정을 보여주는 이미지](../../../../lab/Workshop Instructions/Images/aifoundry-image-generation.jpeg)
+![이미지 생성 과정을 보여주는 이미지](../../../../lab/Workshop%20Instructions/Images/aifoundry-image-generation.jpeg)
 
 1. 왼쪽 탐색 메뉴에서 **Playgrounds**로 이동한 후, **Try the Image Playground**를 선택하세요.
 2. Images Playground에서 **Deployments**라는 드롭다운 메뉴를 찾아 클릭하세요. 드롭다운 목록에서 **dall-e-3**을 선택합니다.
@@ -23,7 +23,7 @@
 
 이렇게 하면 다음과 같은 결과물이 생성됩니다:
 
-![수채화 스타일의 스카이라인 이미지](../../../../lab/Workshop Instructions/Images/DALL·E%202024-11-14%2009.27.57%20-%20A%20watercolor%20painting%20of%20the%20Chicago%20skyline,%20showcasing%20iconic%20skyscrapers%20such%20as%20the%20Willis%20Tower%20and%20John%20Hancock%20Center.%20The%20city%20is%20bathed%20in%20so.webp)
+![수채화 스타일의 스카이라인 이미지](../../../../lab/Workshop%20Instructions/Images/DALL·E%202024-11-14%2009.27.57%20-%20A%20watercolor%20painting%20of%20the%20Chicago%20skyline,%20showcasing%20iconic%20skyscrapers%20such%20as%20the%20Willis%20Tower%20and%20John%20Hancock%20Center.%20The%20city%20is%20bathed%20in%20so.webp)
 
 DALL-E 3가 생성하는 이미지는 모두 독창적입니다. 이 이미지는 큐레이션된 이미지 카탈로그에서 가져오는 것이 아닙니다. 즉, DALL-E 3는 적절한 이미지를 검색하는 시스템이 아니라, 학습된 데이터에 기반하여 새로운 이미지를 생성하는 인공지능(AI) 모델입니다.
 
@@ -37,7 +37,7 @@ DALL-E 3가 생성하는 이미지는 모두 독창적입니다. 이 이미지�
 
 2. 그런 다음 **Generate**를 선택하고 생성된 이미지를 확인하세요.
 
-    ![모험 브랜드 로고 이미지](../../../../lab/Workshop Instructions/Images/Generate%20a%20logo%20for%20an%20adventure%20brand.png)
+    ![모험 브랜드 로고 이미지](../../../../lab/Workshop%20Instructions/Images/Generate%20a%20logo%20for%20an%20adventure%20brand.png)
 
 3. 이제 설명에 더 많은 세부사항을 추가하여 프롬프트를 수정해 봅시다:
 
@@ -45,7 +45,7 @@ DALL-E 3가 생성하는 이미지는 모두 독창적입니다. 이 이미지�
 
 4. 다시 **Generate**를 선택하고 결과를 비교해 보세요.
 
-    ![텐트 실루엣과 별을 결합한 모험 브랜드 로고 이미지](../../../../lab/Workshop Instructions/Images/logo-with-stars.png)
+    ![텐트 실루엣과 별을 결합한 모험 브랜드 로고 이미지](../../../../lab/Workshop%20Instructions/Images/logo-with-stars.png)
 
 ### 모범 사례
 
@@ -85,7 +85,7 @@ DALL-E 3를 사용하여 효과적이고 정확한 이미지를 생성하려면 
 
 ```A friendly robot mascot with a smiling face, designed in a cartoon style.```
 
-![친근한 로봇 마스코트 이미지](../../../../lab/Workshop Instructions/Images/robot-mascot-friendly.png)
+![친근한 로봇 마스코트 이미지](../../../../lab/Workshop%20Instructions/Images/robot-mascot-friendly.png)
 
 ```A playful fox mascot with a colorful scarf, representing agility and creativity.```
 
@@ -121,7 +121,7 @@ Beyond its aesthetic appeal, the 3D Animated Office Space Design is designed wit
 
 2. 응답을 받으면, 응답 상단의 점 세 개를 클릭한 후 **Copy response to clipboard**를 선택하세요.
 
-![복사 옵션 이미지](../../../../lab/Workshop Instructions/Images/ai-foundry-copy-response.png)
+![복사 옵션 이미지](../../../../lab/Workshop%20Instructions/Images/ai-foundry-copy-response.png)
 
 3. **Images Playground**로 다시 이동하여 프롬프트 응답으로 이미지를 생성하세요.
 
@@ -129,7 +129,7 @@ Beyond its aesthetic appeal, the 3D Animated Office Space Design is designed wit
 
 5. **Generate**를 클릭하고 이미지가 얼마나 상세하게 생성되는지 확인하세요.
 
-![3D 작업 공간 이미지](../../../../lab/Workshop Instructions/Images/_Create%20a%203D%20animation%20of%20a%20modern%20office%20space%20design%20featuring%20ergonomic%20furniture,%20collaborative%20workspaces,%20and%20greenery%20elements.%20The%20office%20should%20have%20large%20windows%20for%20natural%20light,%20meeting%20pods,%20an.png)
+![3D 작업 공간 이미지](../../../../lab/Workshop%20Instructions/Images/_Create%20a%203D%20animation%20of%20a%20modern%20office%20space%20design%20featuring%20ergonomic%20furniture,%20collaborative%20workspaces,%20and%20greenery%20elements.%20The%20office%20should%20have%20large%20windows%20for%20natural%20light,%20meeting%20pods,%20an.png)
 
 ## 다음 단계
 

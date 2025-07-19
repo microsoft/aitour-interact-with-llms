@@ -32,7 +32,7 @@
 
 2. 在聊天文字框中，點擊附件圖示上傳本地圖片。
 
-![上傳圖片作為輸入](../../../../lab/Workshop Instructions/Images/upload_image_icon.png)
+![上傳圖片作為輸入](../../../../lab/Workshop%20Instructions/Images/upload_image_icon.png)
 
 3. 選取桌面上 ```house-multimodal``` 資料夾中的所有圖片。  
 4. 上傳文件後，嘗試以下提示以開始與圖片互動：
@@ -75,7 +75,7 @@ Create a tagline and short description for this rental home advertisement.
 
 3. 在 playground 中，點擊 **enable microphone**，會彈出一個視窗，點擊允許以啟用語音互動。
 
-![啟用 AI Foundry 中的語音](../../../../lab/Workshop Instructions/Images/aifoundry-enable-audio.jpeg)
+![啟用 AI Foundry 中的語音](../../../../lab/Workshop%20Instructions/Images/aifoundry-enable-audio.jpeg)
 
 4. 點擊 **start listening** 按鈕，說出 ``hello`` 並詢問模型一些事實。
 

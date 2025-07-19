@@ -32,7 +32,7 @@
 
 2. 在聊天文本框中，点击附件图标上传本地图像。
 
-![上传图像作为输入](../../../../lab/Workshop Instructions/Images/upload_image_icon.png)
+![上传图像作为输入](../../../../lab/Workshop%20Instructions/Images/upload_image_icon.png)
 
 3. 从桌面上的 ```house-multimodal``` 文件夹中选择所有图像。
 4. 上传文件后，尝试以下提示与图像互动：
@@ -75,7 +75,7 @@ Create a tagline and short description for this rental home advertisement.
 
 3. 在 playground 中，点击 **enable microphone**，弹出窗口后，点击允许以启用语音交互。
 
-![在 AI Foundry 中启用音频](../../../../lab/Workshop Instructions/Images/aifoundry-enable-audio.jpeg)
+![在 AI Foundry 中启用音频](../../../../lab/Workshop%20Instructions/Images/aifoundry-enable-audio.jpeg)
 
 4. 点击 **start listening** 按钮，通过语音说出 ``hello`` 并向模型提问一些事实问题。
 

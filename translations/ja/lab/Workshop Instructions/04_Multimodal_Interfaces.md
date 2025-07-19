@@ -32,7 +32,7 @@
 
 2. チャットテキストボックスで、添付アイコンをクリックしてローカル画像をアップロードします。
 
-![画像を入力としてアップロード](../../../../lab/Workshop Instructions/Images/upload_image_icon.png)
+![画像を入力としてアップロード](../../../../lab/Workshop%20Instructions/Images/upload_image_icon.png)
 
 3. デスクトップの ```house-multimodal``` フォルダーからすべての画像を選択します。  
 4. ファイルをアップロードしたら、以下のプロンプトを試して画像とのやり取りを開始します:
@@ -75,7 +75,7 @@ Create a tagline and short description for this rental home advertisement.
 
 3. Playground で **enable microphone** をクリックします。ポップアップが表示されたら、音声でのインタラクションを有効にするために「許可」をクリックします。
 
-![AI Foundry で音声を有効化](../../../../lab/Workshop Instructions/Images/aifoundry-enable-audio.jpeg)
+![AI Foundry で音声を有効化](../../../../lab/Workshop%20Instructions/Images/aifoundry-enable-audio.jpeg)
 
 4. **start listening** ボタンをクリックしてモデルとやり取りします。「`hello`」と言い、モデルにいくつかの事実を尋ねてみてください。
 

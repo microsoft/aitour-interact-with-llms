@@ -37,7 +37,7 @@
 
 1. 在左侧导航栏的 _Build and customize_ 下，选择 **Agents**。在新打开的页面中，点击下拉箭头选择你的 Azure OpenAI Service 资源，然后点击 **Let's go** 按钮。
 
-![选择 Azure OpenAI Service 资源的截图](../../../../lab/Workshop Instructions/Images/agents-aoai-select.jpeg)
+![选择 Azure OpenAI Service 资源的截图](../../../../lab/Workshop%20Instructions/Images/agents-aoai-select.jpeg)
 
 2. 系统会为你自动创建一个新的 Agent。在 **Deployments** 部分，确保选择 **gpt-4o-mini** 模型。
 
@@ -60,22 +60,22 @@
     If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
     ```
 
-    ![Agents Playground](../../../../lab/Workshop Instructions/Images/agents-playground-update-details.jpeg)
+    ![Agents Playground](../../../../lab/Workshop%20Instructions/Images/agents-playground-update-details.jpeg)
 
     > [!NOTE]  
     > 你能在此提示中识别出之前部分提到的多少种提示工程技术？提示：查看本研讨会的第二部分。
 
 5. 导航到 **Actions** 选项卡，并点击 **add**。
 
-    ![Agent 添加新文件](../../../../lab/Workshop Instructions/Images/agents-actions.jpeg)
+    ![Agent 添加新文件](../../../../lab/Workshop%20Instructions/Images/agents-actions.jpeg)
 
 6. 将打开一个新选项卡，选择 **代码解释器（Code Interpreter）**。
 
 7. 在接下来的窗口中，点击 **选择本地文件（select local files）**，然后选择 `Contoso_Sales_Revenue.csv` file on your Desktop.
-    ![Agents code interpreter](../../../../lab/Workshop Instructions/Images/aifoundry-codeinterpreter-upload-file.jpeg)
+    ![Agents code interpreter](../../../../lab/Workshop%20Instructions/Images/aifoundry-codeinterpreter-upload-file.jpeg)
 
     >[!NOTE]
-    > If you cannot find the file on your desktop, you can download it from [here](../../../../lab/Workshop Instructions/assets/Contoso_Sales_Revenue.csv).
+    > If you cannot find the file on your desktop, you can download it from [here](../../../../lab/Workshop%20Instructions/assets/Contoso_Sales_Revenue.csv).
 
 7. Click on the **upload and add** button. You should now see the file under the *Code Interpreter* tool.
 
@@ -85,7 +85,7 @@ The Agent is now ready for us to interact with it.
 
 1. On the top right of our Agents window, select **Try in playground**
 
-![](../../../../lab/Workshop Instructions/Images/agents-try-in-playground.jpeg)
+![](../../../../lab/Workshop%20Instructions/Images/agents-try-in-playground.jpeg)
 
 2.  Let's begin by typing `help`。在聊天框中，你会注意到这开启了一个新线程。  
    你会看到一些示例问题可以测试。尝试其中一个问题，看看 Agent 的回复！

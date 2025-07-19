@@ -29,7 +29,7 @@
 
 ## Azure AI Foundry 탐색하기
 
-![Azure AI Foundry 로그인 후 홈 화면](../../../../lab/Workshop Instructions/Images/ai-foundry-homepage.png)
+![Azure AI Foundry 로그인 후 홈 화면](../../../../lab/Workshop%20Instructions/Images/ai-foundry-homepage.png)
 
 1. 먼저, 왼쪽 사이드바에서 **Management** 섹션을 찾으세요. 이 섹션 아래에서 **All Resources**를 선택하세요. 이 작업을 통해 사용 가능한 모든 리소스와 도구가 표시되는 중앙화된 영역으로 이동하여 현재 허브 연결 상태를 한눈에 볼 수 있습니다.
 
@@ -38,11 +38,11 @@
 
 2. 사용 가능한 허브 목록에서 **Workshop AI Hub**를 찾으세요. 해당 허브와 연결된 프로젝트를 **클릭**하여 설정 및 리소스에 액세스하세요.
 
-![허브 관리 탭](../../../../lab/Workshop Instructions/Images/aifoundry-hub-navigation.jpeg)
+![허브 관리 탭](../../../../lab/Workshop%20Instructions/Images/aifoundry-hub-navigation.jpeg)
 
 ## 프로젝트
 
-![프로젝트 개요 탭](../../../../lab/Workshop Instructions/Images/aifoundry-project-overview.jpeg)
+![프로젝트 개요 탭](../../../../lab/Workshop%20Instructions/Images/aifoundry-project-overview.jpeg)
 
 ### 프로젝트 개요
 
@@ -56,7 +56,7 @@
 
 탐색 바에는 프로젝트와 관련된 기능을 나타내는 새 탭이 추가된 것을 볼 수 있습니다.
 
-![프로젝트 탐색 바](../../../../lab/Workshop Instructions/Images/aifoundry-project-navigation.jpeg)
+![프로젝트 탐색 바](../../../../lab/Workshop%20Instructions/Images/aifoundry-project-navigation.jpeg)
 
 새로운 섹션은 다음과 같습니다:
 1. **Playgrounds**: 모델과 상호작용할 수 있는 공간, 프로젝트의 개요를 제공하는 _Overview_, Azure AI Foundry 내 사용 가능한 모델을 보여주는 _Model Catalog_, 데모, 사용 사례 등을 포함한 Azure AI Services 목록을 확인할 수 있는 _AI Services_가 포함됩니다.
@@ -78,13 +78,13 @@
 1. **Real-time audio playground**
 1. **Agents Playground**
 
-![Azure AI Foundry Playgrounds 이미지](../../../../lab/Workshop Instructions/Images/aifoundry-playgrounds.jpeg)
+![Azure AI Foundry Playgrounds 이미지](../../../../lab/Workshop%20Instructions/Images/aifoundry-playgrounds.jpeg)
 
 ### Chat Playground
 
 Playground 섹션 내에서 **Chat Playground**로 이동하여 **Try the Chat Playground**를 선택하세요. 이 기능은 대화 형식으로 다양한 AI 모델과 상호작용하고 테스트할 수 있도록 합니다.
 
-![Azure AI Foundry Chat 모드 이미지](../../../../lab/Workshop Instructions/Images/aifoundry-chat-playground.jpeg)
+![Azure AI Foundry Chat 모드 이미지](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-playground.jpeg)
 
 1. **Deployment**: 배포된 모델 간 전환이 가능합니다.
 1. **System Message Box**: 사용자와 상호작용하기 전에 모델에 대한 지침을 입력하는 공간입니다.
@@ -97,7 +97,7 @@ Playground 섹션 내에서 **Chat Playground**로 이동하여 **Try the Chat P
 
 Playgrounds로 돌아가 **Image Playground**를 선택한 후 **Try the Image Playground**를 클릭하세요. 이 옵션은 이미지 생성 작업을 수행할 수 있습니다.
 
-![Azure AI Foundry 이미지 모드](../../../../lab/Workshop Instructions/Images/aifoundry-image-playground.jpeg)
+![Azure AI Foundry 이미지 모드](../../../../lab/Workshop%20Instructions/Images/aifoundry-image-playground.jpeg)
 
 1. **Deployments**: 이미지 생성을 위한 모델을 선택할 수 있습니다. 이러한 모델은 Chat 모델과 마찬가지로 배포에서 가져옵니다.
 1. **Prompt Box**: Chat Playground의 프롬프트 상자와 유사하게, 생성하고자 하는 이미지에 대한 설명을 입력하는 공간입니다.
@@ -107,7 +107,7 @@ Playgrounds로 돌아가 **Image Playground**를 선택한 후 **Try the Image P
 
 Playgrounds로 돌아가 **Real-time audio playground**를 선택한 후 **Try the Real-time audio Playground**를 클릭하세요. 이 기능은 오디오 대화 형식으로 AI 모델과 상호작용하고 테스트할 수 있도록 합니다.
 
-![Azure AI Foundry 실시간 오디오 모드](../../../../lab/Workshop Instructions/Images/aifoundry-real-time-audio.jpeg)
+![Azure AI Foundry 실시간 오디오 모드](../../../../lab/Workshop%20Instructions/Images/aifoundry-real-time-audio.jpeg)
 
 1. **Deployment**: 배포된 모델 간 전환이 가능합니다.
 1. **Server turn detection**: 사용자가 말을 마쳤을 때 음성 활동 감지(VAD)를 사용할지 결정합니다.
@@ -121,14 +121,14 @@ Playgrounds로 돌아가 **Real-time audio playground**를 선택한 후 **Try t
 
 탐색 바에서 **Agents**를 선택하세요. 이 기능은 AI 기반 에이전트를 구축, 테스트 및 사용자 지정할 수 있는 도구를 제공합니다.
 
-![Azure AI Foundry Agents 모드](../../../../lab/Workshop Instructions/Images/agents-playground-pt1.jpeg)
+![Azure AI Foundry Agents 모드](../../../../lab/Workshop%20Instructions/Images/agents-playground-pt1.jpeg)
 
 처음 에이전트를 생성한 후 UI 구성 요소는 다음과 같습니다:
 1. **Agent id와 이름**: 에이전트의 이름을 지정할 수 있습니다.
 1. **Deployment**: 이미지 생성을 위한 모델을 선택할 수 있습니다.
 1. **Instructions Box**: 사용자와 상호작용하기 전에 모델에 대한 지침을 입력하는 공간입니다.
 
-![](../../../../lab/Workshop Instructions/Images/agents-playground-pt2.jpeg)
+![](../../../../lab/Workshop%20Instructions/Images/agents-playground-pt2.jpeg)
 
 4. **Knowledge**: 에이전트가 응답을 기반으로 할 데이터 소스에 접근할 수 있도록 합니다.
 1. **Actions**: 실행 시간에 다양한 도구를 사용할 수 있도록 에이전트의 기능을 확장합니다.

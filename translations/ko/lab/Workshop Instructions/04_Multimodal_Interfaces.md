@@ -32,7 +32,7 @@
 
 2. 채팅 텍스트 상자에서 첨부 아이콘을 클릭하여 로컬 이미지를 업로드합니다.
 
-![이미지 업로드 입력](../../../../lab/Workshop Instructions/Images/upload_image_icon.png)
+![이미지 업로드 입력](../../../../lab/Workshop%20Instructions/Images/upload_image_icon.png)
 
 3. 데스크탑의 ```house-multimodal``` 폴더에 있는 모든 이미지를 선택하세요.  
 4. 파일을 업로드한 후, 다음 프롬프트를 시도해 이미지를 활용한 상호작용을 시작하세요:
@@ -75,7 +75,7 @@ Create a tagline and short description for this rental home advertisement.
 
 3. Playground에서 **enable microphone**을 클릭하면 팝업이 나타납니다. 상호작용을 위해 오디오를 활성화하려면 허용을 클릭합니다.
 
-![AI Foundry에서 오디오 활성화](../../../../lab/Workshop Instructions/Images/aifoundry-enable-audio.jpeg)
+![AI Foundry에서 오디오 활성화](../../../../lab/Workshop%20Instructions/Images/aifoundry-enable-audio.jpeg)
 
 4. **start listening** 버튼을 클릭하고 ``hello``를 말한 뒤 모델에게 몇 가지 사실을 물어보며 상호작용합니다.
 

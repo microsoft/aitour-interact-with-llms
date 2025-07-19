@@ -10,7 +10,7 @@
 
 让我们从几个提示开始，并通过聊天操作界面观察响应。要使用聊天操作界面，请按照以下步骤操作：
 
-![显示聊天界面的图片](../../../../lab/Workshop Instructions/Images/aifoundry-chat-basicprompting.jpeg)
+![显示聊天界面的图片](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-basicprompting.jpeg)
 
 1. 导航到左侧导航栏中的“Playgrounds”部分，并点击 **Try the Chat Playground**。  
 2. 在聊天操作界面中，找到标有 _"Type user query here."_ 的文本框。  
@@ -39,7 +39,7 @@ Generate website copy for the homepage of the ice cream shop.
 
 您可以按照以下方式控制模型参数：
 
-![显示参数选项卡的图片](../../../../lab/Workshop Instructions/Images/aifoundry-chat-parameters.jpeg)
+![显示参数选项卡的图片](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-parameters.jpeg)
 
 1. 在聊天界面中，导航到 **Parameters** 部分。  
 2. 进入 Parameters 部分后，调整设置控件。您可以更改模型考虑的过去消息数量。设置完成后，系统会自动应用更改。  
@@ -65,7 +65,7 @@ Generate website copy for the homepage of the ice cream shop.
 > [!alert]  
 > 在继续下一部分之前，点击 **Clear Chat** 按钮清除消息历史。为此，点击操作界面右上角的**扫帚图标**。弹出窗口出现后，点击 **clear 按钮**清除聊天历史。
 
-![清除聊天按钮的截图](../../../../lab/Workshop Instructions/Images/text-generation-clearchat.jpg)
+![清除聊天按钮的截图](../../../../lab/Workshop%20Instructions/Images/text-generation-clearchat.jpg)
 
 ### 零样本学习
 
@@ -127,7 +127,7 @@ Take a step-by-step approach in your response: Start by thinking about the theme
 > 什么是**系统消息**？  
 > 系统消息用于在对话开始时向模型传达指令或提供上下文。它以不同于用户消息的格式显示，帮助模型理解其在对话中的角色。系统消息通常用于指导模型的行为、设定语气或指定期望的输出。通过有效利用系统消息，用户可以引导模型生成更准确和相关的响应。
 
-![显示系统消息选项卡的图片](../../../../lab/Workshop Instructions/Images/aifoundry-chat-instructions.jpeg)
+![显示系统消息选项卡的图片](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-instructions.jpeg)
 
 按以下步骤更新系统消息，为模型提供指令和上下文：
 

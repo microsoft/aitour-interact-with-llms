@@ -37,7 +37,7 @@
 
 1. 在左側導航欄的 _Build and customize_ 下，選擇 **Agents**。在新打開的頁面中，點擊下拉箭頭選擇你的 Azure OpenAI Service 資源，然後選擇 **Let's go** 按鈕。
 
-![選擇 Azure OpenAI Service 資源的截圖](../../../../lab/Workshop Instructions/Images/agents-aoai-select.jpeg)
+![選擇 Azure OpenAI Service 資源的截圖](../../../../lab/Workshop%20Instructions/Images/agents-aoai-select.jpeg)
 
 2. 系統會為你創建一個新的 Agent。在 **Deployments** 區域，確保選擇 **gpt-4o-mini** 模型。
 
@@ -60,22 +60,22 @@
     If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
     ```
 
-    ![Agents Playground](../../../../lab/Workshop Instructions/Images/agents-playground-update-details.jpeg)
+    ![Agents Playground](../../../../lab/Workshop%20Instructions/Images/agents-playground-update-details.jpeg)
 
     > [!NOTE]  
     > 你能從這個 prompt 中識別出多少前面部分提到的 prompt 工程技術？提示請參考工作坊的第二部分。
 
 5. 導航到 **Actions** 標籤，然後點擊 **add**。
 
-    ![Agent 添加新文件](../../../../lab/Workshop Instructions/Images/agents-actions.jpeg)
+    ![Agent 添加新文件](../../../../lab/Workshop%20Instructions/Images/agents-actions.jpeg)
 
 6. 新標籤頁中，選擇 **Code interpreter**。
 
 7. 在下一個窗口中，點擊 **select local files**，選擇 `Contoso_Sales_Revenue.csv` file on your Desktop.
-    ![Agents code interpreter](../../../../lab/Workshop Instructions/Images/aifoundry-codeinterpreter-upload-file.jpeg)
+    ![Agents code interpreter](../../../../lab/Workshop%20Instructions/Images/aifoundry-codeinterpreter-upload-file.jpeg)
 
     >[!NOTE]
-    > If you cannot find the file on your desktop, you can download it from [here](../../../../lab/Workshop Instructions/assets/Contoso_Sales_Revenue.csv).
+    > If you cannot find the file on your desktop, you can download it from [here](../../../../lab/Workshop%20Instructions/assets/Contoso_Sales_Revenue.csv).
 
 7. Click on the **upload and add** button. You should now see the file under the *Code Interpreter* tool.
 
@@ -85,7 +85,7 @@ The Agent is now ready for us to interact with it.
 
 1. On the top right of our Agents window, select **Try in playground**
 
-![](../../../../lab/Workshop Instructions/Images/agents-try-in-playground.jpeg)
+![](../../../../lab/Workshop%20Instructions/Images/agents-try-in-playground.jpeg)
 
 2.  Let's begin by typing `help`，並在聊天框中確認。你會注意到這會開始一個新 Thread。  
    你還會看到一系列範例問題供測試。測試其中一個問題，觀察 Agent 的回覆！

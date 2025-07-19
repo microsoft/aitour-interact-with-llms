@@ -29,7 +29,7 @@
 
 ## Azure AI Foundryのナビゲート
 
-![Azure AI Foundry ログイン後のホームページ](../../../../lab/Workshop Instructions/Images/ai-foundry-homepage.png)
+![Azure AI Foundry ログイン後のホームページ](../../../../lab/Workshop%20Instructions/Images/ai-foundry-homepage.png)
 
 1. まず、左サイドバーの**Management**セクションに移動します。このセクションの下にある**All Resources**を選択します。この操作で、利用可能なすべてのリソースとツールが表示される集中管理エリアに移動し、現在のハブ接続の概要を確認できます。
 
@@ -38,11 +38,11 @@
 
 2. リストから**Workshop AI Hub**を見つけます。**ハブのプロジェクト**をクリックして、その設定とリソースにアクセスします。
 
-![ハブ管理タブ](../../../../lab/Workshop Instructions/Images/aifoundry-hub-navigation.jpeg)
+![ハブ管理タブ](../../../../lab/Workshop%20Instructions/Images/aifoundry-hub-navigation.jpeg)
 
 ## プロジェクト
 
-![プロジェクト概要タブ](../../../../lab/Workshop Instructions/Images/aifoundry-project-overview.jpeg)
+![プロジェクト概要タブ](../../../../lab/Workshop%20Instructions/Images/aifoundry-project-overview.jpeg)
 
 ### プロジェクト概要
 
@@ -56,7 +56,7 @@
 
 ナビゲーションバーには、新しいタブが追加されており、プロジェクトに関連する機能が表示されています。
 
-![プロジェクトナビゲーションバー](../../../../lab/Workshop Instructions/Images/aifoundry-project-navigation.jpeg)
+![プロジェクトナビゲーションバー](../../../../lab/Workshop%20Instructions/Images/aifoundry-project-navigation.jpeg)
 
 新しいセクションは以下の通りです：
 1. **Playgrounds**: モデルと対話するためのプレイグラウンド、プロジェクトの概要を提供する**Overview**、Azure AI Foundry内の利用可能なモデルを表示する**Model Catalog**、およびAzure AI Servicesをリスト化し、デモやユースケースなどを確認できる**AI Services**が含まれます。
@@ -78,13 +78,13 @@
 3. **Real-time audio playground**
 4. **Agents playground**
 
-![Azure AI Foundry Playgroundsの画像](../../../../lab/Workshop Instructions/Images/aifoundry-playgrounds.jpeg)
+![Azure AI Foundry Playgroundsの画像](../../../../lab/Workshop%20Instructions/Images/aifoundry-playgrounds.jpeg)
 
 ### Chat Playground
 
 Playgroundセクション内で、**Chat Playground**に移動し、**Try the Chat Playground**を選択します。この機能では、さまざまなAIモデルと会話形式で対話し、テストできます。
 
-![Azure AI Foundry Playground Chat Modeの画像](../../../../lab/Workshop Instructions/Images/aifoundry-chat-playground.jpeg)
+![Azure AI Foundry Playground Chat Modeの画像](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-playground.jpeg)
 
 1. **Deployment**: デプロイされたモデルを切り替えることができます。
 2. **System Message Box**: ユーザーが操作を開始する前に、モデルに指示を入力する場所です。
@@ -97,7 +97,7 @@ Playgroundセクション内で、**Chat Playground**に移動し、**Try the Ch
 
 Playgroundsに戻り、**Image Playground**を選択して**Try the Image Playground**をクリックします。このオプションでは、画像生成を行うことができます。
 
-![Azure AI Foundry Playground Images Modeの画像](../../../../lab/Workshop Instructions/Images/aifoundry-image-playground.jpeg)
+![Azure AI Foundry Playground Images Modeの画像](../../../../lab/Workshop%20Instructions/Images/aifoundry-image-playground.jpeg)
 
 1. **Deployments**: 画像生成用のモデルを選択できるドロップダウンです。これらのモデルは、チャット用モデルと同様にデプロイメントから提供されます。
 2. **Prompt Box**: チャットPlaygroundのプロンプトボックスと同様に、ユーザーが生成したい画像の説明を入力する場所です。
@@ -107,7 +107,7 @@ Playgroundsに戻り、**Image Playground**を選択して**Try the Image Playgr
 
 Playgroundsに戻り、**Real-time audio playground**を選択して**Try the Real-time audio Playground**をクリックします。この機能では、音声形式でAIモデルと対話し、テストすることができます。
 
-![Azure AI Foundry Playground Real time audio modeの画像](../../../../lab/Workshop Instructions/Images/aifoundry-real-time-audio.jpeg)
+![Azure AI Foundry Playground Real time audio modeの画像](../../../../lab/Workshop%20Instructions/Images/aifoundry-real-time-audio.jpeg)
 
 1. **Deployment**: デプロイされたモデルを切り替えることができます。
 2. **Server turn detection**: サーバーが音声活動検出（VAD）を使用して、ユーザーが話し終えたタイミングを特定するかどうかを決定します。
@@ -121,14 +121,14 @@ Playgroundsに戻り、**Real-time audio playground**を選択して**Try the Re
 
 ナビゲーションバーで**Agents**を選択します。この機能では、AI駆動のエージェントを構築、テスト、カスタマイズするためのツールを提供します。
 
-![Azure AI Foundry Playground Agents Modeの画像](../../../../lab/Workshop Instructions/Images/agents-playground-pt1.jpeg)
+![Azure AI Foundry Playground Agents Modeの画像](../../../../lab/Workshop%20Instructions/Images/agents-playground-pt1.jpeg)
 
 最初のエージェントを作成すると、以下のUIコンポーネントが表示されます：
 1. **Agent id and name:** エージェントに名前を付けることができます。
 2. **Deployment**: 画像生成用のモデルを選択できるドロップダウンです。これらのモデルは、チャット用モデルと同様にデプロイメントから提供されます。
 3. **Instructions Box:** ユーザーが操作を開始する前に、モデルに指示を入力する場所です。
 
-![](../../../../lab/Workshop Instructions/Images/agents-playground-pt2.jpeg)
+![](../../../../lab/Workshop%20Instructions/Images/agents-playground-pt2.jpeg)
 
 4. **Knowledge:** エージェントにデータソースへのアクセスを許可し、回答の根拠を提供します。
 5. **Actions:** 実行時にさまざまなツールを使用することで、エージェントの能力を拡張します。

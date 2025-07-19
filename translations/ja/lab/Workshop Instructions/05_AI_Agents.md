@@ -37,7 +37,7 @@ Azure AI エージェントを使用し始めるには、その機能に関与�
 
 1. 左側のナビゲーションバーで、_Build and customize_ の下にある **Agents** を選択します。新しく開いたページで、下矢印をクリックしてAzure OpenAI Serviceリソースを選択し、**Let's go** ボタンを選択します。
 
-![Azure OpenAI Service Resourceを選択するスクリーンショット](../../../../lab/Workshop Instructions/Images/agents-aoai-select.jpeg)
+![Azure OpenAI Service Resourceを選択するスクリーンショット](../../../../lab/Workshop%20Instructions/Images/agents-aoai-select.jpeg)
 
 2. 新しいエージェントがすでに作成されています。**Deployments** セクションで、**gpt-4o-mini** モデルを選択していることを確認してください。
 
@@ -60,22 +60,22 @@ Azure AI エージェントを使用し始めるには、その機能に関与�
     If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
     ```
 
-    ![Agents Playground](../../../../lab/Workshop Instructions/Images/agents-playground-update-details.jpeg)
+    ![Agents Playground](../../../../lab/Workshop%20Instructions/Images/agents-playground-update-details.jpeg)
 
     >[!NOTE]
     >このプロンプトの中に、以前のセクションで学んだプロンプトエンジニアリングのテクニックがいくつあるか確認してみましょう。ヒントはワークショップの第2部にあります。
 
 5. **Actions** タブに移動し、**add** をクリックします。
 
-    ![エージェントに新しいファイルを添付する](../../../../lab/Workshop Instructions/Images/agents-actions.jpeg)
+    ![エージェントに新しいファイルを添付する](../../../../lab/Workshop%20Instructions/Images/agents-actions.jpeg)
 
 6. 新しいタブが開きます。そこで **Code interpreter** を選択します。
 
 7. 次のウィンドウで、**select local files** をクリックし、`Contoso_Sales_Revenue.csv` file on your Desktop.
-    ![Agents code interpreter](../../../../lab/Workshop Instructions/Images/aifoundry-codeinterpreter-upload-file.jpeg)
+    ![Agents code interpreter](../../../../lab/Workshop%20Instructions/Images/aifoundry-codeinterpreter-upload-file.jpeg)
 
     >[!NOTE]
-    > If you cannot find the file on your desktop, you can download it from [here](../../../../lab/Workshop Instructions/assets/Contoso_Sales_Revenue.csv).
+    > If you cannot find the file on your desktop, you can download it from [here](../../../../lab/Workshop%20Instructions/assets/Contoso_Sales_Revenue.csv).
 
 7. Click on the **upload and add** button. You should now see the file under the *Code Interpreter* tool.
 
@@ -85,7 +85,7 @@ The Agent is now ready for us to interact with it.
 
 1. On the top right of our Agents window, select **Try in playground**
 
-![](../../../../lab/Workshop Instructions/Images/agents-try-in-playground.jpeg)
+![](../../../../lab/Workshop%20Instructions/Images/agents-try-in-playground.jpeg)
 
 2.  Let's begin by typing `help` を選択します。これにより、新しいスレッドが開始されます。  
 チャットボックスにはテスト用のサンプル質問がいくつか表示されます。質問の一つを試してみて、エージェントの回答を確認してください！
