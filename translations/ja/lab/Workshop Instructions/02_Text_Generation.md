@@ -10,7 +10,7 @@
 
 いくつかのプロンプトを試し、チャットプレイグラウンドを使ってその応答を観察してみましょう。チャットプレイグラウンドを使用するには、以下の手順に従ってください。
 
-![チャットインターフェイスの画像](../../../../lab/Workshop Instructions/Images/aifoundry-chat-basicprompting.jpeg)
+![チャットインターフェイスの画像](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-basicprompting.jpeg)
 
 1. 左側のナビゲーションバーのプレイグラウンドセクションに移動し、**「チャットプレイグラウンドを試す」**をクリックします。
 2. チャットプレイグラウンド内で、_"Type user query here."_ とラベル付けされたテキストボックスを見つけます。
@@ -39,7 +39,7 @@ Generate website copy for the homepage of the ice cream shop.
 
 モデルパラメーターを次のように調整できます：
 
-![パラメータタブの画像](../../../../lab/Workshop Instructions/Images/aifoundry-chat-parameters.jpeg)
+![パラメータタブの画像](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-parameters.jpeg)
 
 1. チャットインターフェイス内で、**パラメーター**セクションに移動します。
 2. パラメーターセクションに入ったら、設定コントロールを調整します。モデルがコンテキストとして考慮する過去のメッセージ数を変更できます。設定が完了すると、変更は自動的に適用されます。
@@ -64,7 +64,7 @@ Generate website copy for the homepage of the ice cream shop.
 
 >[!alert] 次のセクションに進む前に、**チャットをクリア**ボタンをクリックしてメッセージ履歴をクリアしてください。これを行うには、プレイグラウンドの右上にある**ほうきアイコン**をクリックします。ポップアップが表示されたら、**クリアボタン**をクリックしてチャット履歴を消去します。
 
-![チャットクリアボタンのスクリーンショット](../../../../lab/Workshop Instructions/Images/text-generation-clearchat.jpg)
+![チャットクリアボタンのスクリーンショット](../../../../lab/Workshop%20Instructions/Images/text-generation-clearchat.jpg)
 
 ### ゼロショット学習
 
@@ -122,7 +122,7 @@ Take a step-by-step approach in your response: Start by thinking about the theme
 > [!TIP]
 > **システムメッセージ**とは？ システムメッセージは、会話の開始時にモデルに指示やコンテキストを伝えるために使用されます。これは、ユーザーメッセージとは異なる形式で表示され、モデルに会話での役割を理解させます。システムメッセージは通常、モデルの動作をガイドし、トーンを設定し、期待される出力を指定します。システムメッセージを効果的に利用することで、モデルがより正確で関連性の高い応答を生成できるようになります。
 
-![システムメッセージタブの画像](../../../../lab/Workshop Instructions/Images/aifoundry-chat-instructions.jpeg)
+![システムメッセージタブの画像](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-instructions.jpeg)
 
 以下の手順でシステムメッセージを更新し、モデルに指示とコンテキストを提供します：
 

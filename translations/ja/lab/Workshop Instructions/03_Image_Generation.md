@@ -10,7 +10,7 @@
 
 最初の画像を作成するには、以下の手順に従ってください：
 
-![画像生成の様子](../../../../lab/Workshop Instructions/Images/aifoundry-image-generation.jpeg)
+![画像生成の様子](../../../../lab/Workshop%20Instructions/Images/aifoundry-image-generation.jpeg)
 
 1. 左側のナビゲーションバーから **playgrounds** に移動し、**Try the Image Playground** を選択します。
 2. Images playgroundで、**Deployments** とラベル付けされたドロップダウンメニューを見つけてクリックします。リストから **dall-e-3** を選択します。
@@ -24,7 +24,7 @@
 
 これにより、以下のような画像が生成されます：
 
-![水彩画のスカイライン](../../../../lab/Workshop Instructions/Images/DALL·E%202024-11-14%2009.27.57%20-%20A%20watercolor%20painting%20of%20the%20Chicago%20skyline,%20showcasing%20iconic%20skyscrapers%20such%20as%20the%20Willis%20Tower%20and%20John%20Hancock%20Center.%20The%20city%20is%20bathed%20in%20so.webp)
+![水彩画のスカイライン](../../../../lab/Workshop%20Instructions/Images/DALL·E%202024-11-14%2009.27.57%20-%20A%20watercolor%20painting%20of%20the%20Chicago%20skyline,%20showcasing%20iconic%20skyscrapers%20such%20as%20the%20Willis%20Tower%20and%20John%20Hancock%20Center.%20The%20city%20is%20bathed%20in%20so.webp)
 
 DALL-E 3が生成する画像はオリジナルであり、キュレーションされた画像カタログから取得されたものではありません。つまり、DALL-E 3は適切な画像を検索するシステムではなく、トレーニングデータに基づいて新しい画像を生成する人工知能（AI）モデルです。
 
@@ -38,7 +38,7 @@ DALL-E 3が生成する画像はオリジナルであり、キュレーション
 
 2. 次に、**Generate** を選択して生成された画像を確認します。
 
-    ![冒険ブランドのロゴ](../../../../lab/Workshop Instructions/Images/Generate%20a%20logo%20for%20an%20adventure%20brand.png)
+    ![冒険ブランドのロゴ](../../../../lab/Workshop%20Instructions/Images/Generate%20a%20logo%20for%20an%20adventure%20brand.png)
 
 3. 次に、説明文にさらに詳細を加えてプロンプトを修正してみましょう：
 
@@ -46,7 +46,7 @@ DALL-E 3が生成する画像はオリジナルであり、キュレーション
 
 4. 再度 **Generate** を選択して結果を比較します。
 
-    ![テントのシルエットと星を組み合わせたロゴ](../../../../lab/Workshop Instructions/Images/logo-with-stars.png)
+    ![テントのシルエットと星を組み合わせたロゴ](../../../../lab/Workshop%20Instructions/Images/logo-with-stars.png)
 
 ### ベストプラクティス
 
@@ -86,7 +86,7 @@ DALL-E 3で効果的かつ正確な画像を作成するためのベストプラ
 
 ```A friendly robot mascot with a smiling face, designed in a cartoon style.```
 
-![フレンドリーなロボットのマスコット](../../../../lab/Workshop Instructions/Images/robot-mascot-friendly.png)
+![フレンドリーなロボットのマスコット](../../../../lab/Workshop%20Instructions/Images/robot-mascot-friendly.png)
 
 ```A playful fox mascot with a colorful scarf, representing agility and creativity.```
 
@@ -123,13 +123,13 @@ Beyond its aesthetic appeal, the 3D Animated Office Space Design is designed wit
 
 4. 応答を取得したら、応答の上部にある三点リーダーをクリックし、**Copy response to clipboard** を選択します。
 
-![コピーオプションの画像](../../../../lab/Workshop Instructions/Images/ai-foundry-copy-response.png)
+![コピーオプションの画像](../../../../lab/Workshop%20Instructions/Images/ai-foundry-copy-response.png)
 
 5. **Images Playground** に戻り、生成されたプロンプトを **Prompt Box** に貼り付けます。
 
 6. **Generate** をクリックし、詳細な画像がどのように生成されるかを確認します。
 
-![3Dワークスペースの画像](../../../../lab/Workshop Instructions/Images/_Create%20a%203D%20animation%20of%20a%20modern%20office%20space%20design%20featuring%20ergonomic%20furniture,%20collaborative%20workspaces,%20and%20greenery%20elements.%20The%20office%20should%20have%20large%20windows%20for%20natural%20light,%20meeting%20pods,%20an.png)
+![3Dワークスペースの画像](../../../../lab/Workshop%20Instructions/Images/_Create%20a%203D%20animation%20of%20a%20modern%20office%20space%20design%20featuring%20ergonomic%20furniture,%20collaborative%20workspaces,%20and%20greenery%20elements.%20The%20office%20should%20have%20large%20windows%20for%20natural%20light,%20meeting%20pods,%20an.png)
 
 ## 次のステップ
 

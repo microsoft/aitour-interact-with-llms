@@ -8,19 +8,19 @@
 1. [Azure Portal](https://portal.azure.com) にアクセスします。
 2. ホームページから **リソース グループ** に移動し、作成したリソースグループ **interact-with-llms** を選択します。
 
-![](../../../../lab/Workshop Instructions/Images/azure-portal-resource-group.PNG)
+![](../../../../lab/Workshop%20Instructions/Images/azure-portal-resource-group.PNG)
 
 3. リソースグループの上部ナビゲーションパネルで、**リソースグループの削除** を選択します。
 
-![](../../../../lab/Workshop Instructions/Images/delete-resource-group-navigation.PNG)
+![](../../../../lab/Workshop%20Instructions/Images/delete-resource-group-navigation.PNG)
 
 4. 削除を確認するためにリソースグループ名を入力するよう求められます。名前 **interact-with-llms** を入力し、**削除** をクリックしてリソースグループを削除します。
 
-![リソースグループの削除](../../../../lab/Workshop Instructions/Images/delete-resource-group-name.PNG)
+![リソースグループの削除](../../../../lab/Workshop%20Instructions/Images/delete-resource-group-name.PNG)
 
 5. リソースグループが削除されたことを示す通知が表示されます。
 
-![](../../../../lab/Workshop Instructions/Images/delete-resource-group-notification-popup.PNG)
+![](../../../../lab/Workshop%20Instructions/Images/delete-resource-group-notification-popup.PNG)
 
 ## 覚えておくべき重要なポイント
 - 生成AIモデルは、人間らしいテキスト、画像、コードを生成できます。

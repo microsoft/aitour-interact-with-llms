@@ -10,7 +10,7 @@
 
 몇 가지 프롬프트를 사용해보고, 채팅 플레이그라운드를 통해 응답을 관찰해 봅시다. 채팅 플레이그라운드를 사용하려면 다음 단계를 따르세요:
 
-![채팅 인터페이스를 보여주는 이미지](../../../../lab/Workshop Instructions/Images/aifoundry-chat-basicprompting.jpeg)
+![채팅 인터페이스를 보여주는 이미지](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-basicprompting.jpeg)
 
 1. 왼쪽 탐색 바의 플레이그라운드 섹션으로 이동한 후 **Try the Chat Playground**를 클릭합니다.
 2. 채팅 플레이그라운드에서 _"Type user query here."_라고 표시된 텍스트 상자를 찾습니다.
@@ -39,7 +39,7 @@ Generate website copy for the homepage of the ice cream shop.
 
 모델 매개변수를 제어하는 방법은 다음과 같습니다:
 
-![매개변수 탭을 보여주는 이미지](../../../../lab/Workshop Instructions/Images/aifoundry-chat-parameters.jpeg)
+![매개변수 탭을 보여주는 이미지](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-parameters.jpeg)
 
 1. 채팅 인터페이스에서 **Parameters** 섹션으로 이동합니다.
 2. Parameters 섹션에 들어가면 설정 컨트롤을 조정합니다. 모델이 컨텍스트로 고려할 이전 메시지의 수를 변경할 수 있습니다. 설정이 완료되면 변경 사항이 자동으로 적용됩니다.
@@ -64,7 +64,7 @@ Generate website copy for the homepage of the ice cream shop.
 
 >[!alert] 다음 섹션으로 진행하기 전에, **Clear Chat** 버튼을 클릭하여 메시지 기록을 지우세요. 이를 위해 오른쪽 상단의 **빗자루 아이콘**을 클릭합니다. 팝업이 나타나면 **Clear 버튼**을 클릭하여 채팅 기록을 지우세요.
 
-![Clear Chat 버튼 스크린샷](../../../../lab/Workshop Instructions/Images/text-generation-clearchat.jpg)
+![Clear Chat 버튼 스크린샷](../../../../lab/Workshop%20Instructions/Images/text-generation-clearchat.jpg)
 
 ### 제로샷 학습
 
@@ -122,7 +122,7 @@ Take a step-by-step approach in your response: Start by thinking about the theme
 > [!TIP]
 > **시스템 메시지**란 무엇인가요? 시스템 메시지는 대화 시작 시 모델에 지침이나 컨텍스트를 전달하는 데 사용됩니다. 사용자 메시지와는 다른 형식으로 표시되어 모델이 대화에서 자신의 역할을 이해하도록 돕습니다. 시스템 메시지는 일반적으로 모델의 동작을 안내하거나 톤을 설정하거나 원하는 출력을 지정합니다. 시스템 메시지를 효과적으로 사용하면 모델이 더 정확하고 관련성 높은 응답을 생성하도록 유도할 수 있습니다.
 
-![시스템 메시지 탭을 보여주는 이미지](../../../../lab/Workshop Instructions/Images/aifoundry-chat-instructions.jpeg)
+![시스템 메시지 탭을 보여주는 이미지](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-instructions.jpeg)
 
 시스템 메시지를 업데이트하여 모델에 다음과 같은 지침과 컨텍스트를 제공하세요:
 

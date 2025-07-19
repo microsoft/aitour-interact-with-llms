@@ -9,7 +9,7 @@
 
 要創建你的第一張圖片，請按照以下步驟操作：
 
-![展示圖片生成的圖片](../../../../lab/Workshop Instructions/Images/aifoundry-image-generation.jpeg)
+![展示圖片生成的圖片](../../../../lab/Workshop%20Instructions/Images/aifoundry-image-generation.jpeg)
 
 1. 在左側導航欄中，前往 **playgrounds**，然後選擇 **Try the Image Playground**。
 2. 在 Images playground 中，找到並點擊標有 **Deployments** 的下拉選單。在下拉列表中選擇 **dall-e-3**。
@@ -23,7 +23,7 @@
 
 這將生成如下的圖片：
 
-![水彩城市天際線圖片](../../../../lab/Workshop Instructions/Images/DALL·E%202024-11-14%2009.27.57%20-%20A%20watercolor%20painting%20of%20the%20Chicago%20skyline,%20showcasing%20iconic%20skyscrapers%20such%20as%20the%20Willis%20Tower%20and%20John%20Hancock%20Center.%20The%20city%20is%20bathed%20in%20so.webp)
+![水彩城市天際線圖片](../../../../lab/Workshop%20Instructions/Images/DALL·E%202024-11-14%2009.27.57%20-%20A%20watercolor%20painting%20of%20the%20Chicago%20skyline,%20showcasing%20iconic%20skyscrapers%20such%20as%20the%20Willis%20Tower%20and%20John%20Hancock%20Center.%20The%20city%20is%20bathed%20in%20so.webp)
 
 DALL-E 3 生成的圖片是原創的；它們不是從策劃的圖片庫中檢索的。換句話說，DALL-E 3 不是用來搜索合適圖片的系統，而是一個基於其訓練數據生成新圖片的人工智慧（AI）模型。
 
@@ -37,7 +37,7 @@ DALL-E 3 生成的圖片是原創的；它們不是從策劃的圖片庫中檢�
 
 2. 然後選擇 **Generate**，查看生成的圖片。
 
-    ![冒險品牌標誌圖片](../../../../lab/Workshop Instructions/Images/Generate%20a%20logo%20for%20an%20adventure%20brand.png)
+    ![冒險品牌標誌圖片](../../../../lab/Workshop%20Instructions/Images/Generate%20a%20logo%20for%20an%20adventure%20brand.png)
 
 3. 現在，讓我們通過添加更多細節來修改提示：
 
@@ -45,7 +45,7 @@ DALL-E 3 生成的圖片是原創的；它們不是從策劃的圖片庫中檢�
 
 4. 再次選擇 **Generate** 並比較結果。
 
-    ![包含帳篷輪廓和星星的冒險品牌標誌圖片](../../../../lab/Workshop Instructions/Images/logo-with-stars.png)
+    ![包含帳篷輪廓和星星的冒險品牌標誌圖片](../../../../lab/Workshop%20Instructions/Images/logo-with-stars.png)
 
 ### 最佳實踐
 
@@ -76,7 +76,7 @@ DALL-E 3 生成的圖片是原創的；它們不是從策劃的圖片庫中檢�
 
 ```A friendly robot mascot with a smiling face, designed in a cartoon style.```
 
-![友善機器人吉祥物圖片](../../../../lab/Workshop Instructions/Images/robot-mascot-friendly.png)
+![友善機器人吉祥物圖片](../../../../lab/Workshop%20Instructions/Images/robot-mascot-friendly.png)
 
 ```A playful fox mascot with a colorful scarf, representing agility and creativity.```
 
@@ -112,7 +112,7 @@ Beyond its aesthetic appeal, the 3D Animated Office Space Design is designed wit
 
 4. 一旦收到回應，點擊回應頂部的三點圖標，然後點擊 **Copy response to clipboard**。
 
-![複製選項圖片](../../../../lab/Workshop Instructions/Images/ai-foundry-copy-response.png)
+![複製選項圖片](../../../../lab/Workshop%20Instructions/Images/ai-foundry-copy-response.png)
 
 5. 回到 **Images playground**，從提示回應生成圖片。
 
@@ -120,7 +120,7 @@ Beyond its aesthetic appeal, the 3D Animated Office Space Design is designed wit
 
 7. 點擊 **Generate**，觀察生成的圖片有多細緻。
 
-![3D 工作空間圖片](../../../../lab/Workshop Instructions/Images/_Create%20a%203D%20animation%20of%20a%20modern%20office%20space%20design%20featuring%20ergonomic%20furniture,%20collaborative%20workspaces,%20and%20greenery%20elements.%20The%20office%20should%20have%20large%20windows%20for%20natural%20light,%20meeting%20pods,%20an.png)
+![3D 工作空間圖片](../../../../lab/Workshop%20Instructions/Images/_Create%20a%203D%20animation%20of%20a%20modern%20office%20space%20design%20featuring%20ergonomic%20furniture,%20collaborative%20workspaces,%20and%20greenery%20elements.%20The%20office%20should%20have%20large%20windows%20for%20natural%20light,%20meeting%20pods,%20an.png)
 
 ## 下一步
 

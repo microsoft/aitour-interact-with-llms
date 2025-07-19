@@ -8,19 +8,19 @@
 1. 浏览到 [Azure Portal](https://portal.azure.com)。
 2. 从主页导航到 **资源组**，然后选择我们创建的资源组：**interact-with-llms**。
 
-![](../../../../lab/Workshop Instructions/Images/azure-portal-resource-group.PNG)
+![](../../../../lab/Workshop%20Instructions/Images/azure-portal-resource-group.PNG)
 
 3. 在资源组顶部导航面板中，选择 **删除资源组**。
 
-![](../../../../lab/Workshop Instructions/Images/delete-resource-group-navigation.PNG)
+![](../../../../lab/Workshop%20Instructions/Images/delete-resource-group-navigation.PNG)
 
 4. 系统会提示您输入资源组名称以确认删除。输入名称 **interact-with-llms**，然后点击 **删除** 以删除您的资源组。
 
-![删除资源组](../../../../lab/Workshop Instructions/Images/delete-resource-group-name.PNG)
+![删除资源组](../../../../lab/Workshop%20Instructions/Images/delete-resource-group-name.PNG)
 
 5. 您将收到资源组已被删除的通知。
 
-![](../../../../lab/Workshop Instructions/Images/delete-resource-group-notification-popup.PNG)
+![](../../../../lab/Workshop%20Instructions/Images/delete-resource-group-notification-popup.PNG)
 
 ## 一些需要记住的关键点
 - 生成式 AI 模型可以生成类似人类的文本、图像和代码。

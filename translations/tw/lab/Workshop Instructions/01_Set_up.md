@@ -30,7 +30,7 @@
 
 ## 瀏覽 Azure AI Foundry
 
-![Azure AI Foundry 登入首頁](../../../../lab/Workshop Instructions/Images/ai-foundry-homepage.png)
+![Azure AI Foundry 登入首頁](../../../../lab/Workshop%20Instructions/Images/ai-foundry-homepage.png)
 
 1. 首先，導航到左側邊欄中的 **Management** 區域。在此區域中選擇 **All Resources**。此操作將引導您進入一個集中式區域，顯示所有可用的資源和工具，讓您能夠概覽目前的中心連接。
 
@@ -39,11 +39,11 @@
 
 2. 在可用中心的列表中找到 **Workshop AI Hub**。**點擊該專案**以進入其設置和資源。
 
-![Hub 管理選項卡](../../../../lab/Workshop Instructions/Images/aifoundry-hub-navigation.jpeg)
+![Hub 管理選項卡](../../../../lab/Workshop%20Instructions/Images/aifoundry-hub-navigation.jpeg)
 
 ## 專案
 
-![專案概覽頁面](../../../../lab/Workshop Instructions/Images/aifoundry-project-overview.jpeg)
+![專案概覽頁面](../../../../lab/Workshop%20Instructions/Images/aifoundry-project-overview.jpeg)
 
 ### 專案概覽
 
@@ -57,7 +57,7 @@
 
 您會注意到導航欄已更新，新增了與專案相關的功能標籤。
 
-![專案導航欄](../../../../lab/Workshop Instructions/Images/aifoundry-project-navigation.jpeg)
+![專案導航欄](../../../../lab/Workshop%20Instructions/Images/aifoundry-project-navigation.jpeg)
 
 我們有以下新區域：
 1. 第一部分包括 _Playgrounds_（與模型互動）、_Overview_（專案概覽）、_Model Catalog_（展示 Azure AI Foundry 中的可用模型）以及 _AI Services_（列出可用的 Azure AI Services，並提供示範、使用案例等）。
@@ -79,13 +79,13 @@
 3. **Real-time audio playground**  
 4. **Agents playground**  
 
-![Azure AI Foundry Playgrounds 圖片](../../../../lab/Workshop Instructions/Images/aifoundry-playgrounds.jpeg)
+![Azure AI Foundry Playgrounds 圖片](../../../../lab/Workshop%20Instructions/Images/aifoundry-playgrounds.jpeg)
 
 ### Chat Playground
 
 在 Playground 區域內，導航到 **Chat playground**，然後選擇 **Try the Chat Playground**。此功能允許您以對話格式與各種 AI 模型進行互動和測試。
 
-![Azure AI Foundry Playground 聊天模式圖片](../../../../lab/Workshop Instructions/Images/aifoundry-chat-playground.jpeg)
+![Azure AI Foundry Playground 聊天模式圖片](../../../../lab/Workshop%20Instructions/Images/aifoundry-chat-playground.jpeg)
 
 1. **Deployment**：此區域允許我們切換部署的模型。
 2. **System Message Box**：在此處輸入模型的指令，這些指令會在用戶互動前執行。
@@ -98,7 +98,7 @@
 
 返回 Playgrounds，選擇 **Image playground**，然後點擊 **Try the Image Playground**。此選項允許您進行圖像生成。
 
-![Azure AI Foundry Playground 圖像模式圖片](../../../../lab/Workshop Instructions/Images/aifoundry-image-playground.jpeg)
+![Azure AI Foundry Playground 圖像模式圖片](../../../../lab/Workshop%20Instructions/Images/aifoundry-image-playground.jpeg)
 
 1. **Deployments**：在此下拉選單中，我們可以選擇用於圖像生成的模型。這些模型與聊天模式中的模型一樣，來自我們的部署。
 2. **Prompt Box**：與聊天 Playground 的提示框類似，用戶在此輸入描述圖像生成需求的內容。
@@ -108,7 +108,7 @@
 
 返回 Playgrounds，然後選擇 **Real-time audio playground**，點擊 **Try the Real-time audio Playground**。此功能允許您以音頻對話的形式與各種 AI 模型進行互動和測試。
 
-![Azure AI Foundry Playground 即時音頻模式圖片](../../../../lab/Workshop Instructions/Images/aifoundry-real-time-audio.jpeg)
+![Azure AI Foundry Playground 即時音頻模式圖片](../../../../lab/Workshop%20Instructions/Images/aifoundry-real-time-audio.jpeg)
 
 1. **Deployment**：此區域允許我們切換部署的模型。
 2. **Server turn detection**：決定伺服器是否應使用語音活動檢測 (VAD) 來識別用戶已完成講話。
@@ -122,14 +122,14 @@
 
 在導航欄中選擇 **Agents**。此功能為您提供建構、測試和客製化 AI 驅動代理的工具。
 
-![Azure AI Foundry Playground Agents 模式圖片](../../../../lab/Workshop Instructions/Images/agents-playground-pt1.jpeg)
+![Azure AI Foundry Playground Agents 模式圖片](../../../../lab/Workshop%20Instructions/Images/agents-playground-pt1.jpeg)
 
 當您 _Create your first Agent_ 後，界面組件如下：
 1. **Agent id and name**：在此為您的 Agent 命名。
 2. **Deployment**：在此下拉選單中，我們可以選擇用於圖像生成的模型。這些模型與聊天模式中的模型一樣，來自我們的部署。
 3. **Instructions Box**：在此處輸入模型的指令，這些指令會在用戶互動前執行。
 
-![Agents Playground 第二部分圖片](../../../../lab/Workshop Instructions/Images/agents-playground-pt2.jpeg)
+![Agents Playground 第二部分圖片](../../../../lab/Workshop%20Instructions/Images/agents-playground-pt2.jpeg)
 
 4. **Knowledge**：知識使代理能夠訪問數據源，以提供更具依據的回應。
 5. **Actions**：通過允許代理在運行時執行各種工具來增強其功能。

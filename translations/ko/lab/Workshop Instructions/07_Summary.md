@@ -8,19 +8,19 @@
 1. [Azure Portal](https://portal.azure.com)에 접속합니다.  
 2. 홈페이지에서 **Resource groups**로 이동한 후, 우리가 생성한 리소스 그룹 **interact-with-llms**를 선택합니다.  
 
-![](../../../../lab/Workshop Instructions/Images/azure-portal-resource-group.PNG)
+![](../../../../lab/Workshop%20Instructions/Images/azure-portal-resource-group.PNG)
 
 3. 리소스 그룹 상단 네비게이션 패널에서 **Delete resource group**을 선택합니다.  
 
-![](../../../../lab/Workshop Instructions/Images/delete-resource-group-navigation.PNG)
+![](../../../../lab/Workshop%20Instructions/Images/delete-resource-group-navigation.PNG)
 
 4. 리소스 그룹 삭제를 확인하기 위해 리소스 그룹 이름을 입력하라는 메시지가 표시됩니다. **interact-with-llms**를 입력한 후 **Delete**를 클릭하여 리소스 그룹을 삭제합니다.  
 
-![Deleting resource Group](../../../../lab/Workshop Instructions/Images/delete-resource-group-name.PNG)
+![Deleting resource Group](../../../../lab/Workshop%20Instructions/Images/delete-resource-group-name.PNG)
 
 5. 리소스 그룹이 삭제되었다는 알림을 받게 됩니다.  
 
-![](../../../../lab/Workshop Instructions/Images/delete-resource-group-notification-popup.PNG)
+![](../../../../lab/Workshop%20Instructions/Images/delete-resource-group-notification-popup.PNG)
 
 ## 기억해야 할 주요 사항  
 - 생성형 AI 모델은 사람처럼 텍스트, 이미지, 코드를 생성할 수 있습니다.  

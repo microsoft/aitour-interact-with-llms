@@ -37,7 +37,7 @@ Azure AI 에이전트를 사용하려면, 에이전트의 기능에 참여하는
 
 1. 왼쪽 탐색 메뉴의 _Build and customize_에서 **Agents**를 선택합니다. 새로 열린 페이지에서 Azure OpenAI Service 리소스를 선택한 후 **Let's go** 버튼을 클릭합니다.
 
-![Azure OpenAI Service 리소스 선택 스크린샷](../../../../lab/Workshop Instructions/Images/agents-aoai-select.jpeg)
+![Azure OpenAI Service 리소스 선택 스크린샷](../../../../lab/Workshop%20Instructions/Images/agents-aoai-select.jpeg)
 
 2. 새로운 에이전트가 이미 생성되어 있을 것입니다. **Deployments** 섹션에서 **gpt-4o-mini** 모델을 선택했는지 확인합니다.
 
@@ -60,22 +60,22 @@ Azure AI 에이전트를 사용하려면, 에이전트의 기능에 참여하는
     If a question is not related to sales or you cannot answer the question, you **must** respond: "Please contact IT for more assistance". If the user asks for help or says 'help', provide a list of sample questions that you can answer.
     ```
 
-    ![에이전트 세부 정보 업데이트 스크린샷](../../../../lab/Workshop Instructions/Images/agents-playground-update-details.jpeg)
+    ![에이전트 세부 정보 업데이트 스크린샷](../../../../lab/Workshop%20Instructions/Images/agents-playground-update-details.jpeg)
 
     > [!NOTE]  
     > 이전 섹션에서 배운 프롬프트 엔지니어링 기술 중 몇 가지를 이 프롬프트에서 식별할 수 있습니까? 힌트를 보려면 워크숍의 Part 2를 확인하세요.
 
 5. **Actions** 탭으로 이동하여 **add**를 클릭합니다.
 
-    ![새 파일 추가 에이전트 스크린샷](../../../../lab/Workshop Instructions/Images/agents-actions.jpeg)
+    ![새 파일 추가 에이전트 스크린샷](../../../../lab/Workshop%20Instructions/Images/agents-actions.jpeg)
 
 6. 새 탭에서 **Code interpreter**를 선택합니다.
 
 7. 다음 창에서 **select local files**를 클릭하고 `Contoso_Sales_Revenue.csv` file on your Desktop.
-    ![Agents code interpreter](../../../../lab/Workshop Instructions/Images/aifoundry-codeinterpreter-upload-file.jpeg)
+    ![Agents code interpreter](../../../../lab/Workshop%20Instructions/Images/aifoundry-codeinterpreter-upload-file.jpeg)
 
     >[!NOTE]
-    > If you cannot find the file on your desktop, you can download it from [here](../../../../lab/Workshop Instructions/assets/Contoso_Sales_Revenue.csv).
+    > If you cannot find the file on your desktop, you can download it from [here](../../../../lab/Workshop%20Instructions/assets/Contoso_Sales_Revenue.csv).
 
 7. Click on the **upload and add** button. You should now see the file under the *Code Interpreter* tool.
 
@@ -85,7 +85,7 @@ The Agent is now ready for us to interact with it.
 
 1. On the top right of our Agents window, select **Try in playground**
 
-![](../../../../lab/Workshop Instructions/Images/agents-try-in-playground.jpeg)
+![](../../../../lab/Workshop%20Instructions/Images/agents-try-in-playground.jpeg)
 
 2.  Let's begin by typing `help` 파일을 선택합니다. 채팅 상자에서 새로운 스레드가 시작됩니다.  
 샘플 질문 몇 가지가 표시되는 것을 볼 수 있습니다. 질문 중 하나를 테스트하고 에이전트의 응답을 확인하세요!
