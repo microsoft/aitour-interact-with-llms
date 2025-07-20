@@ -17,7 +17,7 @@
 
 1. デスクトップ上の**Microsoft Edge**ブラウザをクリックします。Azure AI Foundryポータルのホームページが表示されている2番目のブラウザタブに移動します。
 
-![Azure AI Foundryのホームページ](../../../../lab/Skillable Workshop Instructions/Images/aifoundry-homepage.jpeg)
+![Azure AI Foundryのホームページ](../../../../lab/Skillable%20Workshop%20Instructions/Images/aifoundry-homepage.jpeg)
 
 ## Azure AI Foundryポータルのナビゲーション
 
