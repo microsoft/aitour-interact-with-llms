@@ -33,7 +33,7 @@
 
 ## プロジェクト
 
-![プロジェクト概要タブ](../../../../lab/Skillable Workshop Instructions/Images/aifoundry-project-overview.jpeg)
+![プロジェクト概要タブ](../../../../lab/Skillable%20Workshop%20Instructions/Images/aifoundry-project-overview.jpeg)
 
 ### プロジェクト概要
 
