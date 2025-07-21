@@ -29,7 +29,7 @@
 
 2. 利用可能なハブのリストから**Workshop AI Hub**を見つけます。**ハブ内のプロジェクトをクリック**して、その設定とリソースにアクセスします。
 
-![ハブ管理タブ](../../../../lab/Skillable Workshop Instructions/Images/aifoundry-hub-navigation.jpeg)
+![ハブ管理タブ](../../../../lab/Skillable%20Workshop%20Instructions/Images/aifoundry-hub-navigation.jpeg)
 
 ## プロジェクト
 
