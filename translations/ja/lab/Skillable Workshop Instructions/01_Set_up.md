@@ -47,7 +47,7 @@
 
 ナビゲーションバーに新しいタブが追加されていることに気づくでしょう。これらはプロジェクトに関連する機能を表しています。
 
-![プロジェクトナビゲーションバー](../../../../lab/Skillable Workshop Instructions/Images/aifoundry-project-navigation.jpeg)
+![プロジェクトナビゲーションバー](../../../../lab/Skillable%20Workshop%20Instructions/Images/aifoundry-project-navigation.jpeg)
 
 新しいセクションは以下の通りです：
 1. 最初のセクションには、_Playgrounds_（モデルと対話するための場所）、_Overview_（プロジェクトの概要）、_Model Catalog_（Azure AI Foundry内の利用可能なモデルを表示）、_AI Services_（Azure AI Servicesのリスト、デモ、ユースケースなど）が含まれます。
