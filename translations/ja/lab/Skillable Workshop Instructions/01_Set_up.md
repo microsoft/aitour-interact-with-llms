@@ -68,7 +68,7 @@
 1. **Real-time audio playground**
 1. **Agents playground**
 
-![Azure AI Foundry Playgroundsの画像](../../../../lab/Skillable Workshop Instructions/Images/aifoundry-playgrounds.jpeg)
+![Azure AI Foundry Playgroundsの画像](../../../../lab/Skillable%20Workshop%20Instructions/Images/aifoundry-playgrounds.jpeg)
 
 ### Chat Playground
 
