@@ -97,7 +97,7 @@ Playgroundsに戻り、**Image playground**を選択して**Try the Image Playgr
 
 Playgroundsに戻り、**Real-time audio playground**を選択して**Try the Real-time audio Playground**をクリックします。この機能を使用すると、音声会話形式でさまざまなAIモデルと対話し、テストすることができます。
 
-![Azure AI Foundry Playground Real time audioモードの画像](../../../../lab/Skillable Workshop Instructions/Images/aifoundry-real-time-audio.jpeg)
+![Azure AI Foundry Playground Real time audioモードの画像](../../../../lab/Skillable%20Workshop%20Instructions/Images/aifoundry-real-time-audio.jpeg)
 
 1. **デプロイメント**：ここでデプロイ済みのモデルを切り替えることができます。
 1. **サーバーターン検出**：サーバーが音声活動検出（VAD）を使用して、ユーザーが話し終えたタイミングを識別するかどうかを決定します。
