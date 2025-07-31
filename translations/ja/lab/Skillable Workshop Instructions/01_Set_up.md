@@ -111,7 +111,7 @@ Playgroundsに戻り、**Real-time audio playground**を選択して**Try the Re
 
 ナビゲーションバーで**Agents**を選択します。この機能では、AI駆動エージェントを構築、テスト、カスタマイズするためのツールを提供します。
 
-![Azure AI Foundry Playground Agentsモードの画像](../../../../lab/Skillable Workshop Instructions/Images/agents-playground-pt1.jpeg)
+![Azure AI Foundry Playground Agentsモードの画像](../../../../lab/Skillable%20Workshop%20Instructions/Images/agents-playground-pt1.jpeg)
 
 最初のエージェントを作成すると、UIコンポーネントは以下のように表示されます：
 1. **エージェントIDと名前**：エージェントに名前を付けることができます。
